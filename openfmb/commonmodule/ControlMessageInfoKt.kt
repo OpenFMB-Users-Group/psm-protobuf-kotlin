@@ -63,6 +63,6 @@ public object ControlMessageInfoKt {
 public inline fun openfmb.commonmodule.ControlMessageInfo.copy(block: openfmb.commonmodule.ControlMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlMessageInfo =
   openfmb.commonmodule.ControlMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ControlMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.ControlMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

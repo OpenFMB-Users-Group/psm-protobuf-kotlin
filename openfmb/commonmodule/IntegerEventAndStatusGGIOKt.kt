@@ -135,12 +135,12 @@ public object IntegerEventAndStatusGGIOKt {
 public inline fun openfmb.commonmodule.IntegerEventAndStatusGGIO.copy(block: openfmb.commonmodule.IntegerEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.IntegerEventAndStatusGGIO =
   openfmb.commonmodule.IntegerEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.intInOrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.intInOrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasIntIn()) getIntIn() else null
 
-val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.commonmodule.IntegerEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 

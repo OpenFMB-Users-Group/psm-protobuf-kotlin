@@ -99,9 +99,9 @@ public object RegulatorControlFSCCKt {
 public inline fun openfmb.regulatormodule.RegulatorControlFSCC.copy(block: openfmb.regulatormodule.RegulatorControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorControlFSCC =
   openfmb.regulatormodule.RegulatorControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.regulatormodule.RegulatorControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.regulatormodule.RegulatorControlFSCCOrBuilder.regulatorControlScheduleFSCHOrNull: openfmb.regulatormodule.RegulatorControlScheduleFSCH?
+public val openfmb.regulatormodule.RegulatorControlFSCCOrBuilder.regulatorControlScheduleFSCHOrNull: openfmb.regulatormodule.RegulatorControlScheduleFSCH?
   get() = if (hasRegulatorControlScheduleFSCH()) getRegulatorControlScheduleFSCH() else null
 

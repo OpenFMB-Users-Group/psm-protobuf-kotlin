@@ -135,12 +135,12 @@ public object RegulatorEventAndStatusANCRKt {
 public inline fun openfmb.regulatormodule.RegulatorEventAndStatusANCR.copy(block: openfmb.regulatormodule.RegulatorEventAndStatusANCRKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEventAndStatusANCR =
   openfmb.regulatormodule.RegulatorEventAndStatusANCRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.pointStatusOrNull: openfmb.regulatormodule.RegulatorEventAndStatusATCC?
+public val openfmb.regulatormodule.RegulatorEventAndStatusANCROrBuilder.pointStatusOrNull: openfmb.regulatormodule.RegulatorEventAndStatusATCC?
   get() = if (hasPointStatus()) getPointStatus() else null
 

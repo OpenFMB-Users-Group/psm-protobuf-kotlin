@@ -99,9 +99,9 @@ public object DateTimeIntervalKt {
 public inline fun openfmb.commonmodule.DateTimeInterval.copy(block: openfmb.commonmodule.DateTimeIntervalKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DateTimeInterval =
   openfmb.commonmodule.DateTimeIntervalKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.DateTimeIntervalOrBuilder.endOrNull: com.google.protobuf.Int64Value?
+public val openfmb.commonmodule.DateTimeIntervalOrBuilder.endOrNull: com.google.protobuf.Int64Value?
   get() = if (hasEnd()) getEnd() else null
 
-val openfmb.commonmodule.DateTimeIntervalOrBuilder.startOrNull: com.google.protobuf.Int64Value?
+public val openfmb.commonmodule.DateTimeIntervalOrBuilder.startOrNull: com.google.protobuf.Int64Value?
   get() = if (hasStart()) getStart() else null
 

@@ -135,12 +135,12 @@ public object GenerationReadingProfileKt {
 public inline fun openfmb.generationmodule.GenerationReadingProfile.copy(block: openfmb.generationmodule.GenerationReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationReadingProfile =
   openfmb.generationmodule.GenerationReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.generationmodule.GenerationReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.generationmodule.GenerationReadingProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationReadingProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 
-val openfmb.generationmodule.GenerationReadingProfileOrBuilder.generationReadingOrNull: openfmb.generationmodule.GenerationReading?
+public val openfmb.generationmodule.GenerationReadingProfileOrBuilder.generationReadingOrNull: openfmb.generationmodule.GenerationReading?
   get() = if (hasGenerationReading()) getGenerationReading() else null
 

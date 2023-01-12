@@ -159,12 +159,12 @@ public object ACDCTerminalKt {
 public inline fun openfmb.commonmodule.ACDCTerminal.copy(block: openfmb.commonmodule.ACDCTerminalKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ACDCTerminal =
   openfmb.commonmodule.ACDCTerminalKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ACDCTerminalOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.ACDCTerminalOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.ACDCTerminalOrBuilder.connectedOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ACDCTerminalOrBuilder.connectedOrNull: com.google.protobuf.BoolValue?
   get() = if (hasConnected()) getConnected() else null
 
-val openfmb.commonmodule.ACDCTerminalOrBuilder.sequenceNumberOrNull: com.google.protobuf.Int32Value?
+public val openfmb.commonmodule.ACDCTerminalOrBuilder.sequenceNumberOrNull: com.google.protobuf.Int32Value?
   get() = if (hasSequenceNumber()) getSequenceNumber() else null
 

@@ -135,12 +135,12 @@ public object MeterReadingProfileKt {
 public inline fun openfmb.metermodule.MeterReadingProfile.copy(block: openfmb.metermodule.MeterReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.metermodule.MeterReadingProfile =
   openfmb.metermodule.MeterReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.metermodule.MeterReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.metermodule.MeterReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.metermodule.MeterReadingProfileOrBuilder.meterOrNull: openfmb.commonmodule.Meter?
+public val openfmb.metermodule.MeterReadingProfileOrBuilder.meterOrNull: openfmb.commonmodule.Meter?
   get() = if (hasMeter()) getMeter() else null
 
-val openfmb.metermodule.MeterReadingProfileOrBuilder.meterReadingOrNull: openfmb.metermodule.MeterReading?
+public val openfmb.metermodule.MeterReadingProfileOrBuilder.meterReadingOrNull: openfmb.metermodule.MeterReading?
   get() = if (hasMeterReading()) getMeterReading() else null
 

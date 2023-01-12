@@ -237,18 +237,18 @@ public object VoltageRegulationKt {
 public inline fun openfmb.essmodule.VoltageRegulation.copy(block: openfmb.essmodule.VoltageRegulationKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.VoltageRegulation =
   openfmb.essmodule.VoltageRegulationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.VoltageRegulationOrBuilder.overVoltageDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.VoltageRegulationOrBuilder.overVoltageDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasOverVoltageDroop()) getOverVoltageDroop() else null
 
-val openfmb.essmodule.VoltageRegulationOrBuilder.underVoltageDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.VoltageRegulationOrBuilder.underVoltageDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasUnderVoltageDroop()) getUnderVoltageDroop() else null
 
-val openfmb.essmodule.VoltageRegulationOrBuilder.voltageDeadBandMinusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.VoltageRegulationOrBuilder.voltageDeadBandMinusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasVoltageDeadBandMinus()) getVoltageDeadBandMinus() else null
 
-val openfmb.essmodule.VoltageRegulationOrBuilder.voltageDeadBandPlusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.VoltageRegulationOrBuilder.voltageDeadBandPlusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasVoltageDeadBandPlus()) getVoltageDeadBandPlus() else null
 
-val openfmb.essmodule.VoltageRegulationOrBuilder.voltageSetPointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.VoltageRegulationOrBuilder.voltageSetPointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasVoltageSetPoint()) getVoltageSetPoint() else null
 

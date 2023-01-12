@@ -163,6 +163,6 @@ public object VoltWCSGKt {
 public inline fun openfmb.commonmodule.VoltWCSG.copy(block: openfmb.commonmodule.VoltWCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VoltWCSG =
   openfmb.commonmodule.VoltWCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.VoltWCSGOrBuilder.voltWParameterOrNull: openfmb.commonmodule.OperationDVWC?
+public val openfmb.commonmodule.VoltWCSGOrBuilder.voltWParameterOrNull: openfmb.commonmodule.OperationDVWC?
   get() = if (hasVoltWParameter()) getVoltWParameter() else null
 

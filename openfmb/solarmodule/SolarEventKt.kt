@@ -99,9 +99,9 @@ public object SolarEventKt {
 public inline fun openfmb.solarmodule.SolarEvent.copy(block: openfmb.solarmodule.SolarEventKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEvent =
   openfmb.solarmodule.SolarEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.solarmodule.SolarEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.solarmodule.SolarEventOrBuilder.solarEventZGENOrNull: openfmb.solarmodule.SolarEventZGEN?
+public val openfmb.solarmodule.SolarEventOrBuilder.solarEventZGENOrNull: openfmb.solarmodule.SolarEventZGEN?
   get() = if (hasSolarEventZGEN()) getSolarEventZGEN() else null
 

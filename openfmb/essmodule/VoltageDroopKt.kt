@@ -99,9 +99,9 @@ public object VoltageDroopKt {
 public inline fun openfmb.essmodule.VoltageDroop.copy(block: openfmb.essmodule.VoltageDroopKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.VoltageDroop =
   openfmb.essmodule.VoltageDroopKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.VoltageDroopOrBuilder.voltageDroopCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.VoltageDroopOrBuilder.voltageDroopCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasVoltageDroopCtl()) getVoltageDroopCtl() else null
 
-val openfmb.essmodule.VoltageDroopOrBuilder.voltageRegulationOrNull: openfmb.essmodule.VoltageRegulation?
+public val openfmb.essmodule.VoltageDroopOrBuilder.voltageRegulationOrNull: openfmb.essmodule.VoltageRegulation?
   get() = if (hasVoltageRegulation()) getVoltageRegulation() else null
 

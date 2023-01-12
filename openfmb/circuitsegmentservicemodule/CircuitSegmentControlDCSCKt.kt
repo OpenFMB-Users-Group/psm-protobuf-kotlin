@@ -135,12 +135,12 @@ public object CircuitSegmentControlDCSCKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSC.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSC =
   openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
   get() = if (hasLogicalNodeForControl()) getLogicalNodeForControl() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.circuitSegmentServiceModeOrNull: openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.circuitSegmentServiceModeOrNull: openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind?
   get() = if (hasCircuitSegmentServiceMode()) getCircuitSegmentServiceMode() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.islandOrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCOrBuilder.islandOrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasIsland()) getIsland() else null
 

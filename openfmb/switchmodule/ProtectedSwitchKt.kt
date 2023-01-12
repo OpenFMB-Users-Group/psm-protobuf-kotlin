@@ -63,6 +63,6 @@ public object ProtectedSwitchKt {
 public inline fun openfmb.switchmodule.ProtectedSwitch.copy(block: openfmb.switchmodule.ProtectedSwitchKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.ProtectedSwitch =
   openfmb.switchmodule.ProtectedSwitchKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.ProtectedSwitchOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.switchmodule.ProtectedSwitchOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

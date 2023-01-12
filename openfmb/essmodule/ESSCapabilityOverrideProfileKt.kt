@@ -135,12 +135,12 @@ public object ESSCapabilityOverrideProfileKt {
 public inline fun openfmb.essmodule.ESSCapabilityOverrideProfile.copy(block: openfmb.essmodule.ESSCapabilityOverrideProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityOverrideProfile =
   openfmb.essmodule.ESSCapabilityOverrideProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
+public val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
   get() = if (hasCapabilityMessageInfo()) getCapabilityMessageInfo() else null
 
-val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
+public val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
   get() = if (hasEss()) getEss() else null
 
-val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.essCapabilityOverrideOrNull: openfmb.essmodule.ESSCapabilityOverride?
+public val openfmb.essmodule.ESSCapabilityOverrideProfileOrBuilder.essCapabilityOverrideOrNull: openfmb.essmodule.ESSCapabilityOverride?
   get() = if (hasEssCapabilityOverride()) getEssCapabilityOverride() else null
 

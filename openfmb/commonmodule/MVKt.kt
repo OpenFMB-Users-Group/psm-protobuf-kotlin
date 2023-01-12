@@ -173,12 +173,12 @@ public object MVKt {
 public inline fun openfmb.commonmodule.MV.copy(block: openfmb.commonmodule.MVKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.MV =
   openfmb.commonmodule.MVKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.MVOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.MVOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.MVOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.MVOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 
-val openfmb.commonmodule.MVOrBuilder.unitsOrNull: openfmb.commonmodule.Unit?
+public val openfmb.commonmodule.MVOrBuilder.unitsOrNull: openfmb.commonmodule.Unit?
   get() = if (hasUnits()) getUnits() else null
 

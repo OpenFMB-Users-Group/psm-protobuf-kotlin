@@ -63,6 +63,6 @@ public object CapabilityOverrideMessageInfoKt {
 public inline fun openfmb.commonmodule.CapabilityOverrideMessageInfo.copy(block: openfmb.commonmodule.CapabilityOverrideMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CapabilityOverrideMessageInfo =
   openfmb.commonmodule.CapabilityOverrideMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.CapabilityOverrideMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.CapabilityOverrideMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

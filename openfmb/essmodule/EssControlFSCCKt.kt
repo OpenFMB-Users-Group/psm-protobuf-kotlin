@@ -99,9 +99,9 @@ public object EssControlFSCCKt {
 public inline fun openfmb.essmodule.EssControlFSCC.copy(block: openfmb.essmodule.EssControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.EssControlFSCC =
   openfmb.essmodule.EssControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.EssControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.essmodule.EssControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.essmodule.EssControlFSCCOrBuilder.essControlScheduleFSCHOrNull: openfmb.essmodule.ESSControlScheduleFSCH?
+public val openfmb.essmodule.EssControlFSCCOrBuilder.essControlScheduleFSCHOrNull: openfmb.essmodule.ESSControlScheduleFSCH?
   get() = if (hasEssControlScheduleFSCH()) getEssControlScheduleFSCH() else null
 

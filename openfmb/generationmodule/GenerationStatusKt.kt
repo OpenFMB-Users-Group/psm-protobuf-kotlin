@@ -99,9 +99,9 @@ public object GenerationStatusKt {
 public inline fun openfmb.generationmodule.GenerationStatus.copy(block: openfmb.generationmodule.GenerationStatusKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationStatus =
   openfmb.generationmodule.GenerationStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.generationmodule.GenerationStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.generationmodule.GenerationStatusOrBuilder.generationStatusZGENOrNull: openfmb.generationmodule.GenerationStatusZGEN?
+public val openfmb.generationmodule.GenerationStatusOrBuilder.generationStatusZGENOrNull: openfmb.generationmodule.GenerationStatusZGEN?
   get() = if (hasGenerationStatusZGEN()) getGenerationStatusZGEN() else null
 

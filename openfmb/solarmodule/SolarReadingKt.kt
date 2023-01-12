@@ -171,15 +171,15 @@ public object SolarReadingKt {
 public inline fun openfmb.solarmodule.SolarReading.copy(block: openfmb.solarmodule.SolarReadingKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarReading =
   openfmb.solarmodule.SolarReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.solarmodule.SolarReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.solarmodule.SolarReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.solarmodule.SolarReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.solarmodule.SolarReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.solarmodule.SolarReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.solarmodule.SolarReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.solarmodule.SolarReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

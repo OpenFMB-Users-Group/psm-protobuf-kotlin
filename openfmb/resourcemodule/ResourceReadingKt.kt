@@ -171,15 +171,15 @@ public object ResourceReadingKt {
 public inline fun openfmb.resourcemodule.ResourceReading.copy(block: openfmb.resourcemodule.ResourceReadingKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceReading =
   openfmb.resourcemodule.ResourceReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.resourcemodule.ResourceReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.resourcemodule.ResourceReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.resourcemodule.ResourceReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.resourcemodule.ResourceReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.resourcemodule.ResourceReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.resourcemodule.ResourceReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.resourcemodule.ResourceReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

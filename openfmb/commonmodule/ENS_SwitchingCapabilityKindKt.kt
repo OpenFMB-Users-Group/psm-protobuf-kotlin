@@ -88,6 +88,6 @@ public object ENS_SwitchingCapabilityKindKt {
 public inline fun openfmb.commonmodule.ENS_SwitchingCapabilityKind.copy(block: openfmb.commonmodule.ENS_SwitchingCapabilityKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_SwitchingCapabilityKind =
   openfmb.commonmodule.ENS_SwitchingCapabilityKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENS_SwitchingCapabilityKindOrBuilder.blkEnaOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ENS_SwitchingCapabilityKindOrBuilder.blkEnaOrNull: com.google.protobuf.BoolValue?
   get() = if (hasBlkEna()) getBlkEna() else null
 

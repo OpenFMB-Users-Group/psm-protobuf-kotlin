@@ -135,12 +135,12 @@ public object RecloserEventProfileKt {
 public inline fun openfmb.reclosermodule.RecloserEventProfile.copy(block: openfmb.reclosermodule.RecloserEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserEventProfile =
   openfmb.reclosermodule.RecloserEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.reclosermodule.RecloserEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.reclosermodule.RecloserEventProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
+public val openfmb.reclosermodule.RecloserEventProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
   get() = if (hasRecloser()) getRecloser() else null
 
-val openfmb.reclosermodule.RecloserEventProfileOrBuilder.recloserEventOrNull: openfmb.reclosermodule.RecloserEvent?
+public val openfmb.reclosermodule.RecloserEventProfileOrBuilder.recloserEventOrNull: openfmb.reclosermodule.RecloserEvent?
   get() = if (hasRecloserEvent()) getRecloserEvent() else null
 

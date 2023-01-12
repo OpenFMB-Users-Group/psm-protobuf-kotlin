@@ -63,6 +63,6 @@ public object GenerationCapabilityRatingsKt {
 public inline fun openfmb.generationmodule.GenerationCapabilityRatings.copy(block: openfmb.generationmodule.GenerationCapabilityRatingsKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCapabilityRatings =
   openfmb.generationmodule.GenerationCapabilityRatingsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationCapabilityRatingsOrBuilder.sourceCapabilityRatingsOrNull: openfmb.commonmodule.SourceCapabilityRatings?
+public val openfmb.generationmodule.GenerationCapabilityRatingsOrBuilder.sourceCapabilityRatingsOrNull: openfmb.commonmodule.SourceCapabilityRatings?
   get() = if (hasSourceCapabilityRatings()) getSourceCapabilityRatings() else null
 

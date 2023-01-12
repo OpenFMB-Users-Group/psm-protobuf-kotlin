@@ -171,15 +171,15 @@ public object PhaseRecloseActionKt {
 public inline fun openfmb.commonmodule.PhaseRecloseAction.copy(block: openfmb.commonmodule.PhaseRecloseActionKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseRecloseAction =
   openfmb.commonmodule.PhaseRecloseActionKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phs3OrNull: openfmb.commonmodule.Optional_RecloseActionKind?
+public val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phs3OrNull: openfmb.commonmodule.Optional_RecloseActionKind?
   get() = if (hasPhs3()) getPhs3() else null
 
-val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsAOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
+public val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsAOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsBOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
+public val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsBOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsCOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
+public val openfmb.commonmodule.PhaseRecloseActionOrBuilder.phsCOrNull: openfmb.commonmodule.Optional_RecloseActionKind?
   get() = if (hasPhsC()) getPhsC() else null
 

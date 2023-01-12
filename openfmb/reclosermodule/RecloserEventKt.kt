@@ -99,9 +99,9 @@ public object RecloserEventKt {
 public inline fun openfmb.reclosermodule.RecloserEvent.copy(block: openfmb.reclosermodule.RecloserEventKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserEvent =
   openfmb.reclosermodule.RecloserEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.reclosermodule.RecloserEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.reclosermodule.RecloserEventOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
+public val openfmb.reclosermodule.RecloserEventOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
   get() = if (hasStatusAndEventXCBR()) getStatusAndEventXCBR() else null
 

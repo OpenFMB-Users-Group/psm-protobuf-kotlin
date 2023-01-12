@@ -135,12 +135,12 @@ public object GenerationCapabilityOverrideProfileKt {
 public inline fun openfmb.generationmodule.GenerationCapabilityOverrideProfile.copy(block: openfmb.generationmodule.GenerationCapabilityOverrideProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCapabilityOverrideProfile =
   openfmb.generationmodule.GenerationCapabilityOverrideProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.capabilityOverrideMessageInfoOrNull: openfmb.commonmodule.CapabilityOverrideMessageInfo?
+public val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.capabilityOverrideMessageInfoOrNull: openfmb.commonmodule.CapabilityOverrideMessageInfo?
   get() = if (hasCapabilityOverrideMessageInfo()) getCapabilityOverrideMessageInfo() else null
 
-val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.generationCapabilityOverrideOrNull: openfmb.generationmodule.GenerationCapabilityOverride?
+public val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.generationCapabilityOverrideOrNull: openfmb.generationmodule.GenerationCapabilityOverride?
   get() = if (hasGenerationCapabilityOverride()) getGenerationCapabilityOverride() else null
 
-val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationCapabilityOverrideProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 

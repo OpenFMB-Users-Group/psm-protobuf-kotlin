@@ -135,12 +135,12 @@ public object BreakerDiscreteControlProfileKt {
 public inline fun openfmb.breakermodule.BreakerDiscreteControlProfile.copy(block: openfmb.breakermodule.BreakerDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerDiscreteControlProfile =
   openfmb.breakermodule.BreakerDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
+public val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
   get() = if (hasBreaker()) getBreaker() else null
 
-val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.breakerDiscreteControlOrNull: openfmb.breakermodule.BreakerDiscreteControl?
+public val openfmb.breakermodule.BreakerDiscreteControlProfileOrBuilder.breakerDiscreteControlOrNull: openfmb.breakermodule.BreakerDiscreteControl?
   get() = if (hasBreakerDiscreteControl()) getBreakerDiscreteControl() else null
 

@@ -603,35 +603,35 @@ public object ESSPointStatusKt {
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.commonmodule.PFStorageSPC pFStorageOperation = 17;</code>
+     * <code>.commonmodule.PFSPC pFOperation = 17;</code>
      */
-    public var pFStorageOperation: openfmb.commonmodule.PFStorageSPC
-      @JvmName("getPFStorageOperation")
-      get() = _builder.getPFStorageOperation()
-      @JvmName("setPFStorageOperation")
+    public var pFOperation: openfmb.commonmodule.PFSPC
+      @JvmName("getPFOperation")
+      get() = _builder.getPFOperation()
+      @JvmName("setPFOperation")
       set(value) {
-        _builder.setPFStorageOperation(value)
+        _builder.setPFOperation(value)
       }
     /**
      * <pre>
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.commonmodule.PFStorageSPC pFStorageOperation = 17;</code>
+     * <code>.commonmodule.PFSPC pFOperation = 17;</code>
      */
-    public fun clearPFStorageOperation() {
-      _builder.clearPFStorageOperation()
+    public fun clearPFOperation() {
+      _builder.clearPFOperation()
     }
     /**
      * <pre>
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.commonmodule.PFStorageSPC pFStorageOperation = 17;</code>
-     * @return Whether the pFStorageOperation field is set.
+     * <code>.commonmodule.PFSPC pFOperation = 17;</code>
+     * @return Whether the pFOperation field is set.
      */
-    public fun hasPFStorageOperation(): kotlin.Boolean {
-      return _builder.hasPFStorageOperation()
+    public fun hasPFOperation(): kotlin.Boolean {
+      return _builder.hasPFOperation()
     }
 
     /**
@@ -855,72 +855,72 @@ public object ESSPointStatusKt {
 public inline fun openfmb.essmodule.ESSPointStatus.copy(block: openfmb.essmodule.ESSPointStatusKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSPointStatus =
   openfmb.essmodule.ESSPointStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasBlackStartEnabled()) getBlackStartEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasFrequencySetPointEnabled()) getFrequencySetPointEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.functionOrNull: openfmb.essmodule.ESSFunction?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.functionOrNull: openfmb.essmodule.ESSFunction?
   get() = if (hasFunction()) getFunction() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.modeOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.modeOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
   get() = if (hasMode()) getMode() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctHzDroop()) getPctHzDroop() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctVDroop()) getPctVDroop() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasReactivePwrSetPointEnabled()) getReactivePwrSetPointEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasRealPwrSetPointEnabled()) getRealPwrSetPointEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasSyncBackToGrid()) getSyncBackToGrid() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.transToIslndOnGridLossEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.transToIslndOnGridLossEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasTransToIslndOnGridLossEnabled()) getTransToIslndOnGridLossEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
   get() = if (hasEnterServiceOperation()) getEnterServiceOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
   get() = if (hasHzWOperation()) getHzWOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
   get() = if (hasLimitWOperation()) getLimitWOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.pFStorageOperationOrNull: openfmb.commonmodule.PFStorageSPC?
-  get() = if (hasPFStorageOperation()) getPFStorageOperation() else null
+public val openfmb.essmodule.ESSPointStatusOrBuilder.pFOperationOrNull: openfmb.commonmodule.PFSPC?
+  get() = if (hasPFOperation()) getPFOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
   get() = if (hasTmHzTripOperation()) getTmHzTripOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
   get() = if (hasTmVoltTripOperation()) getTmVoltTripOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
   get() = if (hasVArOperation()) getVArOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
   get() = if (hasVoltVarOperation()) getVoltVarOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
   get() = if (hasVoltWOperation()) getVoltWOperation() else null
 
-val openfmb.essmodule.ESSPointStatusOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
+public val openfmb.essmodule.ESSPointStatusOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
   get() = if (hasWVarOperation()) getWVarOperation() else null
 

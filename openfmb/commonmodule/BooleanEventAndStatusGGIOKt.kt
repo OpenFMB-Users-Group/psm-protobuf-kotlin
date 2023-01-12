@@ -135,12 +135,12 @@ public object BooleanEventAndStatusGGIOKt {
 public inline fun openfmb.commonmodule.BooleanEventAndStatusGGIO.copy(block: openfmb.commonmodule.BooleanEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.BooleanEventAndStatusGGIO =
   openfmb.commonmodule.BooleanEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.indOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.indOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasInd()) getInd() else null
 
-val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.commonmodule.BooleanEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 

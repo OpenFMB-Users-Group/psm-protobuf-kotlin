@@ -63,6 +63,6 @@ public object LoadControlScheduleFSCHKt {
 public inline fun openfmb.loadmodule.LoadControlScheduleFSCH.copy(block: openfmb.loadmodule.LoadControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlScheduleFSCH =
   openfmb.loadmodule.LoadControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.loadmodule.LoadCSG?
+public val openfmb.loadmodule.LoadControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.loadmodule.LoadCSG?
   get() = if (hasValDCSG()) getValDCSG() else null
 

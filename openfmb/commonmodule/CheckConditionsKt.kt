@@ -105,9 +105,9 @@ public object CheckConditionsKt {
 public inline fun openfmb.commonmodule.CheckConditions.copy(block: openfmb.commonmodule.CheckConditionsKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CheckConditions =
   openfmb.commonmodule.CheckConditionsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.CheckConditionsOrBuilder.interlockCheckOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.CheckConditionsOrBuilder.interlockCheckOrNull: com.google.protobuf.BoolValue?
   get() = if (hasInterlockCheck()) getInterlockCheck() else null
 
-val openfmb.commonmodule.CheckConditionsOrBuilder.synchroCheckOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.CheckConditionsOrBuilder.synchroCheckOrNull: com.google.protobuf.BoolValue?
   get() = if (hasSynchroCheck()) getSynchroCheck() else null
 

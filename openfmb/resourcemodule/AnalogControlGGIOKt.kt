@@ -138,12 +138,12 @@ public object AnalogControlGGIOKt {
 public inline fun openfmb.resourcemodule.AnalogControlGGIO.copy(block: openfmb.resourcemodule.AnalogControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.AnalogControlGGIO =
   openfmb.resourcemodule.AnalogControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.anOutOrNull: openfmb.commonmodule.ControlAPC?
+public val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.anOutOrNull: openfmb.commonmodule.ControlAPC?
   get() = if (hasAnOut()) getAnOut() else null
 
-val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.resourcemodule.AnalogControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 

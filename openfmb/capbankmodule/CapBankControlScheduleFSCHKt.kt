@@ -63,6 +63,6 @@ public object CapBankControlScheduleFSCHKt {
 public inline fun openfmb.capbankmodule.CapBankControlScheduleFSCH.copy(block: openfmb.capbankmodule.CapBankControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankControlScheduleFSCH =
   openfmb.capbankmodule.CapBankControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankControlScheduleFSCHOrBuilder.valCSGOrNull: openfmb.capbankmodule.CapBankCSG?
+public val openfmb.capbankmodule.CapBankControlScheduleFSCHOrBuilder.valCSGOrNull: openfmb.capbankmodule.CapBankCSG?
   get() = if (hasValCSG()) getValCSG() else null
 

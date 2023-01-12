@@ -207,18 +207,18 @@ public object LoadPointStatusKt {
 public inline fun openfmb.loadmodule.LoadPointStatus.copy(block: openfmb.loadmodule.LoadPointStatusKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadPointStatus =
   openfmb.loadmodule.LoadPointStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadPointStatusOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.loadmodule.LoadPointStatusOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.loadmodule.LoadPointStatusOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.loadmodule.LoadPointStatusOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasReactivePwrSetPointEnabled()) getReactivePwrSetPointEnabled() else null
 
-val openfmb.loadmodule.LoadPointStatusOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.loadmodule.LoadPointStatusOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasRealPwrSetPointEnabled()) getRealPwrSetPointEnabled() else null
 
-val openfmb.loadmodule.LoadPointStatusOrBuilder.resetOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.loadmodule.LoadPointStatusOrBuilder.resetOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasReset()) getReset() else null
 
-val openfmb.loadmodule.LoadPointStatusOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.loadmodule.LoadPointStatusOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 

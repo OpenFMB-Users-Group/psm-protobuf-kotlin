@@ -99,9 +99,9 @@ public object RecloserKt {
 public inline fun openfmb.reclosermodule.Recloser.copy(block: openfmb.reclosermodule.RecloserKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.Recloser =
   openfmb.reclosermodule.RecloserKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.reclosermodule.RecloserOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.reclosermodule.RecloserOrBuilder.normalOpenOrNull: com.google.protobuf.BoolValue?
+public val openfmb.reclosermodule.RecloserOrBuilder.normalOpenOrNull: com.google.protobuf.BoolValue?
   get() = if (hasNormalOpen()) getNormalOpen() else null
 

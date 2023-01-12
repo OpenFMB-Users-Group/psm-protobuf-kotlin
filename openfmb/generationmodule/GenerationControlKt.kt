@@ -135,12 +135,12 @@ public object GenerationControlKt {
 public inline fun openfmb.generationmodule.GenerationControl.copy(block: openfmb.generationmodule.GenerationControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControl =
   openfmb.generationmodule.GenerationControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.generationmodule.GenerationControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.generationmodule.GenerationControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.generationmodule.GenerationControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.generationmodule.GenerationControlOrBuilder.generationControlFSCCOrNull: openfmb.generationmodule.GenerationControlFSCC?
+public val openfmb.generationmodule.GenerationControlOrBuilder.generationControlFSCCOrNull: openfmb.generationmodule.GenerationControlFSCC?
   get() = if (hasGenerationControlFSCC()) getGenerationControlFSCC() else null
 

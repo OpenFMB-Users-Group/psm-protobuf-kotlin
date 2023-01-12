@@ -855,72 +855,72 @@ public object GenerationPointKt {
 public inline fun openfmb.generationmodule.GenerationPoint.copy(block: openfmb.generationmodule.GenerationPointKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationPoint =
   openfmb.generationmodule.GenerationPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasBlackStartEnabled()) getBlackStartEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasFrequencySetPointEnabled()) getFrequencySetPointEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.GenerationPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctHzDroop()) getPctHzDroop() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.GenerationPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctVDroop()) getPctVDroop() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.generationmodule.GenerationPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasReactivePwrSetPointEnabled()) getReactivePwrSetPointEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasRealPwrSetPointEnabled()) getRealPwrSetPointEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.resetOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.resetOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasReset()) getReset() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.generationmodule.GenerationPointOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasSyncBackToGrid()) getSyncBackToGrid() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.transToIslndOnGridLossEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.transToIslndOnGridLossEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasTransToIslndOnGridLossEnabled()) getTransToIslndOnGridLossEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
+public val openfmb.generationmodule.GenerationPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
   get() = if (hasStartTime()) getStartTime() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
   get() = if (hasEnterServiceOperation()) getEnterServiceOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
   get() = if (hasHzWOperation()) getHzWOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
   get() = if (hasLimitWOperation()) getLimitWOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.pFOperationOrNull: openfmb.commonmodule.PFSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.pFOperationOrNull: openfmb.commonmodule.PFSPC?
   get() = if (hasPFOperation()) getPFOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
+public val openfmb.generationmodule.GenerationPointOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
   get() = if (hasTmHzTripOperation()) getTmHzTripOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
+public val openfmb.generationmodule.GenerationPointOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
   get() = if (hasTmVoltTripOperation()) getTmVoltTripOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
+public val openfmb.generationmodule.GenerationPointOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
   get() = if (hasVArOperation()) getVArOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
+public val openfmb.generationmodule.GenerationPointOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
   get() = if (hasVoltVarOperation()) getVoltVarOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
+public val openfmb.generationmodule.GenerationPointOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
   get() = if (hasVoltWOperation()) getVoltWOperation() else null
 
-val openfmb.generationmodule.GenerationPointOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
+public val openfmb.generationmodule.GenerationPointOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
   get() = if (hasWVarOperation()) getWVarOperation() else null
 

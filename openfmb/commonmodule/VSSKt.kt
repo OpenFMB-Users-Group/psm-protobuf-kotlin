@@ -124,9 +124,9 @@ public object VSSKt {
 public inline fun openfmb.commonmodule.VSS.copy(block: openfmb.commonmodule.VSSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VSS =
   openfmb.commonmodule.VSSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.VSSOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.VSSOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.VSSOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.VSSOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

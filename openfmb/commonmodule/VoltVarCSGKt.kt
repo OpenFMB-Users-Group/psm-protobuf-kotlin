@@ -163,6 +163,6 @@ public object VoltVarCSGKt {
 public inline fun openfmb.commonmodule.VoltVarCSG.copy(block: openfmb.commonmodule.VoltVarCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VoltVarCSG =
   openfmb.commonmodule.VoltVarCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.VoltVarCSGOrBuilder.vVarParameterOrNull: openfmb.commonmodule.OperationDVVR?
+public val openfmb.commonmodule.VoltVarCSGOrBuilder.vVarParameterOrNull: openfmb.commonmodule.OperationDVVR?
   get() = if (hasVVarParameter()) getVVarParameter() else null
 

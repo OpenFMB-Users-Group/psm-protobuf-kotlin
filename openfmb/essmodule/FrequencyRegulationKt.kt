@@ -351,27 +351,27 @@ public object FrequencyRegulationKt {
 public inline fun openfmb.essmodule.FrequencyRegulation.copy(block: openfmb.essmodule.FrequencyRegulationKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.FrequencyRegulation =
   openfmb.essmodule.FrequencyRegulationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyDeadBandMinusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyDeadBandMinusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasFrequencyDeadBandMinus()) getFrequencyDeadBandMinus() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyDeadBandPlusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyDeadBandPlusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasFrequencyDeadBandPlus()) getFrequencyDeadBandPlus() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyRegulationCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencyRegulationCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasFrequencyRegulationCtl()) getFrequencyRegulationCtl() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencySetPointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.frequencySetPointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasFrequencySetPoint()) getFrequencySetPoint() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.gridFrequencyStableBandMinusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.gridFrequencyStableBandMinusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasGridFrequencyStableBandMinus()) getGridFrequencyStableBandMinus() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.gridFrequencyStableBandPlusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.gridFrequencyStableBandPlusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasGridFrequencyStableBandPlus()) getGridFrequencyStableBandPlus() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.overFrequencyDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.overFrequencyDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasOverFrequencyDroop()) getOverFrequencyDroop() else null
 
-val openfmb.essmodule.FrequencyRegulationOrBuilder.underFrequencyDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.FrequencyRegulationOrBuilder.underFrequencyDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasUnderFrequencyDroop()) getUnderFrequencyDroop() else null
 

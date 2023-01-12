@@ -135,12 +135,12 @@ public object ControlFSCCKt {
 public inline fun openfmb.commonmodule.ControlFSCC.copy(block: openfmb.commonmodule.ControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlFSCC =
   openfmb.commonmodule.ControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ControlFSCCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
+public val openfmb.commonmodule.ControlFSCCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
   get() = if (hasLogicalNodeForControl()) getLogicalNodeForControl() else null
 
-val openfmb.commonmodule.ControlFSCCOrBuilder.controlScheduleFSCHOrNull: openfmb.commonmodule.ControlScheduleFSCH?
+public val openfmb.commonmodule.ControlFSCCOrBuilder.controlScheduleFSCHOrNull: openfmb.commonmodule.ControlScheduleFSCH?
   get() = if (hasControlScheduleFSCH()) getControlScheduleFSCH() else null
 
-val openfmb.commonmodule.ControlFSCCOrBuilder.islandControlScheduleFSCHOrNull: openfmb.commonmodule.ControlScheduleFSCH?
+public val openfmb.commonmodule.ControlFSCCOrBuilder.islandControlScheduleFSCHOrNull: openfmb.commonmodule.ControlScheduleFSCH?
   get() = if (hasIslandControlScheduleFSCH()) getIslandControlScheduleFSCH() else null
 

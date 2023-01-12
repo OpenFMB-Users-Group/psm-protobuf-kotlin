@@ -63,6 +63,6 @@ public object ESSStatusZGENKt {
 public inline fun openfmb.essmodule.ESSStatusZGEN.copy(block: openfmb.essmodule.ESSStatusZGENKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSStatusZGEN =
   openfmb.essmodule.ESSStatusZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSStatusZGENOrBuilder.eSSEventAndStatusZGENOrNull: openfmb.essmodule.ESSEventAndStatusZGEN?
+public val openfmb.essmodule.ESSStatusZGENOrBuilder.eSSEventAndStatusZGENOrNull: openfmb.essmodule.ESSEventAndStatusZGEN?
   get() = if (hasESSEventAndStatusZGEN()) getESSEventAndStatusZGEN() else null
 

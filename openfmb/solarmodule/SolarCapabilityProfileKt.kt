@@ -135,12 +135,12 @@ public object SolarCapabilityProfileKt {
 public inline fun openfmb.solarmodule.SolarCapabilityProfile.copy(block: openfmb.solarmodule.SolarCapabilityProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapabilityProfile =
   openfmb.solarmodule.SolarCapabilityProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
+public val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
   get() = if (hasCapabilityMessageInfo()) getCapabilityMessageInfo() else null
 
-val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.solarCapabilityOrNull: openfmb.solarmodule.SolarCapability?
+public val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.solarCapabilityOrNull: openfmb.solarmodule.SolarCapability?
   get() = if (hasSolarCapability()) getSolarCapability() else null
 
-val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
+public val openfmb.solarmodule.SolarCapabilityProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
   get() = if (hasSolarInverter()) getSolarInverter() else null
 

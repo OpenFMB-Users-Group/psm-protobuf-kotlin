@@ -63,6 +63,6 @@ public object RecloserDiscreteControlXCBRKt {
 public inline fun openfmb.reclosermodule.RecloserDiscreteControlXCBR.copy(block: openfmb.reclosermodule.RecloserDiscreteControlXCBRKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserDiscreteControlXCBR =
   openfmb.reclosermodule.RecloserDiscreteControlXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserDiscreteControlXCBROrBuilder.discreteControlXCBROrNull: openfmb.commonmodule.DiscreteControlXCBR?
+public val openfmb.reclosermodule.RecloserDiscreteControlXCBROrBuilder.discreteControlXCBROrNull: openfmb.commonmodule.DiscreteControlXCBR?
   get() = if (hasDiscreteControlXCBR()) getDiscreteControlXCBR() else null
 

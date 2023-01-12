@@ -171,15 +171,15 @@ public object PhaseINSKt {
 public inline fun openfmb.commonmodule.PhaseINS.copy(block: openfmb.commonmodule.PhaseINSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseINS =
   openfmb.commonmodule.PhaseINSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PhaseINSOrBuilder.phs3OrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.PhaseINSOrBuilder.phs3OrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasPhs3()) getPhs3() else null
 
-val openfmb.commonmodule.PhaseINSOrBuilder.phsAOrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.PhaseINSOrBuilder.phsAOrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PhaseINSOrBuilder.phsBOrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.PhaseINSOrBuilder.phsBOrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PhaseINSOrBuilder.phsCOrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.PhaseINSOrBuilder.phsCOrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasPhsC()) getPhsC() else null
 

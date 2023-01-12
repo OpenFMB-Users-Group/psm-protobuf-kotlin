@@ -135,12 +135,12 @@ public object ESSCapabilityKt {
 public inline fun openfmb.essmodule.ESSCapability.copy(block: openfmb.essmodule.ESSCapabilityKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapability =
   openfmb.essmodule.ESSCapabilityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSCapabilityOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
+public val openfmb.essmodule.ESSCapabilityOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
   get() = if (hasNameplateValue()) getNameplateValue() else null
 
-val openfmb.essmodule.ESSCapabilityOrBuilder.essCapabilityRatingsOrNull: openfmb.essmodule.ESSCapabilityRatings?
+public val openfmb.essmodule.ESSCapabilityOrBuilder.essCapabilityRatingsOrNull: openfmb.essmodule.ESSCapabilityRatings?
   get() = if (hasEssCapabilityRatings()) getEssCapabilityRatings() else null
 
-val openfmb.essmodule.ESSCapabilityOrBuilder.essCapabilityConfigurationOrNull: openfmb.essmodule.ESSCapabilityConfiguration?
+public val openfmb.essmodule.ESSCapabilityOrBuilder.essCapabilityConfigurationOrNull: openfmb.essmodule.ESSCapabilityConfiguration?
   get() = if (hasEssCapabilityConfiguration()) getEssCapabilityConfiguration() else null
 

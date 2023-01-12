@@ -99,9 +99,9 @@ public object StatusValueKt {
 public inline fun openfmb.commonmodule.StatusValue.copy(block: openfmb.commonmodule.StatusValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusValue =
   openfmb.commonmodule.StatusValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StatusValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.StatusValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.StatusValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.StatusValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
   get() = if (hasModBlk()) getModBlk() else null
 

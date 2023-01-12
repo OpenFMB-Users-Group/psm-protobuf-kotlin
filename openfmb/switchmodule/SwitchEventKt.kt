@@ -99,9 +99,9 @@ public object SwitchEventKt {
 public inline fun openfmb.switchmodule.SwitchEvent.copy(block: openfmb.switchmodule.SwitchEventKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchEvent =
   openfmb.switchmodule.SwitchEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.switchmodule.SwitchEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.switchmodule.SwitchEventOrBuilder.switchEventXSWIOrNull: openfmb.switchmodule.SwitchEventXSWI?
+public val openfmb.switchmodule.SwitchEventOrBuilder.switchEventXSWIOrNull: openfmb.switchmodule.SwitchEventXSWI?
   get() = if (hasSwitchEventXSWI()) getSwitchEventXSWI() else null
 

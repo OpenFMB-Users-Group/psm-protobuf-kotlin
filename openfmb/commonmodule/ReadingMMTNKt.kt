@@ -387,33 +387,33 @@ public object ReadingMMTNKt {
 public inline fun openfmb.commonmodule.ReadingMMTN.copy(block: openfmb.commonmodule.ReadingMMTNKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMMTN =
   openfmb.commonmodule.ReadingMMTNKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdVAhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdVAhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasDmdVAh()) getDmdVAh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdVArhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdVArhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasDmdVArh()) getDmdVArh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdWhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.dmdWhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasDmdWh()) getDmdWh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.supVAhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.supVAhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasSupVAh()) getSupVAh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.supVArhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.supVArhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasSupVArh()) getSupVArh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.supWhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.supWhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasSupWh()) getSupWh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.totVAhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.totVAhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasTotVAh()) getTotVAh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.totVArhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.totVArhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasTotVArh()) getTotVArh() else null
 
-val openfmb.commonmodule.ReadingMMTNOrBuilder.totWhOrNull: openfmb.commonmodule.BCR?
+public val openfmb.commonmodule.ReadingMMTNOrBuilder.totWhOrNull: openfmb.commonmodule.BCR?
   get() = if (hasTotWh()) getTotWh() else null
 

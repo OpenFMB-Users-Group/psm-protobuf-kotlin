@@ -243,21 +243,21 @@ public object ReserveAvailabilityProfileKt {
 public inline fun openfmb.reservemodule.ReserveAvailabilityProfile.copy(block: openfmb.reservemodule.ReserveAvailabilityProfileKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveAvailabilityProfile =
   openfmb.reservemodule.ReserveAvailabilityProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.allocatedMarginOrNull: openfmb.reservemodule.AllocatedMargin?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.allocatedMarginOrNull: openfmb.reservemodule.AllocatedMargin?
   get() = if (hasAllocatedMargin()) getAllocatedMargin() else null
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasRequesterCircuitSegmentService()) getRequesterCircuitSegmentService() else null
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.reserveAvailabilityOrNull: openfmb.reservemodule.ReserveAvailability?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.reserveAvailabilityOrNull: openfmb.reservemodule.ReserveAvailability?
   get() = if (hasReserveAvailability()) getReserveAvailability() else null
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasResponderCircuitSegmentService()) getResponderCircuitSegmentService() else null
 
-val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.reservemodule.ReserveAvailabilityProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasTiePoint()) getTiePoint() else null
 

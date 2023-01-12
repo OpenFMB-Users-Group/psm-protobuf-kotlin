@@ -135,12 +135,12 @@ public object RegulatorEventProfileKt {
 public inline fun openfmb.regulatormodule.RegulatorEventProfile.copy(block: openfmb.regulatormodule.RegulatorEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEventProfile =
   openfmb.regulatormodule.RegulatorEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.regulatorEventOrNull: openfmb.regulatormodule.RegulatorEvent?
+public val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.regulatorEventOrNull: openfmb.regulatormodule.RegulatorEvent?
   get() = if (hasRegulatorEvent()) getRegulatorEvent() else null
 
-val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
+public val openfmb.regulatormodule.RegulatorEventProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
   get() = if (hasRegulatorSystem()) getRegulatorSystem() else null
 

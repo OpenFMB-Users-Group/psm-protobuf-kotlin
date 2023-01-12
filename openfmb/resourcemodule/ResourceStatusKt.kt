@@ -463,6 +463,6 @@ public object ResourceStatusKt {
 public inline fun openfmb.resourcemodule.ResourceStatus.copy(block: openfmb.resourcemodule.ResourceStatusKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceStatus =
   openfmb.resourcemodule.ResourceStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceStatusOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.resourcemodule.ResourceStatusOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 

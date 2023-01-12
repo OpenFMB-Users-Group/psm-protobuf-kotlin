@@ -124,9 +124,9 @@ public object ENS_BehaviourModeKindKt {
 public inline fun openfmb.commonmodule.ENS_BehaviourModeKind.copy(block: openfmb.commonmodule.ENS_BehaviourModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_BehaviourModeKind =
   openfmb.commonmodule.ENS_BehaviourModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENS_BehaviourModeKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.ENS_BehaviourModeKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.ENS_BehaviourModeKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.ENS_BehaviourModeKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

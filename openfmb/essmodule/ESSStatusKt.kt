@@ -135,12 +135,12 @@ public object ESSStatusKt {
 public inline fun openfmb.essmodule.ESSStatus.copy(block: openfmb.essmodule.ESSStatusKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSStatus =
   openfmb.essmodule.ESSStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.essmodule.ESSStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.essmodule.ESSStatusOrBuilder.essStatusZBATOrNull: openfmb.essmodule.EssStatusZBAT?
+public val openfmb.essmodule.ESSStatusOrBuilder.essStatusZBATOrNull: openfmb.essmodule.EssStatusZBAT?
   get() = if (hasEssStatusZBAT()) getEssStatusZBAT() else null
 
-val openfmb.essmodule.ESSStatusOrBuilder.essStatusZGENOrNull: openfmb.essmodule.ESSStatusZGEN?
+public val openfmb.essmodule.ESSStatusOrBuilder.essStatusZGENOrNull: openfmb.essmodule.ESSStatusZGEN?
   get() = if (hasEssStatusZGEN()) getEssStatusZGEN() else null
 

@@ -499,9 +499,9 @@ public object ResourceDiscreteControlKt {
 public inline fun openfmb.resourcemodule.ResourceDiscreteControl.copy(block: openfmb.resourcemodule.ResourceDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceDiscreteControl =
   openfmb.resourcemodule.ResourceDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceDiscreteControlOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.resourcemodule.ResourceDiscreteControlOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.resourcemodule.ResourceDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.resourcemodule.ResourceDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 

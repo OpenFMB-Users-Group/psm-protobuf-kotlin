@@ -102,9 +102,9 @@ public object TerminalKt {
 public inline fun openfmb.commonmodule.Terminal.copy(block: openfmb.commonmodule.TerminalKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Terminal =
   openfmb.commonmodule.TerminalKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.TerminalOrBuilder.aCDCTerminalOrNull: openfmb.commonmodule.ACDCTerminal?
+public val openfmb.commonmodule.TerminalOrBuilder.aCDCTerminalOrNull: openfmb.commonmodule.ACDCTerminal?
   get() = if (hasACDCTerminal()) getACDCTerminal() else null
 
-val openfmb.commonmodule.TerminalOrBuilder.phasesOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.commonmodule.TerminalOrBuilder.phasesOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhases()) getPhases() else null
 

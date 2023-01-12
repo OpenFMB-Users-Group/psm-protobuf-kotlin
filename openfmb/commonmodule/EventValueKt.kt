@@ -99,9 +99,9 @@ public object EventValueKt {
 public inline fun openfmb.commonmodule.EventValue.copy(block: openfmb.commonmodule.EventValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.EventValue =
   openfmb.commonmodule.EventValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.EventValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.EventValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.EventValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.EventValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
   get() = if (hasModBlk()) getModBlk() else null
 

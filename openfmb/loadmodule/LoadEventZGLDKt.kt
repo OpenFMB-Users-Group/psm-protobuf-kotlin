@@ -63,6 +63,6 @@ public object LoadEventZGLDKt {
 public inline fun openfmb.loadmodule.LoadEventZGLD.copy(block: openfmb.loadmodule.LoadEventZGLDKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEventZGLD =
   openfmb.loadmodule.LoadEventZGLDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadEventZGLDOrBuilder.loadEventAndStatusZGLDOrNull: openfmb.loadmodule.LoadEventAndStatusZGLD?
+public val openfmb.loadmodule.LoadEventZGLDOrBuilder.loadEventAndStatusZGLDOrNull: openfmb.loadmodule.LoadEventAndStatusZGLD?
   get() = if (hasLoadEventAndStatusZGLD()) getLoadEventAndStatusZGLD() else null
 

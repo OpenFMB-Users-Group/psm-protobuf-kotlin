@@ -113,6 +113,6 @@ public object TimestampKt {
 public inline fun openfmb.commonmodule.Timestamp.copy(block: openfmb.commonmodule.TimestampKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Timestamp =
   openfmb.commonmodule.TimestampKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.TimestampOrBuilder.tqOrNull: openfmb.commonmodule.TimeQuality?
+public val openfmb.commonmodule.TimestampOrBuilder.tqOrNull: openfmb.commonmodule.TimeQuality?
   get() = if (hasTq()) getTq() else null
 

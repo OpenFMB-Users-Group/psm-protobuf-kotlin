@@ -387,33 +387,33 @@ public object GenerationEventAndStatusZGENKt {
 public inline fun openfmb.generationmodule.GenerationEventAndStatusZGEN.copy(block: openfmb.generationmodule.GenerationEventAndStatusZGENKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEventAndStatusZGEN =
   openfmb.generationmodule.GenerationEventAndStatusZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasAuxPwrSt()) getAuxPwrSt() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasEmgStop()) getEmgStop() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasGnSynSt()) getGnSynSt() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.generationmodule.GenerationPointStatus?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.generationmodule.GenerationPointStatus?
   get() = if (hasPointStatus()) getPointStatus() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.alrmOrNull: openfmb.commonmodule.Optional_AlrmKind?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.alrmOrNull: openfmb.commonmodule.Optional_AlrmKind?
   get() = if (hasAlrm()) getAlrm() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.gridConnectionStateOrNull: openfmb.commonmodule.Optional_GridConnectionStateKind?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.gridConnectionStateOrNull: openfmb.commonmodule.Optional_GridConnectionStateKind?
   get() = if (hasGridConnectionState()) getGridConnectionState() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.manAlrmInfoOrNull: com.google.protobuf.StringValue?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.manAlrmInfoOrNull: com.google.protobuf.StringValue?
   get() = if (hasManAlrmInfo()) getManAlrmInfo() else null
 
-val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.operatingStateOrNull: openfmb.commonmodule.Optional_OperatingStateKind?
+public val openfmb.generationmodule.GenerationEventAndStatusZGENOrBuilder.operatingStateOrNull: openfmb.commonmodule.Optional_OperatingStateKind?
   get() = if (hasOperatingState()) getOperatingState() else null
 

@@ -243,21 +243,21 @@ public object ESSEventAndStatusZGENKt {
 public inline fun openfmb.essmodule.ESSEventAndStatusZGEN.copy(block: openfmb.essmodule.ESSEventAndStatusZGENKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSEventAndStatusZGEN =
   openfmb.essmodule.ESSEventAndStatusZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasAuxPwrSt()) getAuxPwrSt() else null
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasEmgStop()) getEmgStop() else null
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasGnSynSt()) getGnSynSt() else null
 
-val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.essmodule.ESSPointStatus?
+public val openfmb.essmodule.ESSEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.essmodule.ESSPointStatus?
   get() = if (hasPointStatus()) getPointStatus() else null
 

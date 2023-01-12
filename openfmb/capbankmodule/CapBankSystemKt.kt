@@ -63,6 +63,6 @@ public object CapBankSystemKt {
 public inline fun openfmb.capbankmodule.CapBankSystem.copy(block: openfmb.capbankmodule.CapBankSystemKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankSystem =
   openfmb.capbankmodule.CapBankSystemKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankSystemOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.capbankmodule.CapBankSystemOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

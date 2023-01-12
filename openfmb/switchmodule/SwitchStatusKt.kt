@@ -99,9 +99,9 @@ public object SwitchStatusKt {
 public inline fun openfmb.switchmodule.SwitchStatus.copy(block: openfmb.switchmodule.SwitchStatusKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchStatus =
   openfmb.switchmodule.SwitchStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.switchmodule.SwitchStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.switchmodule.SwitchStatusOrBuilder.switchStatusXSWIOrNull: openfmb.switchmodule.SwitchStatusXSWI?
+public val openfmb.switchmodule.SwitchStatusOrBuilder.switchStatusXSWIOrNull: openfmb.switchmodule.SwitchStatusXSWI?
   get() = if (hasSwitchStatusXSWI()) getSwitchStatusXSWI() else null
 

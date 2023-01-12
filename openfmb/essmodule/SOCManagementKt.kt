@@ -219,18 +219,18 @@ public object SOCManagementKt {
 public inline fun openfmb.essmodule.SOCManagement.copy(block: openfmb.essmodule.SOCManagementKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.SOCManagement =
   openfmb.essmodule.SOCManagementKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.SOCManagementOrBuilder.socDeadBandMinusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SOCManagementOrBuilder.socDeadBandMinusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocDeadBandMinus()) getSocDeadBandMinus() else null
 
-val openfmb.essmodule.SOCManagementOrBuilder.socDeadBandPlusOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SOCManagementOrBuilder.socDeadBandPlusOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocDeadBandPlus()) getSocDeadBandPlus() else null
 
-val openfmb.essmodule.SOCManagementOrBuilder.socManagementCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.SOCManagementOrBuilder.socManagementCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasSocManagementCtl()) getSocManagementCtl() else null
 
-val openfmb.essmodule.SOCManagementOrBuilder.socPowerSetPointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SOCManagementOrBuilder.socPowerSetPointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocPowerSetPoint()) getSocPowerSetPoint() else null
 
-val openfmb.essmodule.SOCManagementOrBuilder.socSetPointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SOCManagementOrBuilder.socSetPointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocSetPoint()) getSocSetPoint() else null
 

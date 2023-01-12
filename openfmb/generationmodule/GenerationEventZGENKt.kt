@@ -63,6 +63,6 @@ public object GenerationEventZGENKt {
 public inline fun openfmb.generationmodule.GenerationEventZGEN.copy(block: openfmb.generationmodule.GenerationEventZGENKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEventZGEN =
   openfmb.generationmodule.GenerationEventZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationEventZGENOrBuilder.generationEventAndStatusZGENOrNull: openfmb.generationmodule.GenerationEventAndStatusZGEN?
+public val openfmb.generationmodule.GenerationEventZGENOrBuilder.generationEventAndStatusZGENOrNull: openfmb.generationmodule.GenerationEventAndStatusZGEN?
   get() = if (hasGenerationEventAndStatusZGEN()) getGenerationEventAndStatusZGEN() else null
 

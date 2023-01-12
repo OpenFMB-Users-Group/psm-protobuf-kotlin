@@ -149,9 +149,9 @@ public object LimitWAPCKt {
 public inline fun openfmb.commonmodule.LimitWAPC.copy(block: openfmb.commonmodule.LimitWAPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.LimitWAPC =
   openfmb.commonmodule.LimitWAPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.LimitWAPCOrBuilder.maxLimParameterOrNull: openfmb.commonmodule.OperationDWMX?
+public val openfmb.commonmodule.LimitWAPCOrBuilder.maxLimParameterOrNull: openfmb.commonmodule.OperationDWMX?
   get() = if (hasMaxLimParameter()) getMaxLimParameter() else null
 
-val openfmb.commonmodule.LimitWAPCOrBuilder.minLimParameterOrNull: openfmb.commonmodule.OperationDWMN?
+public val openfmb.commonmodule.LimitWAPCOrBuilder.minLimParameterOrNull: openfmb.commonmodule.OperationDWMN?
   get() = if (hasMinLimParameter()) getMinLimParameter() else null
 

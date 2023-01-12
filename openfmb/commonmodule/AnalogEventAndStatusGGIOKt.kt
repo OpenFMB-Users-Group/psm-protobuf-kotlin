@@ -135,12 +135,12 @@ public object AnalogEventAndStatusGGIOKt {
 public inline fun openfmb.commonmodule.AnalogEventAndStatusGGIO.copy(block: openfmb.commonmodule.AnalogEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.AnalogEventAndStatusGGIO =
   openfmb.commonmodule.AnalogEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.anInOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.anInOrNull: openfmb.commonmodule.MV?
   get() = if (hasAnIn()) getAnIn() else null
 
-val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.commonmodule.AnalogEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 

@@ -99,9 +99,9 @@ public object ESSCapabilityOverrideKt {
 public inline fun openfmb.essmodule.ESSCapabilityOverride.copy(block: openfmb.essmodule.ESSCapabilityOverrideKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityOverride =
   openfmb.essmodule.ESSCapabilityOverrideKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSCapabilityOverrideOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
+public val openfmb.essmodule.ESSCapabilityOverrideOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
   get() = if (hasNameplateValue()) getNameplateValue() else null
 
-val openfmb.essmodule.ESSCapabilityOverrideOrBuilder.essCapabilityConfigurationOrNull: openfmb.essmodule.ESSCapabilityConfiguration?
+public val openfmb.essmodule.ESSCapabilityOverrideOrBuilder.essCapabilityConfigurationOrNull: openfmb.essmodule.ESSCapabilityConfiguration?
   get() = if (hasEssCapabilityConfiguration()) getEssCapabilityConfiguration() else null
 

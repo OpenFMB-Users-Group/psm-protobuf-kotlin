@@ -135,12 +135,12 @@ public object ESSReadingProfileKt {
 public inline fun openfmb.essmodule.ESSReadingProfile.copy(block: openfmb.essmodule.ESSReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSReadingProfile =
   openfmb.essmodule.ESSReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.essmodule.ESSReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.essmodule.ESSReadingProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
+public val openfmb.essmodule.ESSReadingProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
   get() = if (hasEss()) getEss() else null
 
-val openfmb.essmodule.ESSReadingProfileOrBuilder.essReadingOrNull: openfmb.essmodule.ESSReading?
+public val openfmb.essmodule.ESSReadingProfileOrBuilder.essReadingOrNull: openfmb.essmodule.ESSReading?
   get() = if (hasEssReading()) getEssReading() else null
 

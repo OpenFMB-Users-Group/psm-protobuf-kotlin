@@ -171,15 +171,15 @@ public object RampRateKt {
 public inline fun openfmb.commonmodule.RampRate.copy(block: openfmb.commonmodule.RampRateKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.RampRate =
   openfmb.commonmodule.RampRateKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.RampRateOrBuilder.negativeReactivePowerKVArPerMinOrNull: com.google.protobuf.FloatValue?
+public val openfmb.commonmodule.RampRateOrBuilder.negativeReactivePowerKVArPerMinOrNull: com.google.protobuf.FloatValue?
   get() = if (hasNegativeReactivePowerKVArPerMin()) getNegativeReactivePowerKVArPerMin() else null
 
-val openfmb.commonmodule.RampRateOrBuilder.negativeRealPowerKWPerMinOrNull: com.google.protobuf.FloatValue?
+public val openfmb.commonmodule.RampRateOrBuilder.negativeRealPowerKWPerMinOrNull: com.google.protobuf.FloatValue?
   get() = if (hasNegativeRealPowerKWPerMin()) getNegativeRealPowerKWPerMin() else null
 
-val openfmb.commonmodule.RampRateOrBuilder.positiveReactivePowerKVArPerMinOrNull: com.google.protobuf.FloatValue?
+public val openfmb.commonmodule.RampRateOrBuilder.positiveReactivePowerKVArPerMinOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPositiveReactivePowerKVArPerMin()) getPositiveReactivePowerKVArPerMin() else null
 
-val openfmb.commonmodule.RampRateOrBuilder.positiveRealPowerKWPerMinOrNull: com.google.protobuf.FloatValue?
+public val openfmb.commonmodule.RampRateOrBuilder.positiveRealPowerKWPerMinOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPositiveRealPowerKWPerMin()) getPositiveRealPowerKWPerMin() else null
 

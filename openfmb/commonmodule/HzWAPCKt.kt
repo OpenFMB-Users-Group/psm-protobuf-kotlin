@@ -177,15 +177,15 @@ public object HzWAPCKt {
 public inline fun openfmb.commonmodule.HzWAPC.copy(block: openfmb.commonmodule.HzWAPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.HzWAPC =
   openfmb.commonmodule.HzWAPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.HzWAPCOrBuilder.overHzWPtOrNull: openfmb.commonmodule.HzWPoint?
+public val openfmb.commonmodule.HzWAPCOrBuilder.overHzWPtOrNull: openfmb.commonmodule.HzWPoint?
   get() = if (hasOverHzWPt()) getOverHzWPt() else null
 
-val openfmb.commonmodule.HzWAPCOrBuilder.overHzWParameterOrNull: openfmb.commonmodule.OperationDHFW?
+public val openfmb.commonmodule.HzWAPCOrBuilder.overHzWParameterOrNull: openfmb.commonmodule.OperationDHFW?
   get() = if (hasOverHzWParameter()) getOverHzWParameter() else null
 
-val openfmb.commonmodule.HzWAPCOrBuilder.underHzWPtOrNull: openfmb.commonmodule.HzWPoint?
+public val openfmb.commonmodule.HzWAPCOrBuilder.underHzWPtOrNull: openfmb.commonmodule.HzWPoint?
   get() = if (hasUnderHzWPt()) getUnderHzWPt() else null
 
-val openfmb.commonmodule.HzWAPCOrBuilder.underHzWParameterOrNull: openfmb.commonmodule.OperationDLFW?
+public val openfmb.commonmodule.HzWAPCOrBuilder.underHzWParameterOrNull: openfmb.commonmodule.OperationDLFW?
   get() = if (hasUnderHzWParameter()) getUnderHzWParameter() else null
 

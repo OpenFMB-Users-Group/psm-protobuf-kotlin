@@ -99,9 +99,9 @@ public object SwitchPointKt {
 public inline fun openfmb.commonmodule.SwitchPoint.copy(block: openfmb.commonmodule.SwitchPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SwitchPoint =
   openfmb.commonmodule.SwitchPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.SwitchPointOrBuilder.posOrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.commonmodule.SwitchPointOrBuilder.posOrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.commonmodule.SwitchPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
+public val openfmb.commonmodule.SwitchPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
   get() = if (hasStartTime()) getStartTime() else null
 

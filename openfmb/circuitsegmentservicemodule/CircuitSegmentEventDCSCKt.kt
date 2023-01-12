@@ -315,27 +315,27 @@ public object CircuitSegmentEventDCSCKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSC.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSC =
   openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.circuitSegmentServiceModeOrNull: openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.circuitSegmentServiceModeOrNull: openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind?
   get() = if (hasCircuitSegmentServiceMode()) getCircuitSegmentServiceMode() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.islandOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.islandOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasIsland()) getIsland() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleAutoOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleAutoOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasPermissibleAuto()) getPermissibleAuto() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleManualOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleManualOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasPermissibleManual()) getPermissibleManual() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleNetzeroOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleNetzeroOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasPermissibleNetzero()) getPermissibleNetzero() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleStartOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleStartOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasPermissibleStart()) getPermissibleStart() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleStopOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSCOrBuilder.permissibleStopOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasPermissibleStop()) getPermissibleStop() else null
 

@@ -135,12 +135,12 @@ public object RecloserStatusProfileKt {
 public inline fun openfmb.reclosermodule.RecloserStatusProfile.copy(block: openfmb.reclosermodule.RecloserStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserStatusProfile =
   openfmb.reclosermodule.RecloserStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
+public val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
   get() = if (hasRecloser()) getRecloser() else null
 
-val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.recloserStatusOrNull: openfmb.reclosermodule.RecloserStatus?
+public val openfmb.reclosermodule.RecloserStatusProfileOrBuilder.recloserStatusOrNull: openfmb.reclosermodule.RecloserStatus?
   get() = if (hasRecloserStatus()) getRecloserStatus() else null
 

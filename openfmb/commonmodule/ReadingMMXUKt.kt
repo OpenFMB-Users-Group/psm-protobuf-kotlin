@@ -447,36 +447,36 @@ public object ReadingMMXUKt {
 public inline fun openfmb.commonmodule.ReadingMMXU.copy(block: openfmb.commonmodule.ReadingMMXUKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMMXU =
   openfmb.commonmodule.ReadingMMXUKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.aOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.aOrNull: openfmb.commonmodule.WYE?
   get() = if (hasA()) getA() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.clcMthOrNull: openfmb.commonmodule.ENG_CalcMethodKind?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.clcMthOrNull: openfmb.commonmodule.ENG_CalcMethodKind?
   get() = if (hasClcMth()) getClcMth() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.hzOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.hzOrNull: openfmb.commonmodule.MV?
   get() = if (hasHz()) getHz() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.pFOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.pFOrNull: openfmb.commonmodule.WYE?
   get() = if (hasPF()) getPF() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.pFSignOrNull: openfmb.commonmodule.ENG_PFSignKind?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.pFSignOrNull: openfmb.commonmodule.ENG_PFSignKind?
   get() = if (hasPFSign()) getPFSign() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.phVOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.phVOrNull: openfmb.commonmodule.WYE?
   get() = if (hasPhV()) getPhV() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.pPVOrNull: openfmb.commonmodule.DEL?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.pPVOrNull: openfmb.commonmodule.DEL?
   get() = if (hasPPV()) getPPV() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.vAOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.vAOrNull: openfmb.commonmodule.WYE?
   get() = if (hasVA()) getVA() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.vArOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.vArOrNull: openfmb.commonmodule.WYE?
   get() = if (hasVAr()) getVAr() else null
 
-val openfmb.commonmodule.ReadingMMXUOrBuilder.wOrNull: openfmb.commonmodule.WYE?
+public val openfmb.commonmodule.ReadingMMXUOrBuilder.wOrNull: openfmb.commonmodule.WYE?
   get() = if (hasW()) getW() else null
 

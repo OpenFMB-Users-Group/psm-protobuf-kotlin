@@ -99,9 +99,9 @@ public object LoadEventKt {
 public inline fun openfmb.loadmodule.LoadEvent.copy(block: openfmb.loadmodule.LoadEventKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEvent =
   openfmb.loadmodule.LoadEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.loadmodule.LoadEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.loadmodule.LoadEventOrBuilder.loadEventZGLDOrNull: openfmb.loadmodule.LoadEventZGLD?
+public val openfmb.loadmodule.LoadEventOrBuilder.loadEventZGLDOrNull: openfmb.loadmodule.LoadEventZGLD?
   get() = if (hasLoadEventZGLD()) getLoadEventZGLD() else null
 

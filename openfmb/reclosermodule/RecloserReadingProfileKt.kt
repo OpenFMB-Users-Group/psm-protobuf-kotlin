@@ -199,9 +199,9 @@ public object RecloserReadingProfileKt {
 public inline fun openfmb.reclosermodule.RecloserReadingProfile.copy(block: openfmb.reclosermodule.RecloserReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserReadingProfile =
   openfmb.reclosermodule.RecloserReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.reclosermodule.RecloserReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.reclosermodule.RecloserReadingProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
+public val openfmb.reclosermodule.RecloserReadingProfileOrBuilder.recloserOrNull: openfmb.reclosermodule.Recloser?
   get() = if (hasRecloser()) getRecloser() else null
 

@@ -99,9 +99,9 @@ public object NamedObjectKt {
 public inline fun openfmb.commonmodule.NamedObject.copy(block: openfmb.commonmodule.NamedObjectKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.NamedObject =
   openfmb.commonmodule.NamedObjectKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.NamedObjectOrBuilder.descriptionOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NamedObjectOrBuilder.descriptionOrNull: com.google.protobuf.StringValue?
   get() = if (hasDescription()) getDescription() else null
 
-val openfmb.commonmodule.NamedObjectOrBuilder.nameOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NamedObjectOrBuilder.nameOrNull: com.google.protobuf.StringValue?
   get() = if (hasName()) getName() else null
 

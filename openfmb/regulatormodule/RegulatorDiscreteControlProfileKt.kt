@@ -135,12 +135,12 @@ public object RegulatorDiscreteControlProfileKt {
 public inline fun openfmb.regulatormodule.RegulatorDiscreteControlProfile.copy(block: openfmb.regulatormodule.RegulatorDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorDiscreteControlProfile =
   openfmb.regulatormodule.RegulatorDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.regulatorDiscreteControlOrNull: openfmb.regulatormodule.RegulatorDiscreteControl?
+public val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.regulatorDiscreteControlOrNull: openfmb.regulatormodule.RegulatorDiscreteControl?
   get() = if (hasRegulatorDiscreteControl()) getRegulatorDiscreteControl() else null
 
-val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
+public val openfmb.regulatormodule.RegulatorDiscreteControlProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
   get() = if (hasRegulatorSystem()) getRegulatorSystem() else null
 

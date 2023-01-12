@@ -135,12 +135,12 @@ public object ResourceDiscreteControlProfileKt {
 public inline fun openfmb.resourcemodule.ResourceDiscreteControlProfile.copy(block: openfmb.resourcemodule.ResourceDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceDiscreteControlProfile =
   openfmb.resourcemodule.ResourceDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.resourceDiscreteControlOrNull: openfmb.resourcemodule.ResourceDiscreteControl?
+public val openfmb.resourcemodule.ResourceDiscreteControlProfileOrBuilder.resourceDiscreteControlOrNull: openfmb.resourcemodule.ResourceDiscreteControl?
   get() = if (hasResourceDiscreteControl()) getResourceDiscreteControl() else null
 

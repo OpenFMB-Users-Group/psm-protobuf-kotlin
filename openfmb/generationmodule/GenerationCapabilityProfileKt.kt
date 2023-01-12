@@ -135,12 +135,12 @@ public object GenerationCapabilityProfileKt {
 public inline fun openfmb.generationmodule.GenerationCapabilityProfile.copy(block: openfmb.generationmodule.GenerationCapabilityProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCapabilityProfile =
   openfmb.generationmodule.GenerationCapabilityProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
+public val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.capabilityMessageInfoOrNull: openfmb.commonmodule.CapabilityMessageInfo?
   get() = if (hasCapabilityMessageInfo()) getCapabilityMessageInfo() else null
 
-val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.generationCapabilityOrNull: openfmb.generationmodule.GenerationCapability?
+public val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.generationCapabilityOrNull: openfmb.generationmodule.GenerationCapability?
   get() = if (hasGenerationCapability()) getGenerationCapability() else null
 
-val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationCapabilityProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 

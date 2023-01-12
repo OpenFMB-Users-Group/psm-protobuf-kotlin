@@ -135,12 +135,12 @@ public object ResourceStatusProfileKt {
 public inline fun openfmb.resourcemodule.ResourceStatusProfile.copy(block: openfmb.resourcemodule.ResourceStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceStatusProfile =
   openfmb.resourcemodule.ResourceStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.resourceStatusOrNull: openfmb.resourcemodule.ResourceStatus?
+public val openfmb.resourcemodule.ResourceStatusProfileOrBuilder.resourceStatusOrNull: openfmb.resourcemodule.ResourceStatus?
   get() = if (hasResourceStatus()) getResourceStatus() else null
 

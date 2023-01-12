@@ -135,12 +135,12 @@ public object RegulatorControlKt {
 public inline fun openfmb.regulatormodule.RegulatorControl.copy(block: openfmb.regulatormodule.RegulatorControlKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorControl =
   openfmb.regulatormodule.RegulatorControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.regulatormodule.RegulatorControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.regulatormodule.RegulatorControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.regulatormodule.RegulatorControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.regulatormodule.RegulatorControlOrBuilder.regulatorControlFSCCOrNull: openfmb.regulatormodule.RegulatorControlFSCC?
+public val openfmb.regulatormodule.RegulatorControlOrBuilder.regulatorControlFSCCOrNull: openfmb.regulatormodule.RegulatorControlFSCC?
   get() = if (hasRegulatorControlFSCC()) getRegulatorControlFSCC() else null
 

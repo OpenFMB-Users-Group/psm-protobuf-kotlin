@@ -171,15 +171,15 @@ public object MeterReadingKt {
 public inline fun openfmb.metermodule.MeterReading.copy(block: openfmb.metermodule.MeterReadingKt.Dsl.() -> kotlin.Unit): openfmb.metermodule.MeterReading =
   openfmb.metermodule.MeterReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.metermodule.MeterReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.metermodule.MeterReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.metermodule.MeterReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.metermodule.MeterReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.metermodule.MeterReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.metermodule.MeterReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.metermodule.MeterReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.metermodule.MeterReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

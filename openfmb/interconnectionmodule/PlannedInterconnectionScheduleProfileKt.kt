@@ -207,18 +207,18 @@ public object PlannedInterconnectionScheduleProfileKt {
 public inline fun openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfile.copy(block: openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfile =
   openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasRequesterCircuitSegmentService()) getRequesterCircuitSegmentService() else null
 
-val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.interconnectionScheduleOrNull: openfmb.interconnectionmodule.InterconnectionSchedule?
+public val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.interconnectionScheduleOrNull: openfmb.interconnectionmodule.InterconnectionSchedule?
   get() = if (hasInterconnectionSchedule()) getInterconnectionSchedule() else null
 
-val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasTiePoint()) getTiePoint() else null
 
-val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.interconnectionmodule.PlannedInterconnectionScheduleProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasResponderCircuitSegmentService()) getResponderCircuitSegmentService() else null
 

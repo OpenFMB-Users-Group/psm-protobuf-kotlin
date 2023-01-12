@@ -63,6 +63,6 @@ public object ConductingEquipmentTerminalReadingKt {
 public inline fun openfmb.commonmodule.ConductingEquipmentTerminalReading.copy(block: openfmb.commonmodule.ConductingEquipmentTerminalReadingKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ConductingEquipmentTerminalReading =
   openfmb.commonmodule.ConductingEquipmentTerminalReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ConductingEquipmentTerminalReadingOrBuilder.terminalOrNull: openfmb.commonmodule.Terminal?
+public val openfmb.commonmodule.ConductingEquipmentTerminalReadingOrBuilder.terminalOrNull: openfmb.commonmodule.Terminal?
   get() = if (hasTerminal()) getTerminal() else null
 

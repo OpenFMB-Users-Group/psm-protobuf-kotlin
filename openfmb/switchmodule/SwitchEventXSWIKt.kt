@@ -135,12 +135,12 @@ public object SwitchEventXSWIKt {
 public inline fun openfmb.switchmodule.SwitchEventXSWI.copy(block: openfmb.switchmodule.SwitchEventXSWIKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchEventXSWI =
   openfmb.switchmodule.SwitchEventXSWIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchEventXSWIOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.switchmodule.SwitchEventXSWIOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.switchmodule.SwitchEventXSWIOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.switchmodule.SwitchEventXSWIOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.switchmodule.SwitchEventXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
+public val openfmb.switchmodule.SwitchEventXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
   get() = if (hasPos()) getPos() else null
 

@@ -135,12 +135,12 @@ public object SolarStatusProfileKt {
 public inline fun openfmb.solarmodule.SolarStatusProfile.copy(block: openfmb.solarmodule.SolarStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarStatusProfile =
   openfmb.solarmodule.SolarStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.solarmodule.SolarStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.solarmodule.SolarStatusProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
+public val openfmb.solarmodule.SolarStatusProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
   get() = if (hasSolarInverter()) getSolarInverter() else null
 
-val openfmb.solarmodule.SolarStatusProfileOrBuilder.solarStatusOrNull: openfmb.solarmodule.SolarStatus?
+public val openfmb.solarmodule.SolarStatusProfileOrBuilder.solarStatusOrNull: openfmb.solarmodule.SolarStatus?
   get() = if (hasSolarStatus()) getSolarStatus() else null
 

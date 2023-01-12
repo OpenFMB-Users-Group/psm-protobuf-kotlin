@@ -91,6 +91,6 @@ public object VectorKt {
 public inline fun openfmb.commonmodule.Vector.copy(block: openfmb.commonmodule.VectorKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Vector =
   openfmb.commonmodule.VectorKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.VectorOrBuilder.angOrNull: com.google.protobuf.DoubleValue?
+public val openfmb.commonmodule.VectorOrBuilder.angOrNull: com.google.protobuf.DoubleValue?
   get() = if (hasAng()) getAng() else null
 

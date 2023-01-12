@@ -163,6 +163,6 @@ public object SchedulePointKt {
 public inline fun openfmb.commonmodule.SchedulePoint.copy(block: openfmb.commonmodule.SchedulePointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SchedulePoint =
   openfmb.commonmodule.SchedulePointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.SchedulePointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
+public val openfmb.commonmodule.SchedulePointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
   get() = if (hasStartTime()) getStartTime() else null
 

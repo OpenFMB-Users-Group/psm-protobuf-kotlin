@@ -135,12 +135,12 @@ public object ResourceReadingProfileKt {
 public inline fun openfmb.resourcemodule.ResourceReadingProfile.copy(block: openfmb.resourcemodule.ResourceReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceReadingProfile =
   openfmb.resourcemodule.ResourceReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.resourceReadingOrNull: openfmb.resourcemodule.ResourceReading?
+public val openfmb.resourcemodule.ResourceReadingProfileOrBuilder.resourceReadingOrNull: openfmb.resourcemodule.ResourceReading?
   get() = if (hasResourceReading()) getResourceReading() else null
 

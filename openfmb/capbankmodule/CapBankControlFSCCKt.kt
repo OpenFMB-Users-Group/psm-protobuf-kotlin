@@ -99,9 +99,9 @@ public object CapBankControlFSCCKt {
 public inline fun openfmb.capbankmodule.CapBankControlFSCC.copy(block: openfmb.capbankmodule.CapBankControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankControlFSCC =
   openfmb.capbankmodule.CapBankControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.capbankmodule.CapBankControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.capbankmodule.CapBankControlFSCCOrBuilder.capBankControlScheduleFSCHOrNull: openfmb.capbankmodule.CapBankControlScheduleFSCH?
+public val openfmb.capbankmodule.CapBankControlFSCCOrBuilder.capBankControlScheduleFSCHOrNull: openfmb.capbankmodule.CapBankControlScheduleFSCH?
   get() = if (hasCapBankControlScheduleFSCH()) getCapBankControlScheduleFSCH() else null
 

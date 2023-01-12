@@ -717,60 +717,60 @@ public object RegulatorEventAndStatusATCCKt {
 public inline fun openfmb.regulatormodule.RegulatorEventAndStatusATCC.copy(block: openfmb.regulatormodule.RegulatorEventAndStatusATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEventAndStatusATCC =
   openfmb.regulatormodule.RegulatorEventAndStatusATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndCtrOrNull: openfmb.commonmodule.ASG?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndCtrOrNull: openfmb.commonmodule.ASG?
   get() = if (hasBndCtr()) getBndCtr() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidOrNull: openfmb.commonmodule.ASG?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidOrNull: openfmb.commonmodule.ASG?
   get() = if (hasBndWid()) getBndWid() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidHiOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidHiOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasBndWidHi()) getBndWidHi() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidLoOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.bndWidLoOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasBndWidLo()) getBndWidLo() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirCtlRevOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirCtlRevOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasDirCtlRev()) getDirCtlRev() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirIndtOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirIndtOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasDirIndt()) getDirIndt() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirRevOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.dirRevOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasDirRev()) getDirRev() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.lDCROrNull: openfmb.commonmodule.ASG?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.lDCROrNull: openfmb.commonmodule.ASG?
   get() = if (hasLDCR()) getLDCR() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.lDCXOrNull: openfmb.commonmodule.ASG?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.lDCXOrNull: openfmb.commonmodule.ASG?
   get() = if (hasLDCX()) getLDCX() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.parOpOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.parOpOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasParOp()) getParOp() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.stDlTmmsOrNull: openfmb.commonmodule.StatusINC?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.stDlTmmsOrNull: openfmb.commonmodule.StatusINC?
   get() = if (hasStDlTmms()) getStDlTmms() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.tapOpErrOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.tapOpErrOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasTapOpErr()) getTapOpErr() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.tapPosOrNull: openfmb.commonmodule.PhaseINS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.tapPosOrNull: openfmb.commonmodule.PhaseINS?
   get() = if (hasTapPos()) getTapPos() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volLmtHiOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volLmtHiOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasVolLmtHi()) getVolLmtHi() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volLmtLoOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volLmtLoOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasVolLmtLo()) getVolLmtLo() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volSptOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.volSptOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolSpt()) getVolSpt() else null
 
-val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.regulatormodule.RegulatorEventAndStatusATCCOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 

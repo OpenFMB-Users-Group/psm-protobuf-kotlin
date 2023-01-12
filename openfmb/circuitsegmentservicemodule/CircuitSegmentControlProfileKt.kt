@@ -135,12 +135,12 @@ public object CircuitSegmentControlProfileKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfile.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfile =
   openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasApplicationSystem()) getApplicationSystem() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.circuitSegmentControlOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentControl?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileOrBuilder.circuitSegmentControlOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentControl?
   get() = if (hasCircuitSegmentControl()) getCircuitSegmentControl() else null
 

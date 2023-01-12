@@ -282,24 +282,24 @@ public object StatusAndEventXCBRKt {
 public inline fun openfmb.commonmodule.StatusAndEventXCBR.copy(block: openfmb.commonmodule.StatusAndEventXCBRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusAndEventXCBR =
   openfmb.commonmodule.StatusAndEventXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.protectionPickupOrNull: openfmb.commonmodule.ACD?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.protectionPickupOrNull: openfmb.commonmodule.ACD?
   get() = if (hasProtectionPickup()) getProtectionPickup() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.protectionModeOrNull: openfmb.commonmodule.StatusINS?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.protectionModeOrNull: openfmb.commonmodule.StatusINS?
   get() = if (hasProtectionMode()) getProtectionMode() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.recloseEnabledOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.recloseEnabledOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasRecloseEnabled()) getRecloseEnabled() else null
 
-val openfmb.commonmodule.StatusAndEventXCBROrBuilder.reclosingActionOrNull: openfmb.commonmodule.PhaseRecloseAction?
+public val openfmb.commonmodule.StatusAndEventXCBROrBuilder.reclosingActionOrNull: openfmb.commonmodule.PhaseRecloseAction?
   get() = if (hasReclosingAction()) getReclosingAction() else null
 

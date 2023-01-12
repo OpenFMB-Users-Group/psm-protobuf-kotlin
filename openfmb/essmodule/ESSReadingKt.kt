@@ -171,15 +171,15 @@ public object ESSReadingKt {
 public inline fun openfmb.essmodule.ESSReading.copy(block: openfmb.essmodule.ESSReadingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSReading =
   openfmb.essmodule.ESSReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.essmodule.ESSReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.essmodule.ESSReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.essmodule.ESSReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.essmodule.ESSReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.essmodule.ESSReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.essmodule.ESSReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.essmodule.ESSReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

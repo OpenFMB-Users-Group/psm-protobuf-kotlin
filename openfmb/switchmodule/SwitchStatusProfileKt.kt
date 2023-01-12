@@ -135,12 +135,12 @@ public object SwitchStatusProfileKt {
 public inline fun openfmb.switchmodule.SwitchStatusProfile.copy(block: openfmb.switchmodule.SwitchStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchStatusProfile =
   openfmb.switchmodule.SwitchStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.switchmodule.SwitchStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.switchmodule.SwitchStatusProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
+public val openfmb.switchmodule.SwitchStatusProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
   get() = if (hasProtectedSwitch()) getProtectedSwitch() else null
 
-val openfmb.switchmodule.SwitchStatusProfileOrBuilder.switchStatusOrNull: openfmb.switchmodule.SwitchStatus?
+public val openfmb.switchmodule.SwitchStatusProfileOrBuilder.switchStatusOrNull: openfmb.switchmodule.SwitchStatus?
   get() = if (hasSwitchStatus()) getSwitchStatus() else null
 

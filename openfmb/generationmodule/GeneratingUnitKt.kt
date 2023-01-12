@@ -99,9 +99,9 @@ public object GeneratingUnitKt {
 public inline fun openfmb.generationmodule.GeneratingUnit.copy(block: openfmb.generationmodule.GeneratingUnitKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GeneratingUnit =
   openfmb.generationmodule.GeneratingUnitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GeneratingUnitOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.generationmodule.GeneratingUnitOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.generationmodule.GeneratingUnitOrBuilder.maxOperatingPOrNull: openfmb.commonmodule.ActivePower?
+public val openfmb.generationmodule.GeneratingUnitOrBuilder.maxOperatingPOrNull: openfmb.commonmodule.ActivePower?
   get() = if (hasMaxOperatingP()) getMaxOperatingP() else null
 

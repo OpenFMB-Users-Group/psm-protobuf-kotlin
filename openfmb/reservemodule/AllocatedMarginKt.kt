@@ -124,9 +124,9 @@ public object AllocatedMarginKt {
 public inline fun openfmb.reservemodule.AllocatedMargin.copy(block: openfmb.reservemodule.AllocatedMarginKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.AllocatedMargin =
   openfmb.reservemodule.AllocatedMarginKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.AllocatedMarginOrBuilder.allocatedMarginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.AllocatedMarginOrBuilder.allocatedMarginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasAllocatedMargin()) getAllocatedMargin() else null
 
-val openfmb.reservemodule.AllocatedMarginOrBuilder.allocatedStandbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.AllocatedMarginOrBuilder.allocatedStandbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasAllocatedStandbyMargin()) getAllocatedStandbyMargin() else null
 

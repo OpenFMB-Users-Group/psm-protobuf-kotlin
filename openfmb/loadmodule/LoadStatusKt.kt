@@ -135,12 +135,12 @@ public object LoadStatusKt {
 public inline fun openfmb.loadmodule.LoadStatus.copy(block: openfmb.loadmodule.LoadStatusKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadStatus =
   openfmb.loadmodule.LoadStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.loadmodule.LoadStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.loadmodule.LoadStatusOrBuilder.isUncontrollableOrNull: com.google.protobuf.BoolValue?
+public val openfmb.loadmodule.LoadStatusOrBuilder.isUncontrollableOrNull: com.google.protobuf.BoolValue?
   get() = if (hasIsUncontrollable()) getIsUncontrollable() else null
 
-val openfmb.loadmodule.LoadStatusOrBuilder.loadStatusZGLDOrNull: openfmb.loadmodule.LoadStatusZGLD?
+public val openfmb.loadmodule.LoadStatusOrBuilder.loadStatusZGLDOrNull: openfmb.loadmodule.LoadStatusZGLD?
   get() = if (hasLoadStatusZGLD()) getLoadStatusZGLD() else null
 

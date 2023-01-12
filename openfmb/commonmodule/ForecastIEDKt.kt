@@ -115,6 +115,6 @@ public object ForecastIEDKt {
 public inline fun openfmb.commonmodule.ForecastIED.copy(block: openfmb.commonmodule.ForecastIEDKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ForecastIED =
   openfmb.commonmodule.ForecastIEDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ForecastIEDOrBuilder.forecastValueSourceOrNull: openfmb.commonmodule.ForecastValueSource?
+public val openfmb.commonmodule.ForecastIEDOrBuilder.forecastValueSourceOrNull: openfmb.commonmodule.ForecastValueSource?
   get() = if (hasForecastValueSource()) getForecastValueSource() else null
 

@@ -63,6 +63,6 @@ public object MeasurementValueKt {
 public inline fun openfmb.commonmodule.MeasurementValue.copy(block: openfmb.commonmodule.MeasurementValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.MeasurementValue =
   openfmb.commonmodule.MeasurementValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.MeasurementValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.MeasurementValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 

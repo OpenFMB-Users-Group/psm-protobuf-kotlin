@@ -27,35 +27,35 @@ public object CircuitSegmentStatusProfileKt {
      * UML inherited base object
      * </pre>
      *
-     * <code>.commonmodule.EventMessageInfo eventMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
+     * <code>.commonmodule.StatusMessageInfo statusMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
      */
-    public var eventMessageInfo: openfmb.commonmodule.EventMessageInfo
-      @JvmName("getEventMessageInfo")
-      get() = _builder.getEventMessageInfo()
-      @JvmName("setEventMessageInfo")
+    public var statusMessageInfo: openfmb.commonmodule.StatusMessageInfo
+      @JvmName("getStatusMessageInfo")
+      get() = _builder.getStatusMessageInfo()
+      @JvmName("setStatusMessageInfo")
       set(value) {
-        _builder.setEventMessageInfo(value)
+        _builder.setStatusMessageInfo(value)
       }
     /**
      * <pre>
      * UML inherited base object
      * </pre>
      *
-     * <code>.commonmodule.EventMessageInfo eventMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
+     * <code>.commonmodule.StatusMessageInfo statusMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
      */
-    public fun clearEventMessageInfo() {
-      _builder.clearEventMessageInfo()
+    public fun clearStatusMessageInfo() {
+      _builder.clearStatusMessageInfo()
     }
     /**
      * <pre>
      * UML inherited base object
      * </pre>
      *
-     * <code>.commonmodule.EventMessageInfo eventMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
-     * @return Whether the eventMessageInfo field is set.
+     * <code>.commonmodule.StatusMessageInfo statusMessageInfo = 1 [(.uml.option_parent_message) = true];</code>
+     * @return Whether the statusMessageInfo field is set.
      */
-    public fun hasEventMessageInfo(): kotlin.Boolean {
-      return _builder.hasEventMessageInfo()
+    public fun hasStatusMessageInfo(): kotlin.Boolean {
+      return _builder.hasStatusMessageInfo()
     }
 
     /**
@@ -135,12 +135,12 @@ public object CircuitSegmentStatusProfileKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfile.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfile =
   openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
-  get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+  get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasApplicationSystem()) getApplicationSystem() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.circuitSegmentStatusOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentStatus?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusProfileOrBuilder.circuitSegmentStatusOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentStatus?
   get() = if (hasCircuitSegmentStatus()) getCircuitSegmentStatus() else null
 

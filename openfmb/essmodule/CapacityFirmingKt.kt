@@ -147,12 +147,12 @@ public object CapacityFirmingKt {
 public inline fun openfmb.essmodule.CapacityFirming.copy(block: openfmb.essmodule.CapacityFirmingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.CapacityFirming =
   openfmb.essmodule.CapacityFirmingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.CapacityFirmingOrBuilder.capacityFirmingCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.CapacityFirmingOrBuilder.capacityFirmingCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasCapacityFirmingCtl()) getCapacityFirmingCtl() else null
 
-val openfmb.essmodule.CapacityFirmingOrBuilder.limitNegativeDpDtOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.CapacityFirmingOrBuilder.limitNegativeDpDtOrNull: com.google.protobuf.FloatValue?
   get() = if (hasLimitNegativeDpDt()) getLimitNegativeDpDt() else null
 
-val openfmb.essmodule.CapacityFirmingOrBuilder.limitPositiveDpDtOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.CapacityFirmingOrBuilder.limitPositiveDpDtOrNull: com.google.protobuf.FloatValue?
   get() = if (hasLimitPositiveDpDt()) getLimitPositiveDpDt() else null
 

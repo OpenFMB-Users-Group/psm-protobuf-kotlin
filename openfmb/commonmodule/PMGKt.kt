@@ -177,15 +177,15 @@ public object PMGKt {
 public inline fun openfmb.commonmodule.PMG.copy(block: openfmb.commonmodule.PMGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PMG =
   openfmb.commonmodule.PMGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PMGOrBuilder.netOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.PMGOrBuilder.netOrNull: openfmb.commonmodule.MV?
   get() = if (hasNet()) getNet() else null
 
-val openfmb.commonmodule.PMGOrBuilder.phsAOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.PMGOrBuilder.phsAOrNull: openfmb.commonmodule.MV?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PMGOrBuilder.phsBOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.PMGOrBuilder.phsBOrNull: openfmb.commonmodule.MV?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PMGOrBuilder.phsCOrNull: openfmb.commonmodule.MV?
+public val openfmb.commonmodule.PMGOrBuilder.phsCOrNull: openfmb.commonmodule.MV?
   get() = if (hasPhsC()) getPhsC() else null
 

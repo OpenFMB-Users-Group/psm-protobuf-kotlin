@@ -99,9 +99,9 @@ public object SolarCapabilityOverrideKt {
 public inline fun openfmb.solarmodule.SolarCapabilityOverride.copy(block: openfmb.solarmodule.SolarCapabilityOverrideKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapabilityOverride =
   openfmb.solarmodule.SolarCapabilityOverrideKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarCapabilityOverrideOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.solarmodule.SolarCapabilityOverrideOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.solarmodule.SolarCapabilityOverrideOrBuilder.solarCapabilityConfigurationOrNull: openfmb.solarmodule.SolarCapabilityConfiguration?
+public val openfmb.solarmodule.SolarCapabilityOverrideOrBuilder.solarCapabilityConfigurationOrNull: openfmb.solarmodule.SolarCapabilityConfiguration?
   get() = if (hasSolarCapabilityConfiguration()) getSolarCapabilityConfiguration() else null
 

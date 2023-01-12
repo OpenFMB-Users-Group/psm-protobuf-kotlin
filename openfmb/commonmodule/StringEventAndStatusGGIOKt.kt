@@ -135,12 +135,12 @@ public object StringEventAndStatusGGIOKt {
 public inline fun openfmb.commonmodule.StringEventAndStatusGGIO.copy(block: openfmb.commonmodule.StringEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StringEventAndStatusGGIO =
   openfmb.commonmodule.StringEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 
-val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.strInOrNull: openfmb.commonmodule.VSS?
+public val openfmb.commonmodule.StringEventAndStatusGGIOOrBuilder.strInOrNull: openfmb.commonmodule.VSS?
   get() = if (hasStrIn()) getStrIn() else null
 

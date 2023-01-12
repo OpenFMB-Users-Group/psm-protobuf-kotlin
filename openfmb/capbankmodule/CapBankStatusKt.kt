@@ -99,9 +99,9 @@ public object CapBankStatusKt {
 public inline fun openfmb.capbankmodule.CapBankStatus.copy(block: openfmb.capbankmodule.CapBankStatusKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankStatus =
   openfmb.capbankmodule.CapBankStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.capbankmodule.CapBankStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.capbankmodule.CapBankStatusOrBuilder.capBankEventAndStatusYPSHOrNull: openfmb.capbankmodule.CapBankEventAndStatusYPSH?
+public val openfmb.capbankmodule.CapBankStatusOrBuilder.capBankEventAndStatusYPSHOrNull: openfmb.capbankmodule.CapBankEventAndStatusYPSH?
   get() = if (hasCapBankEventAndStatusYPSH()) getCapBankEventAndStatusYPSH() else null
 

@@ -135,12 +135,12 @@ public object StringControlGGIOKt {
 public inline fun openfmb.resourcemodule.StringControlGGIO.copy(block: openfmb.resourcemodule.StringControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.StringControlGGIO =
   openfmb.resourcemodule.StringControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.StringControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.resourcemodule.StringControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.resourcemodule.StringControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.resourcemodule.StringControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 
-val openfmb.resourcemodule.StringControlGGIOOrBuilder.strOutOrNull: openfmb.commonmodule.VSC?
+public val openfmb.resourcemodule.StringControlGGIOOrBuilder.strOutOrNull: openfmb.commonmodule.VSC?
   get() = if (hasStrOut()) getStrOut() else null
 

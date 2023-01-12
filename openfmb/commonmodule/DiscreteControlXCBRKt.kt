@@ -210,18 +210,18 @@ public object DiscreteControlXCBRKt {
 public inline fun openfmb.commonmodule.DiscreteControlXCBR.copy(block: openfmb.commonmodule.DiscreteControlXCBRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DiscreteControlXCBR =
   openfmb.commonmodule.DiscreteControlXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.DiscreteControlXCBROrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
+public val openfmb.commonmodule.DiscreteControlXCBROrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
   get() = if (hasLogicalNodeForControl()) getLogicalNodeForControl() else null
 
-val openfmb.commonmodule.DiscreteControlXCBROrBuilder.posOrNull: openfmb.commonmodule.PhaseDPC?
+public val openfmb.commonmodule.DiscreteControlXCBROrBuilder.posOrNull: openfmb.commonmodule.PhaseDPC?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.commonmodule.DiscreteControlXCBROrBuilder.protectionModeOrNull: openfmb.commonmodule.ControlINC?
+public val openfmb.commonmodule.DiscreteControlXCBROrBuilder.protectionModeOrNull: openfmb.commonmodule.ControlINC?
   get() = if (hasProtectionMode()) getProtectionMode() else null
 
-val openfmb.commonmodule.DiscreteControlXCBROrBuilder.recloseEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.DiscreteControlXCBROrBuilder.recloseEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasRecloseEnabled()) getRecloseEnabled() else null
 
-val openfmb.commonmodule.DiscreteControlXCBROrBuilder.resetProtectionPickupOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.DiscreteControlXCBROrBuilder.resetProtectionPickupOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasResetProtectionPickup()) getResetProtectionPickup() else null
 

@@ -138,12 +138,12 @@ public object BooleanControlGGIOKt {
 public inline fun openfmb.resourcemodule.BooleanControlGGIO.copy(block: openfmb.resourcemodule.BooleanControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.BooleanControlGGIO =
   openfmb.resourcemodule.BooleanControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 
-val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.sPCSOOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.resourcemodule.BooleanControlGGIOOrBuilder.sPCSOOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasSPCSO()) getSPCSO() else null
 

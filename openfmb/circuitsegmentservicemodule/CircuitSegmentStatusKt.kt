@@ -99,9 +99,9 @@ public object CircuitSegmentStatusKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentStatus.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentStatusKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentStatus =
   openfmb.circuitsegmentservicemodule.CircuitSegmentStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusOrBuilder.circuitSegmentStatusDCSCOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentStatusDCSC?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentStatusOrBuilder.circuitSegmentStatusDCSCOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentStatusDCSC?
   get() = if (hasCircuitSegmentStatusDCSC()) getCircuitSegmentStatusDCSC() else null
 

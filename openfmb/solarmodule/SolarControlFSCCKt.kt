@@ -99,9 +99,9 @@ public object SolarControlFSCCKt {
 public inline fun openfmb.solarmodule.SolarControlFSCC.copy(block: openfmb.solarmodule.SolarControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarControlFSCC =
   openfmb.solarmodule.SolarControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.solarmodule.SolarControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.solarmodule.SolarControlFSCCOrBuilder.solarControlScheduleFSCHOrNull: openfmb.solarmodule.SolarControlScheduleFSCH?
+public val openfmb.solarmodule.SolarControlFSCCOrBuilder.solarControlScheduleFSCHOrNull: openfmb.solarmodule.SolarControlScheduleFSCH?
   get() = if (hasSolarControlScheduleFSCH()) getSolarControlScheduleFSCH() else null
 

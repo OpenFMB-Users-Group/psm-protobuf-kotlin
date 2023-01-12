@@ -279,24 +279,24 @@ public object ESSFunctionKt {
 public inline fun openfmb.essmodule.ESSFunction.copy(block: openfmb.essmodule.ESSFunctionKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSFunction =
   openfmb.essmodule.ESSFunctionKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSFunctionOrBuilder.capacityFirmingOrNull: openfmb.essmodule.CapacityFirming?
+public val openfmb.essmodule.ESSFunctionOrBuilder.capacityFirmingOrNull: openfmb.essmodule.CapacityFirming?
   get() = if (hasCapacityFirming()) getCapacityFirming() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.frequencyRegulationOrNull: openfmb.essmodule.FrequencyRegulation?
+public val openfmb.essmodule.ESSFunctionOrBuilder.frequencyRegulationOrNull: openfmb.essmodule.FrequencyRegulation?
   get() = if (hasFrequencyRegulation()) getFrequencyRegulation() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.peakShavingOrNull: openfmb.essmodule.PeakShaving?
+public val openfmb.essmodule.ESSFunctionOrBuilder.peakShavingOrNull: openfmb.essmodule.PeakShaving?
   get() = if (hasPeakShaving()) getPeakShaving() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.socLimitOrNull: openfmb.essmodule.SocLimit?
+public val openfmb.essmodule.ESSFunctionOrBuilder.socLimitOrNull: openfmb.essmodule.SocLimit?
   get() = if (hasSocLimit()) getSocLimit() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.socManagementOrNull: openfmb.essmodule.SOCManagement?
+public val openfmb.essmodule.ESSFunctionOrBuilder.socManagementOrNull: openfmb.essmodule.SOCManagement?
   get() = if (hasSocManagement()) getSocManagement() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.voltageDroopOrNull: openfmb.essmodule.VoltageDroop?
+public val openfmb.essmodule.ESSFunctionOrBuilder.voltageDroopOrNull: openfmb.essmodule.VoltageDroop?
   get() = if (hasVoltageDroop()) getVoltageDroop() else null
 
-val openfmb.essmodule.ESSFunctionOrBuilder.voltagePIOrNull: openfmb.essmodule.VoltagePI?
+public val openfmb.essmodule.ESSFunctionOrBuilder.voltagePIOrNull: openfmb.essmodule.VoltagePI?
   get() = if (hasVoltagePI()) getVoltagePI() else null
 

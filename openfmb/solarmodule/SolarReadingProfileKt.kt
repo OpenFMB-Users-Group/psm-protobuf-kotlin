@@ -135,12 +135,12 @@ public object SolarReadingProfileKt {
 public inline fun openfmb.solarmodule.SolarReadingProfile.copy(block: openfmb.solarmodule.SolarReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarReadingProfile =
   openfmb.solarmodule.SolarReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.solarmodule.SolarReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.solarmodule.SolarReadingProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
+public val openfmb.solarmodule.SolarReadingProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
   get() = if (hasSolarInverter()) getSolarInverter() else null
 
-val openfmb.solarmodule.SolarReadingProfileOrBuilder.solarReadingOrNull: openfmb.solarmodule.SolarReading?
+public val openfmb.solarmodule.SolarReadingProfileOrBuilder.solarReadingOrNull: openfmb.solarmodule.SolarReading?
   get() = if (hasSolarReading()) getSolarReading() else null
 

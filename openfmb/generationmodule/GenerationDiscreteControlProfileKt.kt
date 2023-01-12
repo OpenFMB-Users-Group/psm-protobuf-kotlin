@@ -135,12 +135,12 @@ public object GenerationDiscreteControlProfileKt {
 public inline fun openfmb.generationmodule.GenerationDiscreteControlProfile.copy(block: openfmb.generationmodule.GenerationDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationDiscreteControlProfile =
   openfmb.generationmodule.GenerationDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 
-val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.generationDiscreteControlOrNull: openfmb.generationmodule.GenerationDiscreteControl?
+public val openfmb.generationmodule.GenerationDiscreteControlProfileOrBuilder.generationDiscreteControlOrNull: openfmb.generationmodule.GenerationDiscreteControl?
   get() = if (hasGenerationDiscreteControl()) getGenerationDiscreteControl() else null
 

@@ -99,9 +99,9 @@ public object GenerationEventKt {
 public inline fun openfmb.generationmodule.GenerationEvent.copy(block: openfmb.generationmodule.GenerationEventKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEvent =
   openfmb.generationmodule.GenerationEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.generationmodule.GenerationEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.generationmodule.GenerationEventOrBuilder.generationEventZGENOrNull: openfmb.generationmodule.GenerationEventZGEN?
+public val openfmb.generationmodule.GenerationEventOrBuilder.generationEventZGENOrNull: openfmb.generationmodule.GenerationEventZGEN?
   get() = if (hasGenerationEventZGEN()) getGenerationEventZGEN() else null
 

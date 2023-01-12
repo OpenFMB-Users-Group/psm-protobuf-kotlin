@@ -63,6 +63,6 @@ public object SolarCapabilityConfigurationKt {
 public inline fun openfmb.solarmodule.SolarCapabilityConfiguration.copy(block: openfmb.solarmodule.SolarCapabilityConfigurationKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapabilityConfiguration =
   openfmb.solarmodule.SolarCapabilityConfigurationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarCapabilityConfigurationOrBuilder.sourceCapabilityConfigurationOrNull: openfmb.commonmodule.SourceCapabilityConfiguration?
+public val openfmb.solarmodule.SolarCapabilityConfigurationOrBuilder.sourceCapabilityConfigurationOrNull: openfmb.commonmodule.SourceCapabilityConfiguration?
   get() = if (hasSourceCapabilityConfiguration()) getSourceCapabilityConfiguration() else null
 

@@ -351,30 +351,30 @@ public object CapBankEventAndStatusYPSHKt {
 public inline fun openfmb.capbankmodule.CapBankEventAndStatusYPSH.copy(block: openfmb.capbankmodule.CapBankEventAndStatusYPSHKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankEventAndStatusYPSH =
   openfmb.capbankmodule.CapBankEventAndStatusYPSHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.ampLmtOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.ampLmtOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasAmpLmt()) getAmpLmt() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.ctlModeOrNull: openfmb.commonmodule.Optional_ControlModeKind?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.ctlModeOrNull: openfmb.commonmodule.Optional_ControlModeKind?
   get() = if (hasCtlMode()) getCtlMode() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.dirRevOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.dirRevOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasDirRev()) getDirRev() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.tempLmtOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.tempLmtOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasTempLmt()) getTempLmt() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.vArLmtOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.vArLmtOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasVArLmt()) getVArLmt() else null
 
-val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.volLmtOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.capbankmodule.CapBankEventAndStatusYPSHOrBuilder.volLmtOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasVolLmt()) getVolLmt() else null
 

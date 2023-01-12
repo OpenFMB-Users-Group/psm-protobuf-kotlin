@@ -171,15 +171,15 @@ public object SwitchStatusXSWIKt {
 public inline fun openfmb.switchmodule.SwitchStatusXSWI.copy(block: openfmb.switchmodule.SwitchStatusXSWIKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchStatusXSWI =
   openfmb.switchmodule.SwitchStatusXSWIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
+public val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPS?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.protectionPickupOrNull: openfmb.commonmodule.PhaseSPS?
+public val openfmb.switchmodule.SwitchStatusXSWIOrBuilder.protectionPickupOrNull: openfmb.commonmodule.PhaseSPS?
   get() = if (hasProtectionPickup()) getProtectionPickup() else null
 

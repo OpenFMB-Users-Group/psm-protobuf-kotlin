@@ -463,6 +463,6 @@ public object ResourceEventKt {
 public inline fun openfmb.resourcemodule.ResourceEvent.copy(block: openfmb.resourcemodule.ResourceEventKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceEvent =
   openfmb.resourcemodule.ResourceEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceEventOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.resourcemodule.ResourceEventOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 

@@ -63,6 +63,6 @@ public object MeterKt {
 public inline fun openfmb.commonmodule.Meter.copy(block: openfmb.commonmodule.MeterKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Meter =
   openfmb.commonmodule.MeterKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.MeterOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.commonmodule.MeterOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

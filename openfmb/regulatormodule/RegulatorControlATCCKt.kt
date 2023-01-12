@@ -498,42 +498,42 @@ public object RegulatorControlATCCKt {
 public inline fun openfmb.regulatormodule.RegulatorControlATCC.copy(block: openfmb.regulatormodule.RegulatorControlATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorControlATCC =
   openfmb.regulatormodule.RegulatorControlATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
   get() = if (hasLogicalNodeForControl()) getLogicalNodeForControl() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirFwdOrNull: openfmb.regulatormodule.DirectionalATCC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirFwdOrNull: openfmb.regulatormodule.DirectionalATCC?
   get() = if (hasDirFwd()) getDirFwd() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirModeOrNull: openfmb.commonmodule.Optional_DirectionModeKind?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirModeOrNull: openfmb.commonmodule.Optional_DirectionModeKind?
   get() = if (hasDirMode()) getDirMode() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirRevOrNull: openfmb.regulatormodule.DirectionalATCC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirRevOrNull: openfmb.regulatormodule.DirectionalATCC?
   get() = if (hasDirRev()) getDirRev() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirThdOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.dirThdOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasDirThd()) getDirThd() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.parOpOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.parOpOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasParOp()) getParOp() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.tapOpLOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.tapOpLOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasTapOpL()) getTapOpL() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.tapOpROrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.tapOpROrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasTapOpR()) getTapOpR() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtHiOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtHiOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolLmtHi()) getVolLmtHi() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtLoOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtLoOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolLmtLo()) getVolLmtLo() else null
 
-val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtModeOrNull: openfmb.commonmodule.Optional_VoltLimitModeKind?
+public val openfmb.regulatormodule.RegulatorControlATCCOrBuilder.volLmtModeOrNull: openfmb.commonmodule.Optional_VoltLimitModeKind?
   get() = if (hasVolLmtMode()) getVolLmtMode() else null
 

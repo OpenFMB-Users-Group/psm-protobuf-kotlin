@@ -369,27 +369,27 @@ public object ACDKt {
 public inline fun openfmb.commonmodule.ACD.copy(block: openfmb.commonmodule.ACDKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ACD =
   openfmb.commonmodule.ACDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ACDOrBuilder.dirNeutOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
+public val openfmb.commonmodule.ACDOrBuilder.dirNeutOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
   get() = if (hasDirNeut()) getDirNeut() else null
 
-val openfmb.commonmodule.ACDOrBuilder.dirPhsAOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
+public val openfmb.commonmodule.ACDOrBuilder.dirPhsAOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
   get() = if (hasDirPhsA()) getDirPhsA() else null
 
-val openfmb.commonmodule.ACDOrBuilder.dirPhsBOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
+public val openfmb.commonmodule.ACDOrBuilder.dirPhsBOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
   get() = if (hasDirPhsB()) getDirPhsB() else null
 
-val openfmb.commonmodule.ACDOrBuilder.dirPhsCOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
+public val openfmb.commonmodule.ACDOrBuilder.dirPhsCOrNull: openfmb.commonmodule.Optional_PhaseFaultDirectionKind?
   get() = if (hasDirPhsC()) getDirPhsC() else null
 
-val openfmb.commonmodule.ACDOrBuilder.neutOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ACDOrBuilder.neutOrNull: com.google.protobuf.BoolValue?
   get() = if (hasNeut()) getNeut() else null
 
-val openfmb.commonmodule.ACDOrBuilder.phsAOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ACDOrBuilder.phsAOrNull: com.google.protobuf.BoolValue?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.ACDOrBuilder.phsBOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ACDOrBuilder.phsBOrNull: com.google.protobuf.BoolValue?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.ACDOrBuilder.phsCOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ACDOrBuilder.phsCOrNull: com.google.protobuf.BoolValue?
   get() = if (hasPhsC()) getPhsC() else null
 

@@ -135,12 +135,12 @@ public object CapBankReadingProfileKt {
 public inline fun openfmb.capbankmodule.CapBankReadingProfile.copy(block: openfmb.capbankmodule.CapBankReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankReadingProfile =
   openfmb.capbankmodule.CapBankReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.capBankReadingOrNull: openfmb.capbankmodule.CapBankReading?
+public val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.capBankReadingOrNull: openfmb.capbankmodule.CapBankReading?
   get() = if (hasCapBankReading()) getCapBankReading() else null
 
-val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
+public val openfmb.capbankmodule.CapBankReadingProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
   get() = if (hasCapBankSystem()) getCapBankSystem() else null
 

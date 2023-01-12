@@ -171,15 +171,15 @@ public object LoadEventAndStatusZGLDKt {
 public inline fun openfmb.loadmodule.LoadEventAndStatusZGLD.copy(block: openfmb.loadmodule.LoadEventAndStatusZGLDKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEventAndStatusZGLD =
   openfmb.loadmodule.LoadEventAndStatusZGLDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasEmgStop()) getEmgStop() else null
 
-val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.pointStatusOrNull: openfmb.loadmodule.LoadPointStatus?
+public val openfmb.loadmodule.LoadEventAndStatusZGLDOrBuilder.pointStatusOrNull: openfmb.loadmodule.LoadPointStatus?
   get() = if (hasPointStatus()) getPointStatus() else null
 

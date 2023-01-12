@@ -207,18 +207,18 @@ public object NameplateValueKt {
 public inline fun openfmb.commonmodule.NameplateValue.copy(block: openfmb.commonmodule.NameplateValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.NameplateValue =
   openfmb.commonmodule.NameplateValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.NameplateValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.NameplateValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.NameplateValueOrBuilder.modelOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NameplateValueOrBuilder.modelOrNull: com.google.protobuf.StringValue?
   get() = if (hasModel()) getModel() else null
 
-val openfmb.commonmodule.NameplateValueOrBuilder.sernumOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NameplateValueOrBuilder.sernumOrNull: com.google.protobuf.StringValue?
   get() = if (hasSernum()) getSernum() else null
 
-val openfmb.commonmodule.NameplateValueOrBuilder.swRevOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NameplateValueOrBuilder.swRevOrNull: com.google.protobuf.StringValue?
   get() = if (hasSwRev()) getSwRev() else null
 
-val openfmb.commonmodule.NameplateValueOrBuilder.vendorOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.NameplateValueOrBuilder.vendorOrNull: com.google.protobuf.StringValue?
   get() = if (hasVendor()) getVendor() else null
 

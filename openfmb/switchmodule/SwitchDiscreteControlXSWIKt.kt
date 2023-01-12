@@ -135,12 +135,12 @@ public object SwitchDiscreteControlXSWIKt {
 public inline fun openfmb.switchmodule.SwitchDiscreteControlXSWI.copy(block: openfmb.switchmodule.SwitchDiscreteControlXSWIKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchDiscreteControlXSWI =
   openfmb.switchmodule.SwitchDiscreteControlXSWIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
+public val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.logicalNodeForControlOrNull: openfmb.commonmodule.LogicalNodeForControl?
   get() = if (hasLogicalNodeForControl()) getLogicalNodeForControl() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPC?
+public val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.posOrNull: openfmb.commonmodule.PhaseDPC?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.resetProtectionPickupOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.switchmodule.SwitchDiscreteControlXSWIOrBuilder.resetProtectionPickupOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasResetProtectionPickup()) getResetProtectionPickup() else null
 

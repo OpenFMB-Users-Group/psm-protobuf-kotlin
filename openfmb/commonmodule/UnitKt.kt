@@ -88,6 +88,6 @@ public object UnitKt {
 public inline fun openfmb.commonmodule.Unit.copy(block: openfmb.commonmodule.UnitKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Unit =
   openfmb.commonmodule.UnitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.UnitOrBuilder.multiplierOrNull: openfmb.commonmodule.Optional_UnitMultiplierKind?
+public val openfmb.commonmodule.UnitOrBuilder.multiplierOrNull: openfmb.commonmodule.Optional_UnitMultiplierKind?
   get() = if (hasMultiplier()) getMultiplier() else null
 

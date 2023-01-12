@@ -163,6 +163,6 @@ public object InterconnectionScheduleFSCCKt {
 public inline fun openfmb.interconnectionmodule.InterconnectionScheduleFSCC.copy(block: openfmb.interconnectionmodule.InterconnectionScheduleFSCCKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionScheduleFSCC =
   openfmb.interconnectionmodule.InterconnectionScheduleFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.interconnectionmodule.InterconnectionScheduleFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.interconnectionmodule.InterconnectionScheduleFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 

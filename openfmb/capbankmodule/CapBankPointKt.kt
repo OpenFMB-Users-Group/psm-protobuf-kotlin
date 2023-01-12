@@ -99,9 +99,9 @@ public object CapBankPointKt {
 public inline fun openfmb.capbankmodule.CapBankPoint.copy(block: openfmb.capbankmodule.CapBankPointKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankPoint =
   openfmb.capbankmodule.CapBankPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankPointOrBuilder.controlOrNull: openfmb.capbankmodule.CapBankControlYPSH?
+public val openfmb.capbankmodule.CapBankPointOrBuilder.controlOrNull: openfmb.capbankmodule.CapBankControlYPSH?
   get() = if (hasControl()) getControl() else null
 
-val openfmb.capbankmodule.CapBankPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.capbankmodule.CapBankPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasStartTime()) getStartTime() else null
 

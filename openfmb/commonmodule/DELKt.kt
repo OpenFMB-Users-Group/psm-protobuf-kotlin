@@ -135,12 +135,12 @@ public object DELKt {
 public inline fun openfmb.commonmodule.DEL.copy(block: openfmb.commonmodule.DELKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DEL =
   openfmb.commonmodule.DELKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.DELOrBuilder.phsABOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.DELOrBuilder.phsABOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsAB()) getPhsAB() else null
 
-val openfmb.commonmodule.DELOrBuilder.phsBCOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.DELOrBuilder.phsBCOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsBC()) getPhsBC() else null
 
-val openfmb.commonmodule.DELOrBuilder.phsCAOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.DELOrBuilder.phsCAOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsCA()) getPhsCA() else null
 

@@ -88,6 +88,6 @@ public object ApplicationSystemKt {
 public inline fun openfmb.commonmodule.ApplicationSystem.copy(block: openfmb.commonmodule.ApplicationSystemKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ApplicationSystem =
   openfmb.commonmodule.ApplicationSystemKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ApplicationSystemOrBuilder.namedObjectOrNull: openfmb.commonmodule.NamedObject?
+public val openfmb.commonmodule.ApplicationSystemOrBuilder.namedObjectOrNull: openfmb.commonmodule.NamedObject?
   get() = if (hasNamedObject()) getNamedObject() else null
 

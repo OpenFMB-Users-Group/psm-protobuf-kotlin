@@ -135,12 +135,12 @@ public object BreakerEventProfileKt {
 public inline fun openfmb.breakermodule.BreakerEventProfile.copy(block: openfmb.breakermodule.BreakerEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerEventProfile =
   openfmb.breakermodule.BreakerEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.breakermodule.BreakerEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.breakermodule.BreakerEventProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
+public val openfmb.breakermodule.BreakerEventProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
   get() = if (hasBreaker()) getBreaker() else null
 
-val openfmb.breakermodule.BreakerEventProfileOrBuilder.breakerEventOrNull: openfmb.breakermodule.BreakerEvent?
+public val openfmb.breakermodule.BreakerEventProfileOrBuilder.breakerEventOrNull: openfmb.breakermodule.BreakerEvent?
   get() = if (hasBreakerEvent()) getBreakerEvent() else null
 

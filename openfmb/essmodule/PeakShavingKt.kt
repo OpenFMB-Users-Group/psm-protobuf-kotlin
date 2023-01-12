@@ -216,18 +216,18 @@ public object PeakShavingKt {
 public inline fun openfmb.essmodule.PeakShaving.copy(block: openfmb.essmodule.PeakShavingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.PeakShaving =
   openfmb.essmodule.PeakShavingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.PeakShavingOrBuilder.baseShavingLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.PeakShavingOrBuilder.baseShavingLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasBaseShavingLimit()) getBaseShavingLimit() else null
 
-val openfmb.essmodule.PeakShavingOrBuilder.peakShavingCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.PeakShavingOrBuilder.peakShavingCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasPeakShavingCtl()) getPeakShavingCtl() else null
 
-val openfmb.essmodule.PeakShavingOrBuilder.peakShavingLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.PeakShavingOrBuilder.peakShavingLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPeakShavingLimit()) getPeakShavingLimit() else null
 
-val openfmb.essmodule.PeakShavingOrBuilder.socManagementAllowedHighLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.PeakShavingOrBuilder.socManagementAllowedHighLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocManagementAllowedHighLimit()) getSocManagementAllowedHighLimit() else null
 
-val openfmb.essmodule.PeakShavingOrBuilder.socManagementAllowedLowLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.PeakShavingOrBuilder.socManagementAllowedLowLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocManagementAllowedLowLimit()) getSocManagementAllowedLowLimit() else null
 

@@ -207,18 +207,18 @@ public object ReserveRequestProfileKt {
 public inline fun openfmb.reservemodule.ReserveRequestProfile.copy(block: openfmb.reservemodule.ReserveRequestProfileKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveRequestProfile =
   openfmb.reservemodule.ReserveRequestProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.ReserveRequestProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.reservemodule.ReserveRequestProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.reservemodule.ReserveRequestProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.reservemodule.ReserveRequestProfileOrBuilder.requesterCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasRequesterCircuitSegmentService()) getRequesterCircuitSegmentService() else null
 
-val openfmb.reservemodule.ReserveRequestProfileOrBuilder.reserveRequestOrNull: openfmb.reservemodule.ReserveRequest?
+public val openfmb.reservemodule.ReserveRequestProfileOrBuilder.reserveRequestOrNull: openfmb.reservemodule.ReserveRequest?
   get() = if (hasReserveRequest()) getReserveRequest() else null
 
-val openfmb.reservemodule.ReserveRequestProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.reservemodule.ReserveRequestProfileOrBuilder.responderCircuitSegmentServiceOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasResponderCircuitSegmentService()) getResponderCircuitSegmentService() else null
 
-val openfmb.reservemodule.ReserveRequestProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.reservemodule.ReserveRequestProfileOrBuilder.tiePointOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasTiePoint()) getTiePoint() else null
 

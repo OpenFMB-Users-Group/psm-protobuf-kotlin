@@ -99,9 +99,9 @@ public object LoadControlFSCCKt {
 public inline fun openfmb.loadmodule.LoadControlFSCC.copy(block: openfmb.loadmodule.LoadControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlFSCC =
   openfmb.loadmodule.LoadControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.loadmodule.LoadControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.loadmodule.LoadControlFSCCOrBuilder.loadControlScheduleFSCHOrNull: openfmb.loadmodule.LoadControlScheduleFSCH?
+public val openfmb.loadmodule.LoadControlFSCCOrBuilder.loadControlScheduleFSCHOrNull: openfmb.loadmodule.LoadControlScheduleFSCH?
   get() = if (hasLoadControlScheduleFSCH()) getLoadControlScheduleFSCH() else null
 

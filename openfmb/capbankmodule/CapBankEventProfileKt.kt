@@ -135,12 +135,12 @@ public object CapBankEventProfileKt {
 public inline fun openfmb.capbankmodule.CapBankEventProfile.copy(block: openfmb.capbankmodule.CapBankEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankEventProfile =
   openfmb.capbankmodule.CapBankEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.capbankmodule.CapBankEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.capbankmodule.CapBankEventProfileOrBuilder.capBankEventOrNull: openfmb.capbankmodule.CapBankEvent?
+public val openfmb.capbankmodule.CapBankEventProfileOrBuilder.capBankEventOrNull: openfmb.capbankmodule.CapBankEvent?
   get() = if (hasCapBankEvent()) getCapBankEvent() else null
 
-val openfmb.capbankmodule.CapBankEventProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
+public val openfmb.capbankmodule.CapBankEventProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
   get() = if (hasCapBankSystem()) getCapBankSystem() else null
 

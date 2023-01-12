@@ -135,12 +135,12 @@ public object InterconnectionScheduleKt {
 public inline fun openfmb.interconnectionmodule.InterconnectionSchedule.copy(block: openfmb.interconnectionmodule.InterconnectionScheduleKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionSchedule =
   openfmb.interconnectionmodule.InterconnectionScheduleKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.interconnectionScheduleFSCCOrNull: openfmb.interconnectionmodule.InterconnectionScheduleFSCC?
+public val openfmb.interconnectionmodule.InterconnectionScheduleOrBuilder.interconnectionScheduleFSCCOrNull: openfmb.interconnectionmodule.InterconnectionScheduleFSCC?
   get() = if (hasInterconnectionScheduleFSCC()) getInterconnectionScheduleFSCC() else null
 

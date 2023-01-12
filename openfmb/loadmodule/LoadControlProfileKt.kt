@@ -135,12 +135,12 @@ public object LoadControlProfileKt {
 public inline fun openfmb.loadmodule.LoadControlProfile.copy(block: openfmb.loadmodule.LoadControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlProfile =
   openfmb.loadmodule.LoadControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.loadmodule.LoadControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.loadmodule.LoadControlProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
+public val openfmb.loadmodule.LoadControlProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
   get() = if (hasEnergyConsumer()) getEnergyConsumer() else null
 
-val openfmb.loadmodule.LoadControlProfileOrBuilder.loadControlOrNull: openfmb.loadmodule.LoadControl?
+public val openfmb.loadmodule.LoadControlProfileOrBuilder.loadControlOrNull: openfmb.loadmodule.LoadControl?
   get() = if (hasLoadControl()) getLoadControl() else null
 

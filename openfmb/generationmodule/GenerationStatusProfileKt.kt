@@ -135,12 +135,12 @@ public object GenerationStatusProfileKt {
 public inline fun openfmb.generationmodule.GenerationStatusProfile.copy(block: openfmb.generationmodule.GenerationStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationStatusProfile =
   openfmb.generationmodule.GenerationStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.generationmodule.GenerationStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.generationmodule.GenerationStatusProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationStatusProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 
-val openfmb.generationmodule.GenerationStatusProfileOrBuilder.generationStatusOrNull: openfmb.generationmodule.GenerationStatus?
+public val openfmb.generationmodule.GenerationStatusProfileOrBuilder.generationStatusOrNull: openfmb.generationmodule.GenerationStatus?
   get() = if (hasGenerationStatus()) getGenerationStatus() else null
 

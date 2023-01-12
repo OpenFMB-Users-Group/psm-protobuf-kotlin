@@ -88,6 +88,6 @@ public object VarSPCKt {
 public inline fun openfmb.commonmodule.VarSPC.copy(block: openfmb.commonmodule.VarSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VarSPC =
   openfmb.commonmodule.VarSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.VarSPCOrBuilder.varParameterOrNull: openfmb.commonmodule.OperationDVAR?
+public val openfmb.commonmodule.VarSPCOrBuilder.varParameterOrNull: openfmb.commonmodule.OperationDVAR?
   get() = if (hasVarParameter()) getVarParameter() else null
 

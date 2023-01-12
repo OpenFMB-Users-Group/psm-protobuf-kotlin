@@ -99,9 +99,9 @@ public object GenerationCapabilityOverrideKt {
 public inline fun openfmb.generationmodule.GenerationCapabilityOverride.copy(block: openfmb.generationmodule.GenerationCapabilityOverrideKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCapabilityOverride =
   openfmb.generationmodule.GenerationCapabilityOverrideKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationCapabilityOverrideOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.generationmodule.GenerationCapabilityOverrideOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.generationmodule.GenerationCapabilityOverrideOrBuilder.generationCapabilityConfigurationOrNull: openfmb.generationmodule.GenerationCapabilityConfiguration?
+public val openfmb.generationmodule.GenerationCapabilityOverrideOrBuilder.generationCapabilityConfigurationOrNull: openfmb.generationmodule.GenerationCapabilityConfiguration?
   get() = if (hasGenerationCapabilityConfiguration()) getGenerationCapabilityConfiguration() else null
 

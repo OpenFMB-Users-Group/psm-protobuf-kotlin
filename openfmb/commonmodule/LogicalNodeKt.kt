@@ -63,6 +63,6 @@ public object LogicalNodeKt {
 public inline fun openfmb.commonmodule.LogicalNode.copy(block: openfmb.commonmodule.LogicalNodeKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.LogicalNode =
   openfmb.commonmodule.LogicalNodeKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.LogicalNodeOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.LogicalNodeOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 

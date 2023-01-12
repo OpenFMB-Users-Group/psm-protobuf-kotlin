@@ -88,6 +88,6 @@ public object ConductingEquipmentKt {
 public inline fun openfmb.commonmodule.ConductingEquipment.copy(block: openfmb.commonmodule.ConductingEquipmentKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ConductingEquipment =
   openfmb.commonmodule.ConductingEquipmentKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ConductingEquipmentOrBuilder.namedObjectOrNull: openfmb.commonmodule.NamedObject?
+public val openfmb.commonmodule.ConductingEquipmentOrBuilder.namedObjectOrNull: openfmb.commonmodule.NamedObject?
   get() = if (hasNamedObject()) getNamedObject() else null
 

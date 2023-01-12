@@ -91,6 +91,6 @@ public object ENS_HealthKindKt {
 public inline fun openfmb.commonmodule.ENS_HealthKind.copy(block: openfmb.commonmodule.ENS_HealthKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_HealthKind =
   openfmb.commonmodule.ENS_HealthKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENS_HealthKindOrBuilder.dOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.ENS_HealthKindOrBuilder.dOrNull: com.google.protobuf.StringValue?
   get() = if (hasD()) getD() else null
 

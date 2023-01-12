@@ -135,12 +135,12 @@ public object SwitchDiscreteControlProfileKt {
 public inline fun openfmb.switchmodule.SwitchDiscreteControlProfile.copy(block: openfmb.switchmodule.SwitchDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchDiscreteControlProfile =
   openfmb.switchmodule.SwitchDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
+public val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
   get() = if (hasProtectedSwitch()) getProtectedSwitch() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.switchDiscreteControlOrNull: openfmb.switchmodule.SwitchDiscreteControl?
+public val openfmb.switchmodule.SwitchDiscreteControlProfileOrBuilder.switchDiscreteControlOrNull: openfmb.switchmodule.SwitchDiscreteControl?
   get() = if (hasSwitchDiscreteControl()) getSwitchDiscreteControl() else null
 

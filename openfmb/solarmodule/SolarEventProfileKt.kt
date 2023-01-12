@@ -135,12 +135,12 @@ public object SolarEventProfileKt {
 public inline fun openfmb.solarmodule.SolarEventProfile.copy(block: openfmb.solarmodule.SolarEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEventProfile =
   openfmb.solarmodule.SolarEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.solarmodule.SolarEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.solarmodule.SolarEventProfileOrBuilder.solarEventOrNull: openfmb.solarmodule.SolarEvent?
+public val openfmb.solarmodule.SolarEventProfileOrBuilder.solarEventOrNull: openfmb.solarmodule.SolarEvent?
   get() = if (hasSolarEvent()) getSolarEvent() else null
 
-val openfmb.solarmodule.SolarEventProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
+public val openfmb.solarmodule.SolarEventProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
   get() = if (hasSolarInverter()) getSolarInverter() else null
 

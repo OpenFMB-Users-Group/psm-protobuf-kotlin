@@ -135,12 +135,12 @@ public object LoadEventProfileKt {
 public inline fun openfmb.loadmodule.LoadEventProfile.copy(block: openfmb.loadmodule.LoadEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEventProfile =
   openfmb.loadmodule.LoadEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.loadmodule.LoadEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.loadmodule.LoadEventProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
+public val openfmb.loadmodule.LoadEventProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
   get() = if (hasEnergyConsumer()) getEnergyConsumer() else null
 
-val openfmb.loadmodule.LoadEventProfileOrBuilder.loadEventOrNull: openfmb.loadmodule.LoadEvent?
+public val openfmb.loadmodule.LoadEventProfileOrBuilder.loadEventOrNull: openfmb.loadmodule.LoadEvent?
   get() = if (hasLoadEvent()) getLoadEvent() else null
 

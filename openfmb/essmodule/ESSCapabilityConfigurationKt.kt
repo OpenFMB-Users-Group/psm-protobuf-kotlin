@@ -207,18 +207,18 @@ public object ESSCapabilityConfigurationKt {
 public inline fun openfmb.essmodule.ESSCapabilityConfiguration.copy(block: openfmb.essmodule.ESSCapabilityConfigurationKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityConfiguration =
   openfmb.essmodule.ESSCapabilityConfigurationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.sourceCapabilityConfigurationOrNull: openfmb.commonmodule.SourceCapabilityConfiguration?
+public val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.sourceCapabilityConfigurationOrNull: openfmb.commonmodule.SourceCapabilityConfiguration?
   get() = if (hasSourceCapabilityConfiguration()) getSourceCapabilityConfiguration() else null
 
-val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.vAChaRteMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.vAChaRteMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVAChaRteMax()) getVAChaRteMax() else null
 
-val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.vADisChaRteMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.vADisChaRteMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVADisChaRteMax()) getVADisChaRteMax() else null
 
-val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.wChaRteMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.wChaRteMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWChaRteMax()) getWChaRteMax() else null
 
-val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.wDisChaRteMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityConfigurationOrBuilder.wDisChaRteMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWDisChaRteMax()) getWDisChaRteMax() else null
 

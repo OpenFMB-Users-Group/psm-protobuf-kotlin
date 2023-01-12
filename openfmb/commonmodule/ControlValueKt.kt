@@ -141,12 +141,12 @@ public object ControlValueKt {
 public inline fun openfmb.commonmodule.ControlValue.copy(block: openfmb.commonmodule.ControlValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlValue =
   openfmb.commonmodule.ControlValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ControlValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.ControlValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.ControlValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ControlValueOrBuilder.modBlkOrNull: com.google.protobuf.BoolValue?
   get() = if (hasModBlk()) getModBlk() else null
 
-val openfmb.commonmodule.ControlValueOrBuilder.resetOrNull: com.google.protobuf.BoolValue?
+public val openfmb.commonmodule.ControlValueOrBuilder.resetOrNull: com.google.protobuf.BoolValue?
   get() = if (hasReset()) getReset() else null
 

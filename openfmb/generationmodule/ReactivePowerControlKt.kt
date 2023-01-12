@@ -207,18 +207,18 @@ public object ReactivePowerControlKt {
 public inline fun openfmb.generationmodule.ReactivePowerControl.copy(block: openfmb.generationmodule.ReactivePowerControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.ReactivePowerControl =
   openfmb.generationmodule.ReactivePowerControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.ReactivePowerControlOrBuilder.droopSetpointOrNull: openfmb.generationmodule.DroopParameter?
+public val openfmb.generationmodule.ReactivePowerControlOrBuilder.droopSetpointOrNull: openfmb.generationmodule.DroopParameter?
   get() = if (hasDroopSetpoint()) getDroopSetpoint() else null
 
-val openfmb.generationmodule.ReactivePowerControlOrBuilder.powerFactorSetpointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.ReactivePowerControlOrBuilder.powerFactorSetpointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPowerFactorSetpoint()) getPowerFactorSetpoint() else null
 
-val openfmb.generationmodule.ReactivePowerControlOrBuilder.reactivePowerControlModeOrNull: openfmb.commonmodule.Optional_ReactivePowerControlKind?
+public val openfmb.generationmodule.ReactivePowerControlOrBuilder.reactivePowerControlModeOrNull: openfmb.commonmodule.Optional_ReactivePowerControlKind?
   get() = if (hasReactivePowerControlMode()) getReactivePowerControlMode() else null
 
-val openfmb.generationmodule.ReactivePowerControlOrBuilder.reactivePowerSetpointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.ReactivePowerControlOrBuilder.reactivePowerSetpointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasReactivePowerSetpoint()) getReactivePowerSetpoint() else null
 
-val openfmb.generationmodule.ReactivePowerControlOrBuilder.voltageSetpointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.ReactivePowerControlOrBuilder.voltageSetpointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasVoltageSetpoint()) getVoltageSetpoint() else null
 

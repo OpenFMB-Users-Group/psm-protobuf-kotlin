@@ -63,6 +63,6 @@ public object SolarInverterKt {
 public inline fun openfmb.solarmodule.SolarInverter.copy(block: openfmb.solarmodule.SolarInverterKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarInverter =
   openfmb.solarmodule.SolarInverterKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarInverterOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.solarmodule.SolarInverterOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

@@ -171,15 +171,15 @@ public object GenerationDiscreteControlKt {
 public inline fun openfmb.generationmodule.GenerationDiscreteControl.copy(block: openfmb.generationmodule.GenerationDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationDiscreteControl =
   openfmb.generationmodule.GenerationDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.reactivePowerControlOrNull: openfmb.generationmodule.ReactivePowerControl?
+public val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.reactivePowerControlOrNull: openfmb.generationmodule.ReactivePowerControl?
   get() = if (hasReactivePowerControl()) getReactivePowerControl() else null
 
-val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.realPowerControlOrNull: openfmb.generationmodule.RealPowerControl?
+public val openfmb.generationmodule.GenerationDiscreteControlOrBuilder.realPowerControlOrNull: openfmb.generationmodule.RealPowerControl?
   get() = if (hasRealPowerControl()) getRealPowerControl() else null
 

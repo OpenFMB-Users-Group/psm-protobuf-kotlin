@@ -619,48 +619,48 @@ public object SourceCapabilityRatingsKt {
 public inline fun openfmb.commonmodule.SourceCapabilityRatings.copy(block: openfmb.commonmodule.SourceCapabilityRatingsKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SourceCapabilityRatings =
   openfmb.commonmodule.SourceCapabilityRatingsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.aMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.aMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasAMaxRtg()) getAMaxRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.freqNomRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.freqNomRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasFreqNomRtg()) getFreqNomRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.reactSusceptRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.reactSusceptRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasReactSusceptRtg()) getReactSusceptRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vAMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vAMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVAMaxRtg()) getVAMaxRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.varMaxAbsRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.varMaxAbsRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVarMaxAbsRtg()) getVarMaxAbsRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.varMaxInjRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.varMaxInjRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVarMaxInjRtg()) getVarMaxInjRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVMaxRtg()) getVMaxRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vMinRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vMinRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVMinRtg()) getVMinRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vNomRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.vNomRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVNomRtg()) getVNomRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWMaxRtg()) getWMaxRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wOvrExtRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wOvrExtRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWOvrExtRtg()) getWOvrExtRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wOvrExtRtgPFOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wOvrExtRtgPFOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWOvrExtRtgPF()) getWOvrExtRtgPF() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wUndExtRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wUndExtRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWUndExtRtg()) getWUndExtRtg() else null
 
-val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wUndExtRtgPFOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityRatingsOrBuilder.wUndExtRtgPFOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWUndExtRtgPF()) getWUndExtRtgPF() else null
 

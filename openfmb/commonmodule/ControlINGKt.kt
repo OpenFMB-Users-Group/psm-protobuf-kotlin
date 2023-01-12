@@ -88,6 +88,6 @@ public object ControlINGKt {
 public inline fun openfmb.commonmodule.ControlING.copy(block: openfmb.commonmodule.ControlINGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlING =
   openfmb.commonmodule.ControlINGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ControlINGOrBuilder.unitsOrNull: openfmb.commonmodule.Unit?
+public val openfmb.commonmodule.ControlINGOrBuilder.unitsOrNull: openfmb.commonmodule.Unit?
   get() = if (hasUnits()) getUnits() else null
 

@@ -99,9 +99,9 @@ public object GenerationControlFSCCKt {
 public inline fun openfmb.generationmodule.GenerationControlFSCC.copy(block: openfmb.generationmodule.GenerationControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControlFSCC =
   openfmb.generationmodule.GenerationControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
+public val openfmb.generationmodule.GenerationControlFSCCOrBuilder.controlFSCCOrNull: openfmb.commonmodule.ControlFSCC?
   get() = if (hasControlFSCC()) getControlFSCC() else null
 
-val openfmb.generationmodule.GenerationControlFSCCOrBuilder.generationControlScheduleFSCHOrNull: openfmb.generationmodule.GenerationControlScheduleFSCH?
+public val openfmb.generationmodule.GenerationControlFSCCOrBuilder.generationControlScheduleFSCHOrNull: openfmb.generationmodule.GenerationControlScheduleFSCH?
   get() = if (hasGenerationControlScheduleFSCH()) getGenerationControlScheduleFSCH() else null
 

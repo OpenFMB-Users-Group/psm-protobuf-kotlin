@@ -144,12 +144,12 @@ public object CMVKt {
 public inline fun openfmb.commonmodule.CMV.copy(block: openfmb.commonmodule.CMVKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CMV =
   openfmb.commonmodule.CMVKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.CMVOrBuilder.cValOrNull: openfmb.commonmodule.Vector?
+public val openfmb.commonmodule.CMVOrBuilder.cValOrNull: openfmb.commonmodule.Vector?
   get() = if (hasCVal()) getCVal() else null
 
-val openfmb.commonmodule.CMVOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.CMVOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.CMVOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.CMVOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

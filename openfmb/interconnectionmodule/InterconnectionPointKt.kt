@@ -387,33 +387,33 @@ public object InterconnectionPointKt {
 public inline fun openfmb.interconnectionmodule.InterconnectionPoint.copy(block: openfmb.interconnectionmodule.InterconnectionPointKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionPoint =
   openfmb.interconnectionmodule.InterconnectionPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasBlackStartEnabled()) getBlackStartEnabled() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasFrequencySetPointEnabled()) getFrequencySetPointEnabled() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.islandOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.islandOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasIsland()) getIsland() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctHzDroop()) getPctHzDroop() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctVDroop()) getPctVDroop() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasReactivePwrSetPointEnabled()) getReactivePwrSetPointEnabled() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasRealPwrSetPointEnabled()) getRealPwrSetPointEnabled() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 
-val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.interconnectionmodule.InterconnectionPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasStartTime()) getStartTime() else null
 

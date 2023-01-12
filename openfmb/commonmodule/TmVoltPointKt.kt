@@ -88,6 +88,6 @@ public object TmVoltPointKt {
 public inline fun openfmb.commonmodule.TmVoltPoint.copy(block: openfmb.commonmodule.TmVoltPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TmVoltPoint =
   openfmb.commonmodule.TmVoltPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.TmVoltPointOrBuilder.tmValOrNull: openfmb.commonmodule.ClearingTime?
+public val openfmb.commonmodule.TmVoltPointOrBuilder.tmValOrNull: openfmb.commonmodule.ClearingTime?
   get() = if (hasTmVal()) getTmVal() else null
 

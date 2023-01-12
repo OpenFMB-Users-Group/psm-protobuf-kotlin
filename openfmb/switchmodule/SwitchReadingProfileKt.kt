@@ -199,9 +199,9 @@ public object SwitchReadingProfileKt {
 public inline fun openfmb.switchmodule.SwitchReadingProfile.copy(block: openfmb.switchmodule.SwitchReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchReadingProfile =
   openfmb.switchmodule.SwitchReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.switchmodule.SwitchReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.switchmodule.SwitchReadingProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
+public val openfmb.switchmodule.SwitchReadingProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
   get() = if (hasProtectedSwitch()) getProtectedSwitch() else null
 

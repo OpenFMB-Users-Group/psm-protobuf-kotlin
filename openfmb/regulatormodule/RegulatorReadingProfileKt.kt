@@ -199,9 +199,9 @@ public object RegulatorReadingProfileKt {
 public inline fun openfmb.regulatormodule.RegulatorReadingProfile.copy(block: openfmb.regulatormodule.RegulatorReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorReadingProfile =
   openfmb.regulatormodule.RegulatorReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.regulatormodule.RegulatorReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.regulatormodule.RegulatorReadingProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
+public val openfmb.regulatormodule.RegulatorReadingProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
   get() = if (hasRegulatorSystem()) getRegulatorSystem() else null
 

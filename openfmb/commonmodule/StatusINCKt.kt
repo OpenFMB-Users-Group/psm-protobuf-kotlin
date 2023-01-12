@@ -124,9 +124,9 @@ public object StatusINCKt {
 public inline fun openfmb.commonmodule.StatusINC.copy(block: openfmb.commonmodule.StatusINCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusINC =
   openfmb.commonmodule.StatusINCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StatusINCOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.StatusINCOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.StatusINCOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.StatusINCOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

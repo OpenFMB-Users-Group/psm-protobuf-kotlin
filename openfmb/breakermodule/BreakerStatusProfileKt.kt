@@ -135,12 +135,12 @@ public object BreakerStatusProfileKt {
 public inline fun openfmb.breakermodule.BreakerStatusProfile.copy(block: openfmb.breakermodule.BreakerStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerStatusProfile =
   openfmb.breakermodule.BreakerStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.breakermodule.BreakerStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.breakermodule.BreakerStatusProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
+public val openfmb.breakermodule.BreakerStatusProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
   get() = if (hasBreaker()) getBreaker() else null
 
-val openfmb.breakermodule.BreakerStatusProfileOrBuilder.breakerStatusOrNull: openfmb.breakermodule.BreakerStatus?
+public val openfmb.breakermodule.BreakerStatusProfileOrBuilder.breakerStatusOrNull: openfmb.breakermodule.BreakerStatus?
   get() = if (hasBreakerStatus()) getBreakerStatus() else null
 

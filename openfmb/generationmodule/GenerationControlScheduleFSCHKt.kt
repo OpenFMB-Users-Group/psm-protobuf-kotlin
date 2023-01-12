@@ -63,6 +63,6 @@ public object GenerationControlScheduleFSCHKt {
 public inline fun openfmb.generationmodule.GenerationControlScheduleFSCH.copy(block: openfmb.generationmodule.GenerationControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControlScheduleFSCH =
   openfmb.generationmodule.GenerationControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.generationmodule.GenerationCSG?
+public val openfmb.generationmodule.GenerationControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.generationmodule.GenerationCSG?
   get() = if (hasValDCSG()) getValDCSG() else null
 

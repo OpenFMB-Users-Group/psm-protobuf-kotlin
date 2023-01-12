@@ -63,6 +63,6 @@ public object RegulatorSystemKt {
 public inline fun openfmb.regulatormodule.RegulatorSystem.copy(block: openfmb.regulatormodule.RegulatorSystemKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorSystem =
   openfmb.regulatormodule.RegulatorSystemKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorSystemOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.regulatormodule.RegulatorSystemOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

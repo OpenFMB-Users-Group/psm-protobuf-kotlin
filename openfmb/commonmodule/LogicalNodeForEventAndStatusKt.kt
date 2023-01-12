@@ -207,18 +207,18 @@ public object LogicalNodeForEventAndStatusKt {
 public inline fun openfmb.commonmodule.LogicalNodeForEventAndStatus.copy(block: openfmb.commonmodule.LogicalNodeForEventAndStatusKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.LogicalNodeForEventAndStatus =
   openfmb.commonmodule.LogicalNodeForEventAndStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.behOrNull: openfmb.commonmodule.ENS_BehaviourModeKind?
+public val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.behOrNull: openfmb.commonmodule.ENS_BehaviourModeKind?
   get() = if (hasBeh()) getBeh() else null
 
-val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.eEHealthOrNull: openfmb.commonmodule.ENS_HealthKind?
+public val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.eEHealthOrNull: openfmb.commonmodule.ENS_HealthKind?
   get() = if (hasEEHealth()) getEEHealth() else null
 
-val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.hotLineTagOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.hotLineTagOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasHotLineTag()) getHotLineTag() else null
 
-val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.remoteBlkOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.commonmodule.LogicalNodeForEventAndStatusOrBuilder.remoteBlkOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasRemoteBlk()) getRemoteBlk() else null
 

@@ -99,9 +99,9 @@ public object BreakerStatusKt {
 public inline fun openfmb.breakermodule.BreakerStatus.copy(block: openfmb.breakermodule.BreakerStatusKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerStatus =
   openfmb.breakermodule.BreakerStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.breakermodule.BreakerStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.breakermodule.BreakerStatusOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
+public val openfmb.breakermodule.BreakerStatusOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
   get() = if (hasStatusAndEventXCBR()) getStatusAndEventXCBR() else null
 

@@ -124,9 +124,9 @@ public object ReserveRequestKt {
 public inline fun openfmb.reservemodule.ReserveRequest.copy(block: openfmb.reservemodule.ReserveRequestKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveRequest =
   openfmb.reservemodule.ReserveRequestKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.ReserveRequestOrBuilder.marginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.ReserveRequestOrBuilder.marginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasMargin()) getMargin() else null
 
-val openfmb.reservemodule.ReserveRequestOrBuilder.standbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.ReserveRequestOrBuilder.standbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasStandbyMargin()) getStandbyMargin() else null
 

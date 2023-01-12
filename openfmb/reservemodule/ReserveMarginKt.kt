@@ -207,18 +207,18 @@ public object ReserveMarginKt {
 public inline fun openfmb.reservemodule.ReserveMargin.copy(block: openfmb.reservemodule.ReserveMarginKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveMargin =
   openfmb.reservemodule.ReserveMarginKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.ReserveMarginOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.reservemodule.ReserveMarginOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.reservemodule.ReserveMarginOrBuilder.aOrNull: openfmb.commonmodule.PMG?
+public val openfmb.reservemodule.ReserveMarginOrBuilder.aOrNull: openfmb.commonmodule.PMG?
   get() = if (hasA()) getA() else null
 
-val openfmb.reservemodule.ReserveMarginOrBuilder.vAOrNull: openfmb.commonmodule.PMG?
+public val openfmb.reservemodule.ReserveMarginOrBuilder.vAOrNull: openfmb.commonmodule.PMG?
   get() = if (hasVA()) getVA() else null
 
-val openfmb.reservemodule.ReserveMarginOrBuilder.vArOrNull: openfmb.commonmodule.PMG?
+public val openfmb.reservemodule.ReserveMarginOrBuilder.vArOrNull: openfmb.commonmodule.PMG?
   get() = if (hasVAr()) getVAr() else null
 
-val openfmb.reservemodule.ReserveMarginOrBuilder.wOrNull: openfmb.commonmodule.PMG?
+public val openfmb.reservemodule.ReserveMarginOrBuilder.wOrNull: openfmb.commonmodule.PMG?
   get() = if (hasW()) getW() else null
 

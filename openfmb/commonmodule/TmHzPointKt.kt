@@ -88,6 +88,6 @@ public object TmHzPointKt {
 public inline fun openfmb.commonmodule.TmHzPoint.copy(block: openfmb.commonmodule.TmHzPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TmHzPoint =
   openfmb.commonmodule.TmHzPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.TmHzPointOrBuilder.tmValOrNull: openfmb.commonmodule.ClearingTime?
+public val openfmb.commonmodule.TmHzPointOrBuilder.tmValOrNull: openfmb.commonmodule.ClearingTime?
   get() = if (hasTmVal()) getTmVal() else null
 

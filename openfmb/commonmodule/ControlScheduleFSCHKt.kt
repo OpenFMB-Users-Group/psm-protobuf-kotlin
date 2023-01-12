@@ -63,6 +63,6 @@ public object ControlScheduleFSCHKt {
 public inline fun openfmb.commonmodule.ControlScheduleFSCH.copy(block: openfmb.commonmodule.ControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlScheduleFSCH =
   openfmb.commonmodule.ControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ControlScheduleFSCHOrBuilder.valACSGOrNull: openfmb.commonmodule.ScheduleCSG?
+public val openfmb.commonmodule.ControlScheduleFSCHOrBuilder.valACSGOrNull: openfmb.commonmodule.ScheduleCSG?
   get() = if (hasValACSG()) getValACSG() else null
 

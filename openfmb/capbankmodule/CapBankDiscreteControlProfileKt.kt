@@ -135,12 +135,12 @@ public object CapBankDiscreteControlProfileKt {
 public inline fun openfmb.capbankmodule.CapBankDiscreteControlProfile.copy(block: openfmb.capbankmodule.CapBankDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankDiscreteControlProfile =
   openfmb.capbankmodule.CapBankDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.capBankControlOrNull: openfmb.capbankmodule.CapBankDiscreteControl?
+public val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.capBankControlOrNull: openfmb.capbankmodule.CapBankDiscreteControl?
   get() = if (hasCapBankControl()) getCapBankControl() else null
 
-val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
+public val openfmb.capbankmodule.CapBankDiscreteControlProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
   get() = if (hasCapBankSystem()) getCapBankSystem() else null
 

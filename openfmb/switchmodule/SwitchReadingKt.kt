@@ -207,18 +207,18 @@ public object SwitchReadingKt {
 public inline fun openfmb.switchmodule.SwitchReading.copy(block: openfmb.switchmodule.SwitchReadingKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchReading =
   openfmb.switchmodule.SwitchReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.switchmodule.SwitchReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.switchmodule.SwitchReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.switchmodule.SwitchReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasDiffReadingMMXU()) getDiffReadingMMXU() else null
 
-val openfmb.switchmodule.SwitchReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.switchmodule.SwitchReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.switchmodule.SwitchReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.switchmodule.SwitchReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.switchmodule.SwitchReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.switchmodule.SwitchReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

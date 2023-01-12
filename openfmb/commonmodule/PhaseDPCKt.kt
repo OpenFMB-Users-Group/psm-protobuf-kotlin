@@ -171,15 +171,15 @@ public object PhaseDPCKt {
 public inline fun openfmb.commonmodule.PhaseDPC.copy(block: openfmb.commonmodule.PhaseDPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseDPC =
   openfmb.commonmodule.PhaseDPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PhaseDPCOrBuilder.phs3OrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.commonmodule.PhaseDPCOrBuilder.phs3OrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasPhs3()) getPhs3() else null
 
-val openfmb.commonmodule.PhaseDPCOrBuilder.phsAOrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.commonmodule.PhaseDPCOrBuilder.phsAOrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PhaseDPCOrBuilder.phsBOrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.commonmodule.PhaseDPCOrBuilder.phsBOrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PhaseDPCOrBuilder.phsCOrNull: openfmb.commonmodule.ControlDPC?
+public val openfmb.commonmodule.PhaseDPCOrBuilder.phsCOrNull: openfmb.commonmodule.ControlDPC?
   get() = if (hasPhsC()) getPhsC() else null
 

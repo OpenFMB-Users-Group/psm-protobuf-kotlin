@@ -639,54 +639,54 @@ public object CapBankControlYPSHKt {
 public inline fun openfmb.capbankmodule.CapBankControlYPSH.copy(block: openfmb.capbankmodule.CapBankControlYPSHKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankControlYPSH =
   openfmb.capbankmodule.CapBankControlYPSHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampLmtOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampLmtOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasAmpLmt()) getAmpLmt() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampThdHiOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampThdHiOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasAmpThdHi()) getAmpThdHi() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampThdLoOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ampThdLoOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasAmpThdLo()) getAmpThdLo() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeAutoOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeAutoOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasCtlModeAuto()) getCtlModeAuto() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeOvrRdOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeOvrRdOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasCtlModeOvrRd()) getCtlModeOvrRd() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeRemOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.ctlModeRemOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasCtlModeRem()) getCtlModeRem() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.dirModeOrNull: openfmb.commonmodule.Optional_DirectionModeKind?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.dirModeOrNull: openfmb.commonmodule.Optional_DirectionModeKind?
   get() = if (hasDirMode()) getDirMode() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.posOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.posOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasPos()) getPos() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempLmtOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempLmtOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasTempLmt()) getTempLmt() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempThdHiOrNull: openfmb.commonmodule.ControlAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempThdHiOrNull: openfmb.commonmodule.ControlAPC?
   get() = if (hasTempThdHi()) getTempThdHi() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempThdLoOrNull: openfmb.commonmodule.ControlAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.tempThdLoOrNull: openfmb.commonmodule.ControlAPC?
   get() = if (hasTempThdLo()) getTempThdLo() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArLmtOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArLmtOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasVArLmt()) getVArLmt() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArThdHiOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArThdHiOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVArThdHi()) getVArThdHi() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArThdLoOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.vArThdLoOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVArThdLo()) getVArThdLo() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volLmtOrNull: openfmb.commonmodule.PhaseSPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volLmtOrNull: openfmb.commonmodule.PhaseSPC?
   get() = if (hasVolLmt()) getVolLmt() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volThdHiOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volThdHiOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolThdHi()) getVolThdHi() else null
 
-val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volThdLoOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.capbankmodule.CapBankControlYPSHOrBuilder.volThdLoOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolThdLo()) getVolThdLo() else null
 

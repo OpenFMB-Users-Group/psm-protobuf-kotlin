@@ -135,12 +135,12 @@ public object SolarCapabilityKt {
 public inline fun openfmb.solarmodule.SolarCapability.copy(block: openfmb.solarmodule.SolarCapabilityKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapability =
   openfmb.solarmodule.SolarCapabilityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarCapabilityOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
+public val openfmb.solarmodule.SolarCapabilityOrBuilder.nameplateValueOrNull: openfmb.commonmodule.NameplateValue?
   get() = if (hasNameplateValue()) getNameplateValue() else null
 
-val openfmb.solarmodule.SolarCapabilityOrBuilder.solarCapabilityConfigurationOrNull: openfmb.solarmodule.SolarCapabilityConfiguration?
+public val openfmb.solarmodule.SolarCapabilityOrBuilder.solarCapabilityConfigurationOrNull: openfmb.solarmodule.SolarCapabilityConfiguration?
   get() = if (hasSolarCapabilityConfiguration()) getSolarCapabilityConfiguration() else null
 
-val openfmb.solarmodule.SolarCapabilityOrBuilder.solarCapabilityRatingsOrNull: openfmb.solarmodule.SolarCapabilityRatings?
+public val openfmb.solarmodule.SolarCapabilityOrBuilder.solarCapabilityRatingsOrNull: openfmb.solarmodule.SolarCapabilityRatings?
   get() = if (hasSolarCapabilityRatings()) getSolarCapabilityRatings() else null
 

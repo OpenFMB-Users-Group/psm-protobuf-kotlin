@@ -315,27 +315,27 @@ public object EssEventZBATKt {
 public inline fun openfmb.essmodule.EssEventZBAT.copy(block: openfmb.essmodule.EssEventZBATKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.EssEventZBAT =
   openfmb.essmodule.EssEventZBATKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.EssEventZBATOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.essmodule.EssEventZBATOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.batHiOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssEventZBATOrBuilder.batHiOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasBatHi()) getBatHi() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.batLoOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssEventZBATOrBuilder.batLoOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasBatLo()) getBatLo() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.batStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssEventZBATOrBuilder.batStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasBatSt()) getBatSt() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.socOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssEventZBATOrBuilder.socOrNull: openfmb.commonmodule.MV?
   get() = if (hasSoc()) getSoc() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.stdbyOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssEventZBATOrBuilder.stdbyOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasStdby()) getStdby() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.soHOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssEventZBATOrBuilder.soHOrNull: openfmb.commonmodule.MV?
   get() = if (hasSoH()) getSoH() else null
 
-val openfmb.essmodule.EssEventZBATOrBuilder.wHAvailOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssEventZBATOrBuilder.wHAvailOrNull: openfmb.commonmodule.MV?
   get() = if (hasWHAvail()) getWHAvail() else null
 

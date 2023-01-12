@@ -135,12 +135,12 @@ public object ESSEventProfileKt {
 public inline fun openfmb.essmodule.ESSEventProfile.copy(block: openfmb.essmodule.ESSEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSEventProfile =
   openfmb.essmodule.ESSEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.essmodule.ESSEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.essmodule.ESSEventProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
+public val openfmb.essmodule.ESSEventProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
   get() = if (hasEss()) getEss() else null
 
-val openfmb.essmodule.ESSEventProfileOrBuilder.essEventOrNull: openfmb.essmodule.ESSEvent?
+public val openfmb.essmodule.ESSEventProfileOrBuilder.essEventOrNull: openfmb.essmodule.ESSEvent?
   get() = if (hasEssEvent()) getEssEvent() else null
 

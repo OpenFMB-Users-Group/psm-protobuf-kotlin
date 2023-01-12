@@ -99,9 +99,9 @@ public object VoltagePIKt {
 public inline fun openfmb.essmodule.VoltagePI.copy(block: openfmb.essmodule.VoltagePIKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.VoltagePI =
   openfmb.essmodule.VoltagePIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.VoltagePIOrBuilder.voltagePICtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.VoltagePIOrBuilder.voltagePICtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasVoltagePICtl()) getVoltagePICtl() else null
 
-val openfmb.essmodule.VoltagePIOrBuilder.voltageRegulationOrNull: openfmb.essmodule.VoltageRegulation?
+public val openfmb.essmodule.VoltagePIOrBuilder.voltageRegulationOrNull: openfmb.essmodule.VoltageRegulation?
   get() = if (hasVoltageRegulation()) getVoltageRegulation() else null
 

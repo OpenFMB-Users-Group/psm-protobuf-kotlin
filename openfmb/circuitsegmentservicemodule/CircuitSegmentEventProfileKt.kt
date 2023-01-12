@@ -135,12 +135,12 @@ public object CircuitSegmentEventProfileKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfile.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfile =
   openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.applicationSystemOrNull: openfmb.commonmodule.ApplicationSystem?
   get() = if (hasApplicationSystem()) getApplicationSystem() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.circuitSegmentEventOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentEvent?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileOrBuilder.circuitSegmentEventOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentEvent?
   get() = if (hasCircuitSegmentEvent()) getCircuitSegmentEvent() else null
 

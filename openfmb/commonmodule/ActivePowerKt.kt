@@ -135,12 +135,12 @@ public object ActivePowerKt {
 public inline fun openfmb.commonmodule.ActivePower.copy(block: openfmb.commonmodule.ActivePowerKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ActivePower =
   openfmb.commonmodule.ActivePowerKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ActivePowerOrBuilder.multiplierOrNull: openfmb.commonmodule.Optional_UnitMultiplierKind?
+public val openfmb.commonmodule.ActivePowerOrBuilder.multiplierOrNull: openfmb.commonmodule.Optional_UnitMultiplierKind?
   get() = if (hasMultiplier()) getMultiplier() else null
 
-val openfmb.commonmodule.ActivePowerOrBuilder.unitOrNull: openfmb.commonmodule.Optional_UnitSymbolKind?
+public val openfmb.commonmodule.ActivePowerOrBuilder.unitOrNull: openfmb.commonmodule.Optional_UnitSymbolKind?
   get() = if (hasUnit()) getUnit() else null
 
-val openfmb.commonmodule.ActivePowerOrBuilder.valueOrNull: com.google.protobuf.FloatValue?
+public val openfmb.commonmodule.ActivePowerOrBuilder.valueOrNull: com.google.protobuf.FloatValue?
   get() = if (hasValue()) getValue() else null
 

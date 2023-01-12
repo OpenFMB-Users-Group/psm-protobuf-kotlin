@@ -99,9 +99,9 @@ public object RecloserStatusKt {
 public inline fun openfmb.reclosermodule.RecloserStatus.copy(block: openfmb.reclosermodule.RecloserStatusKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserStatus =
   openfmb.reclosermodule.RecloserStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
+public val openfmb.reclosermodule.RecloserStatusOrBuilder.statusValueOrNull: openfmb.commonmodule.StatusValue?
   get() = if (hasStatusValue()) getStatusValue() else null
 
-val openfmb.reclosermodule.RecloserStatusOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
+public val openfmb.reclosermodule.RecloserStatusOrBuilder.statusAndEventXCBROrNull: openfmb.commonmodule.StatusAndEventXCBR?
   get() = if (hasStatusAndEventXCBR()) getStatusAndEventXCBR() else null
 

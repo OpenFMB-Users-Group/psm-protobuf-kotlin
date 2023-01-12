@@ -135,12 +135,12 @@ public object LoadReadingProfileKt {
 public inline fun openfmb.loadmodule.LoadReadingProfile.copy(block: openfmb.loadmodule.LoadReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadReadingProfile =
   openfmb.loadmodule.LoadReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.loadmodule.LoadReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.loadmodule.LoadReadingProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
+public val openfmb.loadmodule.LoadReadingProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
   get() = if (hasEnergyConsumer()) getEnergyConsumer() else null
 
-val openfmb.loadmodule.LoadReadingProfileOrBuilder.loadReadingOrNull: openfmb.loadmodule.LoadReading?
+public val openfmb.loadmodule.LoadReadingProfileOrBuilder.loadReadingOrNull: openfmb.loadmodule.LoadReading?
   get() = if (hasLoadReading()) getLoadReading() else null
 

@@ -243,21 +243,21 @@ public object PhaseMMTNKt {
 public inline fun openfmb.commonmodule.PhaseMMTN.copy(block: openfmb.commonmodule.PhaseMMTNKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseMMTN =
   openfmb.commonmodule.PhaseMMTNKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsAOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsAOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsABOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsABOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsAB()) getPhsAB() else null
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsBOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsBOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsBCOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsBCOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsBC()) getPhsBC() else null
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsCOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsCOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsC()) getPhsC() else null
 
-val openfmb.commonmodule.PhaseMMTNOrBuilder.phsCAOrNull: openfmb.commonmodule.ReadingMMTN?
+public val openfmb.commonmodule.PhaseMMTNOrBuilder.phsCAOrNull: openfmb.commonmodule.ReadingMMTN?
   get() = if (hasPhsCA()) getPhsCA() else null
 

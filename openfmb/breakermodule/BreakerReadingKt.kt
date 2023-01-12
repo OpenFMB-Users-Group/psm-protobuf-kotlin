@@ -207,18 +207,18 @@ public object BreakerReadingKt {
 public inline fun openfmb.breakermodule.BreakerReading.copy(block: openfmb.breakermodule.BreakerReadingKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerReading =
   openfmb.breakermodule.BreakerReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.breakermodule.BreakerReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.breakermodule.BreakerReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.breakermodule.BreakerReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasDiffReadingMMXU()) getDiffReadingMMXU() else null
 
-val openfmb.breakermodule.BreakerReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.breakermodule.BreakerReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.breakermodule.BreakerReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.breakermodule.BreakerReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.breakermodule.BreakerReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.breakermodule.BreakerReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

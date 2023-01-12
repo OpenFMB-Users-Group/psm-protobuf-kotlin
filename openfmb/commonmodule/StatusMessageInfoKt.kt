@@ -63,6 +63,6 @@ public object StatusMessageInfoKt {
 public inline fun openfmb.commonmodule.StatusMessageInfo.copy(block: openfmb.commonmodule.StatusMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusMessageInfo =
   openfmb.commonmodule.StatusMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StatusMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.StatusMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

@@ -207,18 +207,18 @@ public object RegulatorReadingKt {
 public inline fun openfmb.regulatormodule.RegulatorReading.copy(block: openfmb.regulatormodule.RegulatorReadingKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorReading =
   openfmb.regulatormodule.RegulatorReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.regulatormodule.RegulatorReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.regulatormodule.RegulatorReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.regulatormodule.RegulatorReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.regulatormodule.RegulatorReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.regulatormodule.RegulatorReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.regulatormodule.RegulatorReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.regulatormodule.RegulatorReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 
-val openfmb.regulatormodule.RegulatorReadingOrBuilder.secondaryReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.regulatormodule.RegulatorReadingOrBuilder.secondaryReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasSecondaryReadingMMXU()) getSecondaryReadingMMXU() else null
 

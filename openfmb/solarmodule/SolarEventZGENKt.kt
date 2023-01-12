@@ -99,9 +99,9 @@ public object SolarEventZGENKt {
 public inline fun openfmb.solarmodule.SolarEventZGEN.copy(block: openfmb.solarmodule.SolarEventZGENKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEventZGEN =
   openfmb.solarmodule.SolarEventZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarEventZGENOrBuilder.solarEventAndStatusZGENOrNull: openfmb.solarmodule.SolarEventAndStatusZGEN?
+public val openfmb.solarmodule.SolarEventZGENOrBuilder.solarEventAndStatusZGENOrNull: openfmb.solarmodule.SolarEventAndStatusZGEN?
   get() = if (hasSolarEventAndStatusZGEN()) getSolarEventAndStatusZGEN() else null
 
-val openfmb.solarmodule.SolarEventZGENOrBuilder.griModOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
+public val openfmb.solarmodule.SolarEventZGENOrBuilder.griModOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
   get() = if (hasGriMod()) getGriMod() else null
 

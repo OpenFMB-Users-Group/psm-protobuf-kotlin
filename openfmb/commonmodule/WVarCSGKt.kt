@@ -163,6 +163,6 @@ public object WVarCSGKt {
 public inline fun openfmb.commonmodule.WVarCSG.copy(block: openfmb.commonmodule.WVarCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WVarCSG =
   openfmb.commonmodule.WVarCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.WVarCSGOrBuilder.wVarParameterOrNull: openfmb.commonmodule.OperationDWVR?
+public val openfmb.commonmodule.WVarCSGOrBuilder.wVarParameterOrNull: openfmb.commonmodule.OperationDWVR?
   get() = if (hasWVarParameter()) getWVarParameter() else null
 

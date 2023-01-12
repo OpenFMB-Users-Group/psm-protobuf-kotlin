@@ -99,9 +99,9 @@ public object MessageInfoKt {
 public inline fun openfmb.commonmodule.MessageInfo.copy(block: openfmb.commonmodule.MessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.MessageInfo =
   openfmb.commonmodule.MessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.MessageInfoOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.MessageInfoOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.commonmodule.MessageInfoOrBuilder.messageTimeStampOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.MessageInfoOrBuilder.messageTimeStampOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasMessageTimeStamp()) getMessageTimeStamp() else null
 

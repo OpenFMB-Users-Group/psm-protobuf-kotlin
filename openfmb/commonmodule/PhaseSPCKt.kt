@@ -171,15 +171,15 @@ public object PhaseSPCKt {
 public inline fun openfmb.commonmodule.PhaseSPC.copy(block: openfmb.commonmodule.PhaseSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseSPC =
   openfmb.commonmodule.PhaseSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PhaseSPCOrBuilder.phs3OrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.PhaseSPCOrBuilder.phs3OrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasPhs3()) getPhs3() else null
 
-val openfmb.commonmodule.PhaseSPCOrBuilder.phsAOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.PhaseSPCOrBuilder.phsAOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.PhaseSPCOrBuilder.phsBOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.PhaseSPCOrBuilder.phsBOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.PhaseSPCOrBuilder.phsCOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.commonmodule.PhaseSPCOrBuilder.phsCOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasPhsC()) getPhsC() else null
 

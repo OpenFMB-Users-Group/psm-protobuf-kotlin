@@ -495,42 +495,42 @@ public object SourceCapabilityConfigurationKt {
 public inline fun openfmb.commonmodule.SourceCapabilityConfiguration.copy(block: openfmb.commonmodule.SourceCapabilityConfigurationKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SourceCapabilityConfiguration =
   openfmb.commonmodule.SourceCapabilityConfigurationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.aMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.aMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasAMax()) getAMax() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vAMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vAMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVAMax()) getVAMax() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.varMaxAbsOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.varMaxAbsOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVarMaxAbs()) getVarMaxAbs() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.varMaxInjOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.varMaxInjOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVarMaxInj()) getVarMaxInj() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVMax()) getVMax() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vMinOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vMinOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVMin()) getVMin() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vNomOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.vNomOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVNom()) getVNom() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wMaxOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wMaxOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWMax()) getWMax() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wOvrExtOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wOvrExtOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWOvrExt()) getWOvrExt() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wOvrExtPFOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wOvrExtPFOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWOvrExtPF()) getWOvrExtPF() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wUndExtOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wUndExtOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWUndExt()) getWUndExt() else null
 
-val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wUndExtPFOrNull: openfmb.commonmodule.ASG?
+public val openfmb.commonmodule.SourceCapabilityConfigurationOrBuilder.wUndExtPFOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWUndExtPF()) getWUndExtPF() else null
 

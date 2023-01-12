@@ -171,15 +171,15 @@ public object RealPowerControlKt {
 public inline fun openfmb.generationmodule.RealPowerControl.copy(block: openfmb.generationmodule.RealPowerControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.RealPowerControl =
   openfmb.generationmodule.RealPowerControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.RealPowerControlOrBuilder.droopSetpointOrNull: openfmb.generationmodule.DroopParameter?
+public val openfmb.generationmodule.RealPowerControlOrBuilder.droopSetpointOrNull: openfmb.generationmodule.DroopParameter?
   get() = if (hasDroopSetpoint()) getDroopSetpoint() else null
 
-val openfmb.generationmodule.RealPowerControlOrBuilder.isochronousSetpointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.RealPowerControlOrBuilder.isochronousSetpointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasIsochronousSetpoint()) getIsochronousSetpoint() else null
 
-val openfmb.generationmodule.RealPowerControlOrBuilder.realPowerControlModeOrNull: openfmb.commonmodule.Optional_RealPowerControlKind?
+public val openfmb.generationmodule.RealPowerControlOrBuilder.realPowerControlModeOrNull: openfmb.commonmodule.Optional_RealPowerControlKind?
   get() = if (hasRealPowerControlMode()) getRealPowerControlMode() else null
 
-val openfmb.generationmodule.RealPowerControlOrBuilder.realPowerSetpointOrNull: com.google.protobuf.FloatValue?
+public val openfmb.generationmodule.RealPowerControlOrBuilder.realPowerSetpointOrNull: com.google.protobuf.FloatValue?
   get() = if (hasRealPowerSetpoint()) getRealPowerSetpoint() else null
 

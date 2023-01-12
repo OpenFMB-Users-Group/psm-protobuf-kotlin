@@ -63,6 +63,6 @@ public object ReadingMessageInfoKt {
 public inline fun openfmb.commonmodule.ReadingMessageInfo.copy(block: openfmb.commonmodule.ReadingMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMessageInfo =
   openfmb.commonmodule.ReadingMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ReadingMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.ReadingMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

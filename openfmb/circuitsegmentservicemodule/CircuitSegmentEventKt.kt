@@ -99,9 +99,9 @@ public object CircuitSegmentEventKt {
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentEvent.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentEventKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentEvent =
   openfmb.circuitsegmentservicemodule.CircuitSegmentEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 
-val openfmb.circuitsegmentservicemodule.CircuitSegmentEventOrBuilder.circuitSegmentEventDCSCOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSC?
+public val openfmb.circuitsegmentservicemodule.CircuitSegmentEventOrBuilder.circuitSegmentEventDCSCOrNull: openfmb.circuitsegmentservicemodule.CircuitSegmentEventDCSC?
   get() = if (hasCircuitSegmentEventDCSC()) getCircuitSegmentEventDCSC() else null
 

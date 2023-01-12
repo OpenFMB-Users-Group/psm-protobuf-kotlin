@@ -135,12 +135,12 @@ public object GenerationEventProfileKt {
 public inline fun openfmb.generationmodule.GenerationEventProfile.copy(block: openfmb.generationmodule.GenerationEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEventProfile =
   openfmb.generationmodule.GenerationEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.generationmodule.GenerationEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.generationmodule.GenerationEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.generationmodule.GenerationEventProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
+public val openfmb.generationmodule.GenerationEventProfileOrBuilder.generatingUnitOrNull: openfmb.generationmodule.GeneratingUnit?
   get() = if (hasGeneratingUnit()) getGeneratingUnit() else null
 
-val openfmb.generationmodule.GenerationEventProfileOrBuilder.generationEventOrNull: openfmb.generationmodule.GenerationEvent?
+public val openfmb.generationmodule.GenerationEventProfileOrBuilder.generationEventOrNull: openfmb.generationmodule.GenerationEvent?
   get() = if (hasGenerationEvent()) getGenerationEvent() else null
 

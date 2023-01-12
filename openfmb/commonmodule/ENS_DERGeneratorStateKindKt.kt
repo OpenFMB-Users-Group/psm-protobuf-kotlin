@@ -124,9 +124,9 @@ public object ENS_DERGeneratorStateKindKt {
 public inline fun openfmb.commonmodule.ENS_DERGeneratorStateKind.copy(block: openfmb.commonmodule.ENS_DERGeneratorStateKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_DERGeneratorStateKind =
   openfmb.commonmodule.ENS_DERGeneratorStateKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENS_DERGeneratorStateKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.ENS_DERGeneratorStateKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.ENS_DERGeneratorStateKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.ENS_DERGeneratorStateKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

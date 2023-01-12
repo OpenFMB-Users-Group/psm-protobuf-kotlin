@@ -189,6 +189,6 @@ public object QualityKt {
 public inline fun openfmb.commonmodule.Quality.copy(block: openfmb.commonmodule.QualityKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Quality =
   openfmb.commonmodule.QualityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.QualityOrBuilder.detailQualOrNull: openfmb.commonmodule.DetailQual?
+public val openfmb.commonmodule.QualityOrBuilder.detailQualOrNull: openfmb.commonmodule.DetailQual?
   get() = if (hasDetailQual()) getDetailQual() else null
 

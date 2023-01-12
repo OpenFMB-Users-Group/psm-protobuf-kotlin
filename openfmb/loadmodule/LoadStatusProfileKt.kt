@@ -135,12 +135,12 @@ public object LoadStatusProfileKt {
 public inline fun openfmb.loadmodule.LoadStatusProfile.copy(block: openfmb.loadmodule.LoadStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadStatusProfile =
   openfmb.loadmodule.LoadStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.loadmodule.LoadStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.loadmodule.LoadStatusProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
+public val openfmb.loadmodule.LoadStatusProfileOrBuilder.energyConsumerOrNull: openfmb.commonmodule.EnergyConsumer?
   get() = if (hasEnergyConsumer()) getEnergyConsumer() else null
 
-val openfmb.loadmodule.LoadStatusProfileOrBuilder.loadStatusOrNull: openfmb.loadmodule.LoadStatus?
+public val openfmb.loadmodule.LoadStatusProfileOrBuilder.loadStatusOrNull: openfmb.loadmodule.LoadStatus?
   get() = if (hasLoadStatus()) getLoadStatus() else null
 

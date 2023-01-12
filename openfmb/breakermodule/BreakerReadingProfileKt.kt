@@ -199,9 +199,9 @@ public object BreakerReadingProfileKt {
 public inline fun openfmb.breakermodule.BreakerReadingProfile.copy(block: openfmb.breakermodule.BreakerReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerReadingProfile =
   openfmb.breakermodule.BreakerReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
+public val openfmb.breakermodule.BreakerReadingProfileOrBuilder.readingMessageInfoOrNull: openfmb.commonmodule.ReadingMessageInfo?
   get() = if (hasReadingMessageInfo()) getReadingMessageInfo() else null
 
-val openfmb.breakermodule.BreakerReadingProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
+public val openfmb.breakermodule.BreakerReadingProfileOrBuilder.breakerOrNull: openfmb.breakermodule.Breaker?
   get() = if (hasBreaker()) getBreaker() else null
 

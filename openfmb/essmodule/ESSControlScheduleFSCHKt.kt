@@ -63,6 +63,6 @@ public object ESSControlScheduleFSCHKt {
 public inline fun openfmb.essmodule.ESSControlScheduleFSCH.copy(block: openfmb.essmodule.ESSControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSControlScheduleFSCH =
   openfmb.essmodule.ESSControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.essmodule.ESSCSG?
+public val openfmb.essmodule.ESSControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.essmodule.ESSCSG?
   get() = if (hasValDCSG()) getValDCSG() else null
 

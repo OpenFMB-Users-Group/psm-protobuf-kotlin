@@ -135,12 +135,12 @@ public object LoadControlKt {
 public inline fun openfmb.loadmodule.LoadControl.copy(block: openfmb.loadmodule.LoadControlKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControl =
   openfmb.loadmodule.LoadControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.loadmodule.LoadControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.loadmodule.LoadControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.loadmodule.LoadControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.loadmodule.LoadControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.loadmodule.LoadControlOrBuilder.loadControlFSCCOrNull: openfmb.loadmodule.LoadControlFSCC?
+public val openfmb.loadmodule.LoadControlOrBuilder.loadControlFSCCOrNull: openfmb.loadmodule.LoadControlFSCC?
   get() = if (hasLoadControlFSCC()) getLoadControlFSCC() else null
 

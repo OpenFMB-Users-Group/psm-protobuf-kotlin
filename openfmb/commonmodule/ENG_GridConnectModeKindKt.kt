@@ -88,6 +88,6 @@ public object ENG_GridConnectModeKindKt {
 public inline fun openfmb.commonmodule.ENG_GridConnectModeKind.copy(block: openfmb.commonmodule.ENG_GridConnectModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENG_GridConnectModeKind =
   openfmb.commonmodule.ENG_GridConnectModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENG_GridConnectModeKindOrBuilder.setValExtensionOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.ENG_GridConnectModeKindOrBuilder.setValExtensionOrNull: com.google.protobuf.StringValue?
   get() = if (hasSetValExtension()) getSetValExtension() else null
 

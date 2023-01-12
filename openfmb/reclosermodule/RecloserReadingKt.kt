@@ -207,18 +207,18 @@ public object RecloserReadingKt {
 public inline fun openfmb.reclosermodule.RecloserReading.copy(block: openfmb.reclosermodule.RecloserReadingKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserReading =
   openfmb.reclosermodule.RecloserReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.reclosermodule.RecloserReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.reclosermodule.RecloserReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.reclosermodule.RecloserReadingOrBuilder.diffReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasDiffReadingMMXU()) getDiffReadingMMXU() else null
 
-val openfmb.reclosermodule.RecloserReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.reclosermodule.RecloserReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.reclosermodule.RecloserReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.reclosermodule.RecloserReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.reclosermodule.RecloserReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.reclosermodule.RecloserReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 

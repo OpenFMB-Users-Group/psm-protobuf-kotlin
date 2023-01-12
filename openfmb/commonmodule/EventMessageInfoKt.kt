@@ -63,6 +63,6 @@ public object EventMessageInfoKt {
 public inline fun openfmb.commonmodule.EventMessageInfo.copy(block: openfmb.commonmodule.EventMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.EventMessageInfo =
   openfmb.commonmodule.EventMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.EventMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.EventMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

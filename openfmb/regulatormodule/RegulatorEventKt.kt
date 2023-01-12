@@ -99,9 +99,9 @@ public object RegulatorEventKt {
 public inline fun openfmb.regulatormodule.RegulatorEvent.copy(block: openfmb.regulatormodule.RegulatorEventKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEvent =
   openfmb.regulatormodule.RegulatorEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
+public val openfmb.regulatormodule.RegulatorEventOrBuilder.eventValueOrNull: openfmb.commonmodule.EventValue?
   get() = if (hasEventValue()) getEventValue() else null
 
-val openfmb.regulatormodule.RegulatorEventOrBuilder.regulatorEventAndStatusANCROrNull: openfmb.regulatormodule.RegulatorEventAndStatusANCR?
+public val openfmb.regulatormodule.RegulatorEventOrBuilder.regulatorEventAndStatusANCROrNull: openfmb.regulatormodule.RegulatorEventAndStatusANCR?
   get() = if (hasRegulatorEventAndStatusANCR()) getRegulatorEventAndStatusANCR() else null
 

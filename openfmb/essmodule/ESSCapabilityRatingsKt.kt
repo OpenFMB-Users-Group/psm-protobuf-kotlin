@@ -243,21 +243,21 @@ public object ESSCapabilityRatingsKt {
 public inline fun openfmb.essmodule.ESSCapabilityRatings.copy(block: openfmb.essmodule.ESSCapabilityRatingsKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityRatings =
   openfmb.essmodule.ESSCapabilityRatingsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.sourceCapabilityRatingsOrNull: openfmb.commonmodule.SourceCapabilityRatings?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.sourceCapabilityRatingsOrNull: openfmb.commonmodule.SourceCapabilityRatings?
   get() = if (hasSourceCapabilityRatings()) getSourceCapabilityRatings() else null
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.vAChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.vAChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVAChaRteMaxRtg()) getVAChaRteMaxRtg() else null
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.vADisChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.vADisChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasVADisChaRteMaxRtg()) getVADisChaRteMaxRtg() else null
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWChaRteMaxRtg()) getWChaRteMaxRtg() else null
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wDisChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wDisChaRteMaxRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWDisChaRteMaxRtg()) getWDisChaRteMaxRtg() else null
 
-val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wHRtgOrNull: openfmb.commonmodule.ASG?
+public val openfmb.essmodule.ESSCapabilityRatingsOrBuilder.wHRtgOrNull: openfmb.commonmodule.ASG?
   get() = if (hasWHRtg()) getWHRtg() else null
 

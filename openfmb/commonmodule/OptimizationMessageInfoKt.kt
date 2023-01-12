@@ -63,6 +63,6 @@ public object OptimizationMessageInfoKt {
 public inline fun openfmb.commonmodule.OptimizationMessageInfo.copy(block: openfmb.commonmodule.OptimizationMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OptimizationMessageInfo =
   openfmb.commonmodule.OptimizationMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.OptimizationMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
+public val openfmb.commonmodule.OptimizationMessageInfoOrBuilder.messageInfoOrNull: openfmb.commonmodule.MessageInfo?
   get() = if (hasMessageInfo()) getMessageInfo() else null
 

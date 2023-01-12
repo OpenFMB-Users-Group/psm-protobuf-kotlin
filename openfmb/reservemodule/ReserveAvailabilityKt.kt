@@ -135,12 +135,12 @@ public object ReserveAvailabilityKt {
 public inline fun openfmb.reservemodule.ReserveAvailability.copy(block: openfmb.reservemodule.ReserveAvailabilityKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveAvailability =
   openfmb.reservemodule.ReserveAvailabilityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reservemodule.ReserveAvailabilityOrBuilder.incrementalMarginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.ReserveAvailabilityOrBuilder.incrementalMarginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasIncrementalMargin()) getIncrementalMargin() else null
 
-val openfmb.reservemodule.ReserveAvailabilityOrBuilder.marginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.ReserveAvailabilityOrBuilder.marginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasMargin()) getMargin() else null
 
-val openfmb.reservemodule.ReserveAvailabilityOrBuilder.standbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
+public val openfmb.reservemodule.ReserveAvailabilityOrBuilder.standbyMarginOrNull: openfmb.reservemodule.ReserveMargin?
   get() = if (hasStandbyMargin()) getStandbyMargin() else null
 

@@ -63,6 +63,6 @@ public object BreakerKt {
 public inline fun openfmb.breakermodule.Breaker.copy(block: openfmb.breakermodule.BreakerKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.Breaker =
   openfmb.breakermodule.BreakerKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.breakermodule.BreakerOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.breakermodule.BreakerOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

@@ -135,12 +135,12 @@ public object ResourceEventProfileKt {
 public inline fun openfmb.resourcemodule.ResourceEventProfile.copy(block: openfmb.resourcemodule.ResourceEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceEventProfile =
   openfmb.resourcemodule.ResourceEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.ResourceEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.resourcemodule.ResourceEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.resourcemodule.ResourceEventProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.resourcemodule.ResourceEventProfileOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.resourcemodule.ResourceEventProfileOrBuilder.resourceEventOrNull: openfmb.resourcemodule.ResourceEvent?
+public val openfmb.resourcemodule.ResourceEventProfileOrBuilder.resourceEventOrNull: openfmb.resourcemodule.ResourceEvent?
   get() = if (hasResourceEvent()) getResourceEvent() else null
 

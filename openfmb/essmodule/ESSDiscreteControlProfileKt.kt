@@ -3,24 +3,24 @@
 
 package openfmb.essmodule;
 
-@kotlin.jvm.JvmName("-initializeeSSControlProfile")
-public inline fun eSSControlProfile(block: openfmb.essmodule.ESSControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSControlProfile =
-  openfmb.essmodule.ESSControlProfileKt.Dsl._create(openfmb.essmodule.ESSControlProfile.newBuilder()).apply { block() }._build()
-public object ESSControlProfileKt {
+@kotlin.jvm.JvmName("-initializeeSSDiscreteControlProfile")
+public inline fun eSSDiscreteControlProfile(block: openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSDiscreteControlProfile =
+  openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl._create(openfmb.essmodule.ESSDiscreteControlProfile.newBuilder()).apply { block() }._build()
+public object ESSDiscreteControlProfileKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: openfmb.essmodule.ESSControlProfile.Builder
+    private val _builder: openfmb.essmodule.ESSDiscreteControlProfile.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
       @kotlin.PublishedApi
-      internal fun _create(builder: openfmb.essmodule.ESSControlProfile.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: openfmb.essmodule.ESSDiscreteControlProfile.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-    internal fun _build(): openfmb.essmodule.ESSControlProfile = _builder.build()
+    internal fun _build(): openfmb.essmodule.ESSDiscreteControlProfile = _builder.build()
 
     /**
      * <pre>
@@ -99,48 +99,48 @@ public object ESSControlProfileKt {
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.essmodule.ESSControl essControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
+     * <code>.essmodule.ESSDiscreteControl essDiscreteControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
      */
-    public var essControl: openfmb.essmodule.ESSControl
-      @JvmName("getEssControl")
-      get() = _builder.getEssControl()
-      @JvmName("setEssControl")
+    public var essDiscreteControl: openfmb.essmodule.ESSDiscreteControl
+      @JvmName("getEssDiscreteControl")
+      get() = _builder.getEssDiscreteControl()
+      @JvmName("setEssDiscreteControl")
       set(value) {
-        _builder.setEssControl(value)
+        _builder.setEssDiscreteControl(value)
       }
     /**
      * <pre>
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.essmodule.ESSControl essControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
+     * <code>.essmodule.ESSDiscreteControl essDiscreteControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
      */
-    public fun clearEssControl() {
-      _builder.clearEssControl()
+    public fun clearEssDiscreteControl() {
+      _builder.clearEssDiscreteControl()
     }
     /**
      * <pre>
      * MISSING DOCUMENTATION!!!
      * </pre>
      *
-     * <code>.essmodule.ESSControl essControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
-     * @return Whether the essControl field is set.
+     * <code>.essmodule.ESSDiscreteControl essDiscreteControl = 3 [(.uml.option_required_field) = true, (.uml.option_multiplicity_min) = 1];</code>
+     * @return Whether the essDiscreteControl field is set.
      */
-    public fun hasEssControl(): kotlin.Boolean {
-      return _builder.hasEssControl()
+    public fun hasEssDiscreteControl(): kotlin.Boolean {
+      return _builder.hasEssDiscreteControl()
     }
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun openfmb.essmodule.ESSControlProfile.copy(block: openfmb.essmodule.ESSControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSControlProfile =
-  openfmb.essmodule.ESSControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun openfmb.essmodule.ESSDiscreteControlProfile.copy(block: openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSDiscreteControlProfile =
+  openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val openfmb.essmodule.ESSControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.essmodule.ESSDiscreteControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-public val openfmb.essmodule.ESSControlProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
+public val openfmb.essmodule.ESSDiscreteControlProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
   get() = if (hasEss()) getEss() else null
 
-public val openfmb.essmodule.ESSControlProfileOrBuilder.essControlOrNull: openfmb.essmodule.ESSControl?
-  get() = if (hasEssControl()) getEssControl() else null
+public val openfmb.essmodule.ESSDiscreteControlProfileOrBuilder.essDiscreteControlOrNull: openfmb.essmodule.ESSDiscreteControl?
+  get() = if (hasEssDiscreteControl()) getEssDiscreteControl() else null
 

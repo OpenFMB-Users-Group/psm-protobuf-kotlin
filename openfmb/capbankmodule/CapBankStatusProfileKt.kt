@@ -135,12 +135,12 @@ public object CapBankStatusProfileKt {
 public inline fun openfmb.capbankmodule.CapBankStatusProfile.copy(block: openfmb.capbankmodule.CapBankStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankStatusProfile =
   openfmb.capbankmodule.CapBankStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.capBankStatusOrNull: openfmb.capbankmodule.CapBankStatus?
+public val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.capBankStatusOrNull: openfmb.capbankmodule.CapBankStatus?
   get() = if (hasCapBankStatus()) getCapBankStatus() else null
 
-val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
+public val openfmb.capbankmodule.CapBankStatusProfileOrBuilder.capBankSystemOrNull: openfmb.capbankmodule.CapBankSystem?
   get() = if (hasCapBankSystem()) getCapBankSystem() else null
 

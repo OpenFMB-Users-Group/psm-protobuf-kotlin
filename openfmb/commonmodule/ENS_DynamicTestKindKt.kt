@@ -124,9 +124,9 @@ public object ENS_DynamicTestKindKt {
 public inline fun openfmb.commonmodule.ENS_DynamicTestKind.copy(block: openfmb.commonmodule.ENS_DynamicTestKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_DynamicTestKind =
   openfmb.commonmodule.ENS_DynamicTestKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ENS_DynamicTestKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.ENS_DynamicTestKindOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.ENS_DynamicTestKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.ENS_DynamicTestKindOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

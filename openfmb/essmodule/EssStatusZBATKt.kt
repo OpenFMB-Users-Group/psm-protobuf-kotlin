@@ -279,24 +279,24 @@ public object EssStatusZBATKt {
 public inline fun openfmb.essmodule.EssStatusZBAT.copy(block: openfmb.essmodule.EssStatusZBATKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.EssStatusZBAT =
   openfmb.essmodule.EssStatusZBATKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.batStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.batStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasBatSt()) getBatSt() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.griModOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.griModOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
   get() = if (hasGriMod()) getGriMod() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.socOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.socOrNull: openfmb.commonmodule.MV?
   get() = if (hasSoc()) getSoc() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.stdbyOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.stdbyOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasStdby()) getStdby() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.soHOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.soHOrNull: openfmb.commonmodule.MV?
   get() = if (hasSoH()) getSoH() else null
 
-val openfmb.essmodule.EssStatusZBATOrBuilder.wHAvailOrNull: openfmb.commonmodule.MV?
+public val openfmb.essmodule.EssStatusZBATOrBuilder.wHAvailOrNull: openfmb.commonmodule.MV?
   get() = if (hasWHAvail()) getWHAvail() else null
 

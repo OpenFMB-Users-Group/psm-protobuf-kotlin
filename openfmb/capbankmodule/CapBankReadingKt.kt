@@ -207,18 +207,18 @@ public object CapBankReadingKt {
 public inline fun openfmb.capbankmodule.CapBankReading.copy(block: openfmb.capbankmodule.CapBankReadingKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankReading =
   openfmb.capbankmodule.CapBankReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
+public val openfmb.capbankmodule.CapBankReadingOrBuilder.conductingEquipmentTerminalReadingOrNull: openfmb.commonmodule.ConductingEquipmentTerminalReading?
   get() = if (hasConductingEquipmentTerminalReading()) getConductingEquipmentTerminalReading() else null
 
-val openfmb.capbankmodule.CapBankReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
+public val openfmb.capbankmodule.CapBankReadingOrBuilder.phaseMMTNOrNull: openfmb.commonmodule.PhaseMMTN?
   get() = if (hasPhaseMMTN()) getPhaseMMTN() else null
 
-val openfmb.capbankmodule.CapBankReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
+public val openfmb.capbankmodule.CapBankReadingOrBuilder.readingMMTROrNull: openfmb.commonmodule.ReadingMMTR?
   get() = if (hasReadingMMTR()) getReadingMMTR() else null
 
-val openfmb.capbankmodule.CapBankReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.capbankmodule.CapBankReadingOrBuilder.readingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasReadingMMXU()) getReadingMMXU() else null
 
-val openfmb.capbankmodule.CapBankReadingOrBuilder.secondaryReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
+public val openfmb.capbankmodule.CapBankReadingOrBuilder.secondaryReadingMMXUOrNull: openfmb.commonmodule.ReadingMMXU?
   get() = if (hasSecondaryReadingMMXU()) getSecondaryReadingMMXU() else null
 

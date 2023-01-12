@@ -246,21 +246,21 @@ public object DirectionalATCCKt {
 public inline fun openfmb.regulatormodule.DirectionalATCC.copy(block: openfmb.regulatormodule.DirectionalATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.DirectionalATCC =
   openfmb.regulatormodule.DirectionalATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.bndWidOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.bndWidOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasBndWid()) getBndWid() else null
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.ctlDlTmmsOrNull: openfmb.commonmodule.PhaseISC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.ctlDlTmmsOrNull: openfmb.commonmodule.PhaseISC?
   get() = if (hasCtlDlTmms()) getCtlDlTmms() else null
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.lDCROrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.lDCROrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasLDCR()) getLDCR() else null
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.lDCXOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.lDCXOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasLDCX()) getLDCX() else null
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.volSptOrNull: openfmb.commonmodule.PhaseAPC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.volSptOrNull: openfmb.commonmodule.PhaseAPC?
   get() = if (hasVolSpt()) getVolSpt() else null
 
-val openfmb.regulatormodule.DirectionalATCCOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.PhaseDPC?
+public val openfmb.regulatormodule.DirectionalATCCOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.PhaseDPC?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 

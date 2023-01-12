@@ -124,9 +124,9 @@ public object StatusDPSKt {
 public inline fun openfmb.commonmodule.StatusDPS.copy(block: openfmb.commonmodule.StatusDPSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusDPS =
   openfmb.commonmodule.StatusDPSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.StatusDPSOrBuilder.qOrNull: openfmb.commonmodule.Quality?
+public val openfmb.commonmodule.StatusDPSOrBuilder.qOrNull: openfmb.commonmodule.Quality?
   get() = if (hasQ()) getQ() else null
 
-val openfmb.commonmodule.StatusDPSOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.commonmodule.StatusDPSOrBuilder.tOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasT()) getT() else null
 

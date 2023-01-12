@@ -99,9 +99,9 @@ public object EnergyConsumerKt {
 public inline fun openfmb.commonmodule.EnergyConsumer.copy(block: openfmb.commonmodule.EnergyConsumerKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.EnergyConsumer =
   openfmb.commonmodule.EnergyConsumerKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.EnergyConsumerOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.commonmodule.EnergyConsumerOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 
-val openfmb.commonmodule.EnergyConsumerOrBuilder.operatingLimitOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.EnergyConsumerOrBuilder.operatingLimitOrNull: com.google.protobuf.StringValue?
   get() = if (hasOperatingLimit()) getOperatingLimit() else null
 

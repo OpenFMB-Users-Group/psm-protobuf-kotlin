@@ -88,6 +88,6 @@ public object OperationDLFWKt {
 public inline fun openfmb.commonmodule.OperationDLFW.copy(block: openfmb.commonmodule.OperationDLFWKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDLFW =
   openfmb.commonmodule.OperationDLFWKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.OperationDLFWOrBuilder.oplTmmsMaxOrNull: openfmb.commonmodule.ClearingTime?
+public val openfmb.commonmodule.OperationDLFWOrBuilder.oplTmmsMaxOrNull: openfmb.commonmodule.ClearingTime?
   get() = if (hasOplTmmsMax()) getOplTmmsMax() else null
 

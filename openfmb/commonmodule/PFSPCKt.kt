@@ -88,6 +88,6 @@ public object PFSPCKt {
 public inline fun openfmb.commonmodule.PFSPC.copy(block: openfmb.commonmodule.PFSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PFSPC =
   openfmb.commonmodule.PFSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.PFSPCOrBuilder.pFParameterOrNull: openfmb.commonmodule.OperationDFPF?
+public val openfmb.commonmodule.PFSPCOrBuilder.pFParameterOrNull: openfmb.commonmodule.OperationDFPF?
   get() = if (hasPFParameter()) getPFParameter() else null
 

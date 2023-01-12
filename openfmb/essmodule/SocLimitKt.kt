@@ -243,18 +243,18 @@ public object SocLimitKt {
 public inline fun openfmb.essmodule.SocLimit.copy(block: openfmb.essmodule.SocLimitKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.SocLimit =
   openfmb.essmodule.SocLimitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.SocLimitOrBuilder.socHighLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SocLimitOrBuilder.socHighLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocHighLimit()) getSocHighLimit() else null
 
-val openfmb.essmodule.SocLimitOrBuilder.socHighLimitHysteresisOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SocLimitOrBuilder.socHighLimitHysteresisOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocHighLimitHysteresis()) getSocHighLimitHysteresis() else null
 
-val openfmb.essmodule.SocLimitOrBuilder.socLimitCtlOrNull: com.google.protobuf.BoolValue?
+public val openfmb.essmodule.SocLimitOrBuilder.socLimitCtlOrNull: com.google.protobuf.BoolValue?
   get() = if (hasSocLimitCtl()) getSocLimitCtl() else null
 
-val openfmb.essmodule.SocLimitOrBuilder.socLowLimitOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SocLimitOrBuilder.socLowLimitOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocLowLimit()) getSocLowLimit() else null
 
-val openfmb.essmodule.SocLimitOrBuilder.socLowLimitHysteresisOrNull: com.google.protobuf.FloatValue?
+public val openfmb.essmodule.SocLimitOrBuilder.socLowLimitHysteresisOrNull: com.google.protobuf.FloatValue?
   get() = if (hasSocLowLimitHysteresis()) getSocLowLimitHysteresis() else null
 

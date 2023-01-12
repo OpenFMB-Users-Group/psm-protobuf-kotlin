@@ -135,12 +135,12 @@ public object IntegerControlGGIOKt {
 public inline fun openfmb.resourcemodule.IntegerControlGGIO.copy(block: openfmb.resourcemodule.IntegerControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.IntegerControlGGIO =
   openfmb.resourcemodule.IntegerControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
+public val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.logicalNodeOrNull: openfmb.commonmodule.LogicalNode?
   get() = if (hasLogicalNode()) getLogicalNode() else null
 
-val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.iSCSOOrNull: openfmb.commonmodule.ControlINC?
+public val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.iSCSOOrNull: openfmb.commonmodule.ControlINC?
   get() = if (hasISCSO()) getISCSO() else null
 
-val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
+public val openfmb.resourcemodule.IntegerControlGGIOOrBuilder.phaseOrNull: openfmb.commonmodule.Optional_PhaseCodeKind?
   get() = if (hasPhase()) getPhase() else null
 

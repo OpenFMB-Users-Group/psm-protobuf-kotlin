@@ -135,12 +135,12 @@ public object ESSControlKt {
 public inline fun openfmb.essmodule.ESSControl.copy(block: openfmb.essmodule.ESSControlKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSControl =
   openfmb.essmodule.ESSControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.essmodule.ESSControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.essmodule.ESSControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.essmodule.ESSControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.essmodule.ESSControlOrBuilder.essControlFSCCOrNull: openfmb.essmodule.EssControlFSCC?
+public val openfmb.essmodule.ESSControlOrBuilder.essControlFSCCOrNull: openfmb.essmodule.EssControlFSCC?
   get() = if (hasEssControlFSCC()) getEssControlFSCC() else null
 

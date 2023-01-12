@@ -135,12 +135,12 @@ public object RecloserDiscreteControlKt {
 public inline fun openfmb.reclosermodule.RecloserDiscreteControl.copy(block: openfmb.reclosermodule.RecloserDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserDiscreteControl =
   openfmb.reclosermodule.RecloserDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.recloserDiscreteControlXCBROrNull: openfmb.reclosermodule.RecloserDiscreteControlXCBR?
+public val openfmb.reclosermodule.RecloserDiscreteControlOrBuilder.recloserDiscreteControlXCBROrNull: openfmb.reclosermodule.RecloserDiscreteControlXCBR?
   get() = if (hasRecloserDiscreteControlXCBR()) getRecloserDiscreteControlXCBR() else null
 

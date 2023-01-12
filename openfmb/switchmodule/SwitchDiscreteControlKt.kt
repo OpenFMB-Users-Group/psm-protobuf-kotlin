@@ -135,12 +135,12 @@ public object SwitchDiscreteControlKt {
 public inline fun openfmb.switchmodule.SwitchDiscreteControl.copy(block: openfmb.switchmodule.SwitchDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchDiscreteControl =
   openfmb.switchmodule.SwitchDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.switchDiscreteControlXSWIOrNull: openfmb.switchmodule.SwitchDiscreteControlXSWI?
+public val openfmb.switchmodule.SwitchDiscreteControlOrBuilder.switchDiscreteControlXSWIOrNull: openfmb.switchmodule.SwitchDiscreteControlXSWI?
   get() = if (hasSwitchDiscreteControlXSWI()) getSwitchDiscreteControlXSWI() else null
 

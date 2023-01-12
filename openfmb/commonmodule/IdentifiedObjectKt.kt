@@ -138,12 +138,12 @@ public object IdentifiedObjectKt {
 public inline fun openfmb.commonmodule.IdentifiedObject.copy(block: openfmb.commonmodule.IdentifiedObjectKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.IdentifiedObject =
   openfmb.commonmodule.IdentifiedObjectKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.IdentifiedObjectOrBuilder.descriptionOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.IdentifiedObjectOrBuilder.descriptionOrNull: com.google.protobuf.StringValue?
   get() = if (hasDescription()) getDescription() else null
 
-val openfmb.commonmodule.IdentifiedObjectOrBuilder.mRIDOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.IdentifiedObjectOrBuilder.mRIDOrNull: com.google.protobuf.StringValue?
   get() = if (hasMRID()) getMRID() else null
 
-val openfmb.commonmodule.IdentifiedObjectOrBuilder.nameOrNull: com.google.protobuf.StringValue?
+public val openfmb.commonmodule.IdentifiedObjectOrBuilder.nameOrNull: com.google.protobuf.StringValue?
   get() = if (hasName()) getName() else null
 

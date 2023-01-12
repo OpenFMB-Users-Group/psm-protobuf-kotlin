@@ -135,12 +135,12 @@ public object SwitchEventProfileKt {
 public inline fun openfmb.switchmodule.SwitchEventProfile.copy(block: openfmb.switchmodule.SwitchEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchEventProfile =
   openfmb.switchmodule.SwitchEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.switchmodule.SwitchEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
+public val openfmb.switchmodule.SwitchEventProfileOrBuilder.eventMessageInfoOrNull: openfmb.commonmodule.EventMessageInfo?
   get() = if (hasEventMessageInfo()) getEventMessageInfo() else null
 
-val openfmb.switchmodule.SwitchEventProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
+public val openfmb.switchmodule.SwitchEventProfileOrBuilder.protectedSwitchOrNull: openfmb.switchmodule.ProtectedSwitch?
   get() = if (hasProtectedSwitch()) getProtectedSwitch() else null
 
-val openfmb.switchmodule.SwitchEventProfileOrBuilder.switchEventOrNull: openfmb.switchmodule.SwitchEvent?
+public val openfmb.switchmodule.SwitchEventProfileOrBuilder.switchEventOrNull: openfmb.switchmodule.SwitchEvent?
   get() = if (hasSwitchEvent()) getSwitchEvent() else null
 

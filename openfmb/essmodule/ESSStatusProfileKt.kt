@@ -135,12 +135,12 @@ public object ESSStatusProfileKt {
 public inline fun openfmb.essmodule.ESSStatusProfile.copy(block: openfmb.essmodule.ESSStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSStatusProfile =
   openfmb.essmodule.ESSStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.essmodule.ESSStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.essmodule.ESSStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.essmodule.ESSStatusProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
+public val openfmb.essmodule.ESSStatusProfileOrBuilder.essOrNull: openfmb.commonmodule.ESS?
   get() = if (hasEss()) getEss() else null
 
-val openfmb.essmodule.ESSStatusProfileOrBuilder.essStatusOrNull: openfmb.essmodule.ESSStatus?
+public val openfmb.essmodule.ESSStatusProfileOrBuilder.essStatusOrNull: openfmb.essmodule.ESSStatus?
   get() = if (hasEssStatus()) getEssStatus() else null
 

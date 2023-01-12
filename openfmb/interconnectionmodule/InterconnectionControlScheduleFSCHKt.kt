@@ -63,6 +63,6 @@ public object InterconnectionControlScheduleFSCHKt {
 public inline fun openfmb.interconnectionmodule.InterconnectionControlScheduleFSCH.copy(block: openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionControlScheduleFSCH =
   openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.interconnectionmodule.InterconnectionCSG?
+public val openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.interconnectionmodule.InterconnectionCSG?
   get() = if (hasValDCSG()) getValDCSG() else null
 

@@ -222,18 +222,18 @@ public object WYEKt {
 public inline fun openfmb.commonmodule.WYE.copy(block: openfmb.commonmodule.WYEKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WYE =
   openfmb.commonmodule.WYEKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.WYEOrBuilder.netOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.WYEOrBuilder.netOrNull: openfmb.commonmodule.CMV?
   get() = if (hasNet()) getNet() else null
 
-val openfmb.commonmodule.WYEOrBuilder.neutOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.WYEOrBuilder.neutOrNull: openfmb.commonmodule.CMV?
   get() = if (hasNeut()) getNeut() else null
 
-val openfmb.commonmodule.WYEOrBuilder.phsAOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.WYEOrBuilder.phsAOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsA()) getPhsA() else null
 
-val openfmb.commonmodule.WYEOrBuilder.phsBOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.WYEOrBuilder.phsBOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsB()) getPhsB() else null
 
-val openfmb.commonmodule.WYEOrBuilder.phsCOrNull: openfmb.commonmodule.CMV?
+public val openfmb.commonmodule.WYEOrBuilder.phsCOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsC()) getPhsC() else null
 

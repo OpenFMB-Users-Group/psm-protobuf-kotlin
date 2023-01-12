@@ -855,72 +855,72 @@ public object SolarPointKt {
 public inline fun openfmb.solarmodule.SolarPoint.copy(block: openfmb.solarmodule.SolarPointKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarPoint =
   openfmb.solarmodule.SolarPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.frequencySetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasFrequencySetPointEnabled()) getFrequencySetPointEnabled() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.modeOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
+public val openfmb.solarmodule.SolarPointOrBuilder.modeOrNull: openfmb.commonmodule.ENG_GridConnectModeKind?
   get() = if (hasMode()) getMode() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.solarmodule.SolarPointOrBuilder.pctHzDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctHzDroop()) getPctHzDroop() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
+public val openfmb.solarmodule.SolarPointOrBuilder.pctVDroopOrNull: com.google.protobuf.FloatValue?
   get() = if (hasPctVDroop()) getPctVDroop() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
+public val openfmb.solarmodule.SolarPointOrBuilder.rampRatesOrNull: openfmb.commonmodule.RampRate?
   get() = if (hasRampRates()) getRampRates() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.reactivePwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasReactivePwrSetPointEnabled()) getReactivePwrSetPointEnabled() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.realPwrSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasRealPwrSetPointEnabled()) getRealPwrSetPointEnabled() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.resetOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.resetOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasReset()) getReset() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
+public val openfmb.solarmodule.SolarPointOrBuilder.stateOrNull: openfmb.commonmodule.Optional_StateKind?
   get() = if (hasState()) getState() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.voltageSetPointEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasVoltageSetPointEnabled()) getVoltageSetPointEnabled() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
+public val openfmb.solarmodule.SolarPointOrBuilder.startTimeOrNull: openfmb.commonmodule.ControlTimestamp?
   get() = if (hasStartTime()) getStartTime() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.enterServiceOperationOrNull: openfmb.commonmodule.EnterServiceAPC?
   get() = if (hasEnterServiceOperation()) getEnterServiceOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.hzWOperationOrNull: openfmb.commonmodule.HzWAPC?
   get() = if (hasHzWOperation()) getHzWOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.limitWOperationOrNull: openfmb.commonmodule.LimitWAPC?
   get() = if (hasLimitWOperation()) getLimitWOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.pFOperationOrNull: openfmb.commonmodule.PFSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.pFOperationOrNull: openfmb.commonmodule.PFSPC?
   get() = if (hasPFOperation()) getPFOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
+public val openfmb.solarmodule.SolarPointOrBuilder.tmHzTripOperationOrNull: openfmb.commonmodule.TmHzCSG?
   get() = if (hasTmHzTripOperation()) getTmHzTripOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
+public val openfmb.solarmodule.SolarPointOrBuilder.tmVoltTripOperationOrNull: openfmb.commonmodule.TmVoltCSG?
   get() = if (hasTmVoltTripOperation()) getTmVoltTripOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.vArOperationOrNull: openfmb.commonmodule.VarSPC?
   get() = if (hasVArOperation()) getVArOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
+public val openfmb.solarmodule.SolarPointOrBuilder.voltVarOperationOrNull: openfmb.commonmodule.VoltVarCSG?
   get() = if (hasVoltVarOperation()) getVoltVarOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
+public val openfmb.solarmodule.SolarPointOrBuilder.voltWOperationOrNull: openfmb.commonmodule.VoltWCSG?
   get() = if (hasVoltWOperation()) getVoltWOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
+public val openfmb.solarmodule.SolarPointOrBuilder.wVarOperationOrNull: openfmb.commonmodule.WVarCSG?
   get() = if (hasWVarOperation()) getWVarOperation() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.blackStartEnabledOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasBlackStartEnabled()) getBlackStartEnabled() else null
 
-val openfmb.solarmodule.SolarPointOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.ControlSPC?
+public val openfmb.solarmodule.SolarPointOrBuilder.syncBackToGridOrNull: openfmb.commonmodule.ControlSPC?
   get() = if (hasSyncBackToGrid()) getSyncBackToGrid() else null
 

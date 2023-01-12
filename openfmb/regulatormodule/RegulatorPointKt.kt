@@ -99,9 +99,9 @@ public object RegulatorPointKt {
 public inline fun openfmb.regulatormodule.RegulatorPoint.copy(block: openfmb.regulatormodule.RegulatorPointKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorPoint =
   openfmb.regulatormodule.RegulatorPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorPointOrBuilder.controlOrNull: openfmb.regulatormodule.RegulatorControlATCC?
+public val openfmb.regulatormodule.RegulatorPointOrBuilder.controlOrNull: openfmb.regulatormodule.RegulatorControlATCC?
   get() = if (hasControl()) getControl() else null
 
-val openfmb.regulatormodule.RegulatorPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
+public val openfmb.regulatormodule.RegulatorPointOrBuilder.startTimeOrNull: openfmb.commonmodule.Timestamp?
   get() = if (hasStartTime()) getStartTime() else null
 

@@ -135,12 +135,12 @@ public object SolarControlProfileKt {
 public inline fun openfmb.solarmodule.SolarControlProfile.copy(block: openfmb.solarmodule.SolarControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarControlProfile =
   openfmb.solarmodule.SolarControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
+public val openfmb.solarmodule.SolarControlProfileOrBuilder.controlMessageInfoOrNull: openfmb.commonmodule.ControlMessageInfo?
   get() = if (hasControlMessageInfo()) getControlMessageInfo() else null
 
-val openfmb.solarmodule.SolarControlProfileOrBuilder.solarControlOrNull: openfmb.solarmodule.SolarControl?
+public val openfmb.solarmodule.SolarControlProfileOrBuilder.solarControlOrNull: openfmb.solarmodule.SolarControl?
   get() = if (hasSolarControl()) getSolarControl() else null
 
-val openfmb.solarmodule.SolarControlProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
+public val openfmb.solarmodule.SolarControlProfileOrBuilder.solarInverterOrNull: openfmb.solarmodule.SolarInverter?
   get() = if (hasSolarInverter()) getSolarInverter() else null
 

@@ -387,33 +387,33 @@ public object SolarEventAndStatusZGENKt {
 public inline fun openfmb.solarmodule.SolarEventAndStatusZGEN.copy(block: openfmb.solarmodule.SolarEventAndStatusZGENKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEventAndStatusZGEN =
   openfmb.solarmodule.SolarEventAndStatusZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.logicalNodeForEventAndStatusOrNull: openfmb.commonmodule.LogicalNodeForEventAndStatus?
   get() = if (hasLogicalNodeForEventAndStatus()) getLogicalNodeForEventAndStatus() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.auxPwrStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasAuxPwrSt()) getAuxPwrSt() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.dynamicTestOrNull: openfmb.commonmodule.ENS_DynamicTestKind?
   get() = if (hasDynamicTest()) getDynamicTest() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.emgStopOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasEmgStop()) getEmgStop() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.solarmodule.SolarPointStatus?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.pointStatusOrNull: openfmb.solarmodule.SolarPointStatus?
   get() = if (hasPointStatus()) getPointStatus() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.alrmOrNull: openfmb.commonmodule.Optional_AlrmKind?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.alrmOrNull: openfmb.commonmodule.Optional_AlrmKind?
   get() = if (hasAlrm()) getAlrm() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.gnSynStOrNull: openfmb.commonmodule.StatusSPS?
   get() = if (hasGnSynSt()) getGnSynSt() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.gridConnectionStateOrNull: openfmb.commonmodule.Optional_GridConnectionStateKind?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.gridConnectionStateOrNull: openfmb.commonmodule.Optional_GridConnectionStateKind?
   get() = if (hasGridConnectionState()) getGridConnectionState() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.manAlrmInfoOrNull: com.google.protobuf.StringValue?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.manAlrmInfoOrNull: com.google.protobuf.StringValue?
   get() = if (hasManAlrmInfo()) getManAlrmInfo() else null
 
-val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.operatingStateOrNull: openfmb.commonmodule.Optional_OperatingStateKind?
+public val openfmb.solarmodule.SolarEventAndStatusZGENOrBuilder.operatingStateOrNull: openfmb.commonmodule.Optional_OperatingStateKind?
   get() = if (hasOperatingState()) getOperatingState() else null
 

@@ -135,12 +135,12 @@ public object CapBankDiscreteControlKt {
 public inline fun openfmb.capbankmodule.CapBankDiscreteControl.copy(block: openfmb.capbankmodule.CapBankDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankDiscreteControl =
   openfmb.capbankmodule.CapBankDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
+public val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.controlValueOrNull: openfmb.commonmodule.ControlValue?
   get() = if (hasControlValue()) getControlValue() else null
 
-val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
+public val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.checkOrNull: openfmb.commonmodule.CheckConditions?
   get() = if (hasCheck()) getCheck() else null
 
-val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.capBankDiscreteControlYPSHOrNull: openfmb.capbankmodule.CapBankDiscreteControlYPSH?
+public val openfmb.capbankmodule.CapBankDiscreteControlOrBuilder.capBankDiscreteControlYPSHOrNull: openfmb.capbankmodule.CapBankDiscreteControlYPSH?
   get() = if (hasCapBankDiscreteControlYPSH()) getCapBankDiscreteControlYPSH() else null
 

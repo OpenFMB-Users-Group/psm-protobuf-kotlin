@@ -135,12 +135,12 @@ public object RegulatorStatusProfileKt {
 public inline fun openfmb.regulatormodule.RegulatorStatusProfile.copy(block: openfmb.regulatormodule.RegulatorStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorStatusProfile =
   openfmb.regulatormodule.RegulatorStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
+public val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.statusMessageInfoOrNull: openfmb.commonmodule.StatusMessageInfo?
   get() = if (hasStatusMessageInfo()) getStatusMessageInfo() else null
 
-val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.regulatorStatusOrNull: openfmb.regulatormodule.RegulatorStatus?
+public val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.regulatorStatusOrNull: openfmb.regulatormodule.RegulatorStatus?
   get() = if (hasRegulatorStatus()) getRegulatorStatus() else null
 
-val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
+public val openfmb.regulatormodule.RegulatorStatusProfileOrBuilder.regulatorSystemOrNull: openfmb.regulatormodule.RegulatorSystem?
   get() = if (hasRegulatorSystem()) getRegulatorSystem() else null
 

@@ -63,6 +63,6 @@ public object RegulatorControlScheduleFSCHKt {
 public inline fun openfmb.regulatormodule.RegulatorControlScheduleFSCH.copy(block: openfmb.regulatormodule.RegulatorControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorControlScheduleFSCH =
   openfmb.regulatormodule.RegulatorControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.regulatormodule.RegulatorControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.regulatormodule.RegulatorCSG?
+public val openfmb.regulatormodule.RegulatorControlScheduleFSCHOrBuilder.valDCSGOrNull: openfmb.regulatormodule.RegulatorCSG?
   get() = if (hasValDCSG()) getValDCSG() else null
 

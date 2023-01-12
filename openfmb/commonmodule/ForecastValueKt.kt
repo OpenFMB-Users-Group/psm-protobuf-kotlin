@@ -63,6 +63,6 @@ public object ForecastValueKt {
 public inline fun openfmb.commonmodule.ForecastValue.copy(block: openfmb.commonmodule.ForecastValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ForecastValue =
   openfmb.commonmodule.ForecastValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ForecastValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
+public val openfmb.commonmodule.ForecastValueOrBuilder.identifiedObjectOrNull: openfmb.commonmodule.IdentifiedObject?
   get() = if (hasIdentifiedObject()) getIdentifiedObject() else null
 

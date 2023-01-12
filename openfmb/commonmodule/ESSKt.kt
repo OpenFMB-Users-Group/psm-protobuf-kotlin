@@ -63,6 +63,6 @@ public object ESSKt {
 public inline fun openfmb.commonmodule.ESS.copy(block: openfmb.commonmodule.ESSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ESS =
   openfmb.commonmodule.ESSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-val openfmb.commonmodule.ESSOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
+public val openfmb.commonmodule.ESSOrBuilder.conductingEquipmentOrNull: openfmb.commonmodule.ConductingEquipment?
   get() = if (hasConductingEquipment()) getConductingEquipment() else null
 

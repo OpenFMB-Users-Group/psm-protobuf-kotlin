@@ -225,10 +225,51 @@ public object WYEKt {
     public fun hasPhsC(): kotlin.Boolean {
       return _builder.hasPhsC()
     }
+
+    /**
+     * ```
+     * Residual current, as the algebraic sum of the instantaneous values of currents flowing through
+     * all live conductors of a circuit at one point of the electrical installation ('phsA.instCVal'+'phsB
+     * instCVal'+'phsC.instCVal').
+     * ```
+     *
+     * `.commonmodule.CMV res = 6;`
+     */
+    public var res: openfmb.commonmodule.CMV
+      @JvmName("getRes")
+      get() = _builder.getRes()
+      @JvmName("setRes")
+      set(value) {
+        _builder.setRes(value)
+      }
+    /**
+     * ```
+     * Residual current, as the algebraic sum of the instantaneous values of currents flowing through
+     * all live conductors of a circuit at one point of the electrical installation ('phsA.instCVal'+'phsB
+     * instCVal'+'phsC.instCVal').
+     * ```
+     *
+     * `.commonmodule.CMV res = 6;`
+     */
+    public fun clearRes() {
+      _builder.clearRes()
+    }
+    /**
+     * ```
+     * Residual current, as the algebraic sum of the instantaneous values of currents flowing through
+     * all live conductors of a circuit at one point of the electrical installation ('phsA.instCVal'+'phsB
+     * instCVal'+'phsC.instCVal').
+     * ```
+     *
+     * `.commonmodule.CMV res = 6;`
+     * @return Whether the res field is set.
+     */
+    public fun hasRes(): kotlin.Boolean {
+      return _builder.hasRes()
+    }
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.WYE.copy(block: openfmb.commonmodule.WYEKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WYE =
   openfmb.commonmodule.WYEKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
@@ -246,4 +287,7 @@ public val openfmb.commonmodule.WYEOrBuilder.phsBOrNull: openfmb.commonmodule.CM
 
 public val openfmb.commonmodule.WYEOrBuilder.phsCOrNull: openfmb.commonmodule.CMV?
   get() = if (hasPhsC()) getPhsC() else null
+
+public val openfmb.commonmodule.WYEOrBuilder.resOrNull: openfmb.commonmodule.CMV?
+  get() = if (hasRes()) getRes() else null
 

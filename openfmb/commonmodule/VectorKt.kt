@@ -97,7 +97,6 @@ public object VectorKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Vector.copy(block: openfmb.commonmodule.VectorKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Vector =
   openfmb.commonmodule.VectorKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

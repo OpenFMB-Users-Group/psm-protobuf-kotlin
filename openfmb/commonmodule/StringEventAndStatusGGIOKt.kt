@@ -141,7 +141,6 @@ public object StringEventAndStatusGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StringEventAndStatusGGIO.copy(block: openfmb.commonmodule.StringEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StringEventAndStatusGGIO =
   openfmb.commonmodule.StringEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

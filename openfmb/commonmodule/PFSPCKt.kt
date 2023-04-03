@@ -94,7 +94,6 @@ public object PFSPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.PFSPC.copy(block: openfmb.commonmodule.PFSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PFSPC =
   openfmb.commonmodule.PFSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

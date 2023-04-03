@@ -65,7 +65,6 @@ public object ENG_CalcMethodKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENG_CalcMethodKind.copy(block: openfmb.commonmodule.ENG_CalcMethodKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENG_CalcMethodKind =
   openfmb.commonmodule.ENG_CalcMethodKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

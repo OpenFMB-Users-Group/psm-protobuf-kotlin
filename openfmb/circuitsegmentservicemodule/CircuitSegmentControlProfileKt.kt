@@ -141,7 +141,6 @@ public object CircuitSegmentControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfile.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfile =
   openfmb.circuitsegmentservicemodule.CircuitSegmentControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

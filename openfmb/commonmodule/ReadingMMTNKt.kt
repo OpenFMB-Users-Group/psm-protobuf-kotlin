@@ -393,7 +393,6 @@ public object ReadingMMTNKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ReadingMMTN.copy(block: openfmb.commonmodule.ReadingMMTNKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMMTN =
   openfmb.commonmodule.ReadingMMTNKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

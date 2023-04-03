@@ -213,7 +213,6 @@ public object NameplateValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.NameplateValue.copy(block: openfmb.commonmodule.NameplateValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.NameplateValue =
   openfmb.commonmodule.NameplateValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

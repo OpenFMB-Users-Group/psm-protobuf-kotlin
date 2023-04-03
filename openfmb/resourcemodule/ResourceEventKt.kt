@@ -469,7 +469,6 @@ public object ResourceEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.ResourceEvent.copy(block: openfmb.resourcemodule.ResourceEventKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceEvent =
   openfmb.resourcemodule.ResourceEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

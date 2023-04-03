@@ -141,7 +141,6 @@ public object RecloserStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reclosermodule.RecloserStatusProfile.copy(block: openfmb.reclosermodule.RecloserStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserStatusProfile =
   openfmb.reclosermodule.RecloserStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

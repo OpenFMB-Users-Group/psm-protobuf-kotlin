@@ -216,7 +216,6 @@ public object DiscreteControlXCBRKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.DiscreteControlXCBR.copy(block: openfmb.commonmodule.DiscreteControlXCBRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DiscreteControlXCBR =
   openfmb.commonmodule.DiscreteControlXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

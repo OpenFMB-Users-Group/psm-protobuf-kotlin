@@ -105,7 +105,6 @@ public object StatusValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StatusValue.copy(block: openfmb.commonmodule.StatusValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusValue =
   openfmb.commonmodule.StatusValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

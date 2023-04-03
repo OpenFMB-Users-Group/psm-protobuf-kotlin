@@ -141,7 +141,6 @@ public object LoadControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadControlProfile.copy(block: openfmb.loadmodule.LoadControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlProfile =
   openfmb.loadmodule.LoadControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

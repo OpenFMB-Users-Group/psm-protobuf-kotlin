@@ -133,7 +133,6 @@ public object CapBankCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankCSG.copy(block: openfmb.capbankmodule.CapBankCSGKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankCSG =
   openfmb.capbankmodule.CapBankCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

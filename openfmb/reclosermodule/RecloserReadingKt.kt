@@ -213,7 +213,6 @@ public object RecloserReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reclosermodule.RecloserReading.copy(block: openfmb.reclosermodule.RecloserReadingKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserReading =
   openfmb.reclosermodule.RecloserReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

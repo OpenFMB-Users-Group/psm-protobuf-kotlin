@@ -105,7 +105,6 @@ public object LoadControlFSCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadControlFSCC.copy(block: openfmb.loadmodule.LoadControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlFSCC =
   openfmb.loadmodule.LoadControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

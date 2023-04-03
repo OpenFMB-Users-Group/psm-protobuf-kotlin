@@ -169,7 +169,6 @@ public object WVarCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.WVarCSG.copy(block: openfmb.commonmodule.WVarCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WVarCSG =
   openfmb.commonmodule.WVarCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -53,7 +53,6 @@ public object Optional_RecloseActionKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_RecloseActionKind.copy(block: openfmb.commonmodule.Optional_RecloseActionKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_RecloseActionKind =
   openfmb.commonmodule.Optional_RecloseActionKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

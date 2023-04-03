@@ -141,7 +141,6 @@ public object DELKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.DEL.copy(block: openfmb.commonmodule.DELKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DEL =
   openfmb.commonmodule.DELKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

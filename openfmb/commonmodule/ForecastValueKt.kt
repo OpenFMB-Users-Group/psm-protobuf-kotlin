@@ -69,7 +69,6 @@ public object ForecastValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ForecastValue.copy(block: openfmb.commonmodule.ForecastValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ForecastValue =
   openfmb.commonmodule.ForecastValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

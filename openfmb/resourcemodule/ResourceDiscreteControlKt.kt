@@ -505,7 +505,6 @@ public object ResourceDiscreteControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.ResourceDiscreteControl.copy(block: openfmb.resourcemodule.ResourceDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceDiscreteControl =
   openfmb.resourcemodule.ResourceDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

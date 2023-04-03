@@ -53,7 +53,6 @@ public object Optional_DbPosKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_DbPosKind.copy(block: openfmb.commonmodule.Optional_DbPosKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_DbPosKind =
   openfmb.commonmodule.Optional_DbPosKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

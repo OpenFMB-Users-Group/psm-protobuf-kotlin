@@ -249,7 +249,6 @@ public object ReserveAvailabilityProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reservemodule.ReserveAvailabilityProfile.copy(block: openfmb.reservemodule.ReserveAvailabilityProfileKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveAvailabilityProfile =
   openfmb.reservemodule.ReserveAvailabilityProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

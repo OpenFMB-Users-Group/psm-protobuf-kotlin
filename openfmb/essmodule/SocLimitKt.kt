@@ -249,7 +249,6 @@ public object SocLimitKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.SocLimit.copy(block: openfmb.essmodule.SocLimitKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.SocLimit =
   openfmb.essmodule.SocLimitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -141,7 +141,6 @@ public object LoadStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadStatusProfile.copy(block: openfmb.loadmodule.LoadStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadStatusProfile =
   openfmb.loadmodule.LoadStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

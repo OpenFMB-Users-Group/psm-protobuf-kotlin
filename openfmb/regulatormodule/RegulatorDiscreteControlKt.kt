@@ -141,7 +141,6 @@ public object RegulatorDiscreteControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorDiscreteControl.copy(block: openfmb.regulatormodule.RegulatorDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorDiscreteControl =
   openfmb.regulatormodule.RegulatorDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

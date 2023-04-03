@@ -141,7 +141,6 @@ public object GenerationEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationEventProfile.copy(block: openfmb.generationmodule.GenerationEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEventProfile =
   openfmb.generationmodule.GenerationEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

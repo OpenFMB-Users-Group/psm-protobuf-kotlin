@@ -861,7 +861,6 @@ public object ESSPointStatusKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSPointStatus.copy(block: openfmb.essmodule.ESSPointStatusKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSPointStatus =
   openfmb.essmodule.ESSPointStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

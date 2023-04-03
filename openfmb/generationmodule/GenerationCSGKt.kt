@@ -133,7 +133,6 @@ public object GenerationCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationCSG.copy(block: openfmb.generationmodule.GenerationCSGKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCSG =
   openfmb.generationmodule.GenerationCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

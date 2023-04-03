@@ -105,7 +105,6 @@ public object ESSDiscreteControlDBATKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSDiscreteControlDBAT.copy(block: openfmb.essmodule.ESSDiscreteControlDBATKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSDiscreteControlDBAT =
   openfmb.essmodule.ESSDiscreteControlDBATKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

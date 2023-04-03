@@ -184,7 +184,6 @@ public object PMGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.PMG.copy(block: openfmb.commonmodule.PMGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PMG =
   openfmb.commonmodule.PMGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -144,7 +144,6 @@ public object AnalogControlGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.AnalogControlGGIO.copy(block: openfmb.resourcemodule.AnalogControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.AnalogControlGGIO =
   openfmb.resourcemodule.AnalogControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

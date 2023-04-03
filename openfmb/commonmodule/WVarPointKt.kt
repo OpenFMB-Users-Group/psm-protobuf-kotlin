@@ -83,7 +83,6 @@ public object WVarPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.WVarPoint.copy(block: openfmb.commonmodule.WVarPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WVarPoint =
   openfmb.commonmodule.WVarPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -105,7 +105,6 @@ public object VoltagePIKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.VoltagePI.copy(block: openfmb.essmodule.VoltagePIKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.VoltagePI =
   openfmb.essmodule.VoltagePIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

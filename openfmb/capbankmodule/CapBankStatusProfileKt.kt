@@ -141,7 +141,6 @@ public object CapBankStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankStatusProfile.copy(block: openfmb.capbankmodule.CapBankStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankStatusProfile =
   openfmb.capbankmodule.CapBankStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -105,7 +105,6 @@ public object CapBankEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankEvent.copy(block: openfmb.capbankmodule.CapBankEventKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankEvent =
   openfmb.capbankmodule.CapBankEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

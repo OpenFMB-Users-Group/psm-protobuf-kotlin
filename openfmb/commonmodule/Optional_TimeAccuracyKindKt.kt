@@ -53,7 +53,6 @@ public object Optional_TimeAccuracyKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_TimeAccuracyKind.copy(block: openfmb.commonmodule.Optional_TimeAccuracyKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_TimeAccuracyKind =
   openfmb.commonmodule.Optional_TimeAccuracyKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

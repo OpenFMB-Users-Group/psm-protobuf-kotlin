@@ -645,7 +645,6 @@ public object CapBankControlYPSHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankControlYPSH.copy(block: openfmb.capbankmodule.CapBankControlYPSHKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankControlYPSH =
   openfmb.capbankmodule.CapBankControlYPSHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

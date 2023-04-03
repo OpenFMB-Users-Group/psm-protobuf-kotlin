@@ -69,7 +69,6 @@ public object CapBankControlScheduleFSCHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankControlScheduleFSCH.copy(block: openfmb.capbankmodule.CapBankControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankControlScheduleFSCH =
   openfmb.capbankmodule.CapBankControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

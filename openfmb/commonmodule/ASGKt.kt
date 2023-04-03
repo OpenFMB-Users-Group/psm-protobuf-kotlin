@@ -58,7 +58,6 @@ public object ASGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ASG.copy(block: openfmb.commonmodule.ASGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ASG =
   openfmb.commonmodule.ASGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

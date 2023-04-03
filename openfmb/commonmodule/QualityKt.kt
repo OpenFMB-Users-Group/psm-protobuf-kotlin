@@ -213,7 +213,6 @@ public object QualityKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Quality.copy(block: openfmb.commonmodule.QualityKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Quality =
   openfmb.commonmodule.QualityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

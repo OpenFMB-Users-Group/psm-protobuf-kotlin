@@ -150,7 +150,6 @@ public object TimeQualityKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.TimeQuality.copy(block: openfmb.commonmodule.TimeQualityKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TimeQuality =
   openfmb.commonmodule.TimeQualityKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

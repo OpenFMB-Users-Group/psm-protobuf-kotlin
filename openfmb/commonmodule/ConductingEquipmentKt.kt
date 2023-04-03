@@ -94,7 +94,6 @@ public object ConductingEquipmentKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ConductingEquipment.copy(block: openfmb.commonmodule.ConductingEquipmentKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ConductingEquipment =
   openfmb.commonmodule.ConductingEquipmentKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

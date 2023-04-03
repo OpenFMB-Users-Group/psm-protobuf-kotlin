@@ -141,7 +141,6 @@ public object SwitchEventXSWIKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchEventXSWI.copy(block: openfmb.switchmodule.SwitchEventXSWIKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchEventXSWI =
   openfmb.switchmodule.SwitchEventXSWIKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

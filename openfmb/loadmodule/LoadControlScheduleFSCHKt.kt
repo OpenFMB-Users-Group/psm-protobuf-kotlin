@@ -69,7 +69,6 @@ public object LoadControlScheduleFSCHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadControlScheduleFSCH.copy(block: openfmb.loadmodule.LoadControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadControlScheduleFSCH =
   openfmb.loadmodule.LoadControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

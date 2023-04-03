@@ -53,7 +53,6 @@ public object Optional_GridConnectModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_GridConnectModeKind.copy(block: openfmb.commonmodule.Optional_GridConnectModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_GridConnectModeKind =
   openfmb.commonmodule.Optional_GridConnectModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

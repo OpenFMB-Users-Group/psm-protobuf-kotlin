@@ -58,7 +58,6 @@ public object OperationDWMNKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDWMN.copy(block: openfmb.commonmodule.OperationDWMNKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDWMN =
   openfmb.commonmodule.OperationDWMNKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -58,7 +58,6 @@ public object OperationDVARKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDVAR.copy(block: openfmb.commonmodule.OperationDVARKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDVAR =
   openfmb.commonmodule.OperationDVARKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

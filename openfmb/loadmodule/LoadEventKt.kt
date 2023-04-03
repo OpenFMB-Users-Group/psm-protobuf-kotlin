@@ -105,7 +105,6 @@ public object LoadEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadEvent.copy(block: openfmb.loadmodule.LoadEventKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEvent =
   openfmb.loadmodule.LoadEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

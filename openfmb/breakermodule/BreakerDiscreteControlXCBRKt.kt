@@ -69,7 +69,6 @@ public object BreakerDiscreteControlXCBRKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.breakermodule.BreakerDiscreteControlXCBR.copy(block: openfmb.breakermodule.BreakerDiscreteControlXCBRKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerDiscreteControlXCBR =
   openfmb.breakermodule.BreakerDiscreteControlXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -393,7 +393,6 @@ public object InterconnectionPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.interconnectionmodule.InterconnectionPoint.copy(block: openfmb.interconnectionmodule.InterconnectionPointKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionPoint =
   openfmb.interconnectionmodule.InterconnectionPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

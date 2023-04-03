@@ -137,7 +137,6 @@ public object ENS_BehaviourModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENS_BehaviourModeKind.copy(block: openfmb.commonmodule.ENS_BehaviourModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_BehaviourModeKind =
   openfmb.commonmodule.ENS_BehaviourModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

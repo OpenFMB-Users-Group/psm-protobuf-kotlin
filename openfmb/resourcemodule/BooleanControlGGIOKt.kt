@@ -144,7 +144,6 @@ public object BooleanControlGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.BooleanControlGGIO.copy(block: openfmb.resourcemodule.BooleanControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.BooleanControlGGIO =
   openfmb.resourcemodule.BooleanControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

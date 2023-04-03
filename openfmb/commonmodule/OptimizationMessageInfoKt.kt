@@ -69,7 +69,6 @@ public object OptimizationMessageInfoKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OptimizationMessageInfo.copy(block: openfmb.commonmodule.OptimizationMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OptimizationMessageInfo =
   openfmb.commonmodule.OptimizationMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

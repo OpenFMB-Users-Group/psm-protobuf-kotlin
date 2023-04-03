@@ -69,7 +69,6 @@ public object CapabilityMessageInfoKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.CapabilityMessageInfo.copy(block: openfmb.commonmodule.CapabilityMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CapabilityMessageInfo =
   openfmb.commonmodule.CapabilityMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

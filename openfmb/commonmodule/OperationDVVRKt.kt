@@ -180,7 +180,6 @@ public object OperationDVVRKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDVVR.copy(block: openfmb.commonmodule.OperationDVVRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDVVR =
   openfmb.commonmodule.OperationDVVRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

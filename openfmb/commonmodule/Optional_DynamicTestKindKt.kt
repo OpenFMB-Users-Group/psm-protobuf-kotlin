@@ -53,7 +53,6 @@ public object Optional_DynamicTestKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_DynamicTestKind.copy(block: openfmb.commonmodule.Optional_DynamicTestKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_DynamicTestKind =
   openfmb.commonmodule.Optional_DynamicTestKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

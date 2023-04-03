@@ -53,7 +53,6 @@ public object Optional_OperatingStateKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_OperatingStateKind.copy(block: openfmb.commonmodule.Optional_OperatingStateKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_OperatingStateKind =
   openfmb.commonmodule.Optional_OperatingStateKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

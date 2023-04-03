@@ -105,7 +105,6 @@ public object ESSCurvePointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSCurvePoint.copy(block: openfmb.essmodule.ESSCurvePointKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCurvePoint =
   openfmb.essmodule.ESSCurvePointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

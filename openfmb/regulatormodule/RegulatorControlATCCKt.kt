@@ -504,7 +504,6 @@ public object RegulatorControlATCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorControlATCC.copy(block: openfmb.regulatormodule.RegulatorControlATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorControlATCC =
   openfmb.regulatormodule.RegulatorControlATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

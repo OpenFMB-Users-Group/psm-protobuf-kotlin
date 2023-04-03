@@ -177,7 +177,6 @@ public object MeterReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.metermodule.MeterReading.copy(block: openfmb.metermodule.MeterReadingKt.Dsl.() -> kotlin.Unit): openfmb.metermodule.MeterReading =
   openfmb.metermodule.MeterReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

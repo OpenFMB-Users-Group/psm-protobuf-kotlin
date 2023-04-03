@@ -94,7 +94,6 @@ public object TmVoltPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.TmVoltPoint.copy(block: openfmb.commonmodule.TmVoltPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TmVoltPoint =
   openfmb.commonmodule.TmVoltPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

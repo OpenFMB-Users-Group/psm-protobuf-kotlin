@@ -137,7 +137,6 @@ public object ENS_DynamicTestKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENS_DynamicTestKind.copy(block: openfmb.commonmodule.ENS_DynamicTestKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_DynamicTestKind =
   openfmb.commonmodule.ENS_DynamicTestKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

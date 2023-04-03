@@ -133,7 +133,6 @@ public object ScheduleCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ScheduleCSG.copy(block: openfmb.commonmodule.ScheduleCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ScheduleCSG =
   openfmb.commonmodule.ScheduleCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

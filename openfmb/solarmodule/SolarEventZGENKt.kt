@@ -105,7 +105,6 @@ public object SolarEventZGENKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarEventZGEN.copy(block: openfmb.solarmodule.SolarEventZGENKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEventZGEN =
   openfmb.solarmodule.SolarEventZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

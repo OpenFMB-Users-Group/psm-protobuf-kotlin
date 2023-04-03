@@ -177,7 +177,6 @@ public object GenerationReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationReading.copy(block: openfmb.generationmodule.GenerationReadingKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationReading =
   openfmb.generationmodule.GenerationReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -133,7 +133,6 @@ public object LoadCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadCSG.copy(block: openfmb.loadmodule.LoadCSGKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadCSG =
   openfmb.loadmodule.LoadCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

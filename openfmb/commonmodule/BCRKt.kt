@@ -132,7 +132,6 @@ public object BCRKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.BCR.copy(block: openfmb.commonmodule.BCRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.BCR =
   openfmb.commonmodule.BCRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -141,7 +141,6 @@ public object SwitchDiscreteControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchDiscreteControl.copy(block: openfmb.switchmodule.SwitchDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchDiscreteControl =
   openfmb.switchmodule.SwitchDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

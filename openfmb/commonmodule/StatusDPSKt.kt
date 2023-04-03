@@ -137,7 +137,6 @@ public object StatusDPSKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StatusDPS.copy(block: openfmb.commonmodule.StatusDPSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusDPS =
   openfmb.commonmodule.StatusDPSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

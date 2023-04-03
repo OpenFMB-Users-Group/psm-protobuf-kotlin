@@ -105,7 +105,6 @@ public object SolarCurvePointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarCurvePoint.copy(block: openfmb.solarmodule.SolarCurvePointKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCurvePoint =
   openfmb.solarmodule.SolarCurvePointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

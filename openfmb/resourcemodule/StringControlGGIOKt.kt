@@ -141,7 +141,6 @@ public object StringControlGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.StringControlGGIO.copy(block: openfmb.resourcemodule.StringControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.StringControlGGIO =
   openfmb.resourcemodule.StringControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

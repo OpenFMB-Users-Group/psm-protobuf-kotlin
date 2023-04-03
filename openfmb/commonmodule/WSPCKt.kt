@@ -94,7 +94,6 @@ public object WSPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.WSPC.copy(block: openfmb.commonmodule.WSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.WSPC =
   openfmb.commonmodule.WSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

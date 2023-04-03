@@ -128,7 +128,6 @@ public object ForecastIEDKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ForecastIED.copy(block: openfmb.commonmodule.ForecastIEDKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ForecastIED =
   openfmb.commonmodule.ForecastIEDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

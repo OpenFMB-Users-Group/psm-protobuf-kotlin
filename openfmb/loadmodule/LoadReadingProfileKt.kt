@@ -141,7 +141,6 @@ public object LoadReadingProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadReadingProfile.copy(block: openfmb.loadmodule.LoadReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadReadingProfile =
   openfmb.loadmodule.LoadReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

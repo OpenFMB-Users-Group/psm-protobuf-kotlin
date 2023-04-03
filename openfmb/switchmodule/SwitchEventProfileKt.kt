@@ -141,7 +141,6 @@ public object SwitchEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchEventProfile.copy(block: openfmb.switchmodule.SwitchEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchEventProfile =
   openfmb.switchmodule.SwitchEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

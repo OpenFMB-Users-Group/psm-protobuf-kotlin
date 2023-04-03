@@ -142,7 +142,6 @@ public object CapBankDiscreteControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.capbankmodule.CapBankDiscreteControlProfile.copy(block: openfmb.capbankmodule.CapBankDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.capbankmodule.CapBankDiscreteControlProfile =
   openfmb.capbankmodule.CapBankDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

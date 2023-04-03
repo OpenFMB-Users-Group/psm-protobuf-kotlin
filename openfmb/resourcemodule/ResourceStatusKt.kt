@@ -469,7 +469,6 @@ public object ResourceStatusKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.ResourceStatus.copy(block: openfmb.resourcemodule.ResourceStatusKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceStatus =
   openfmb.resourcemodule.ResourceStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

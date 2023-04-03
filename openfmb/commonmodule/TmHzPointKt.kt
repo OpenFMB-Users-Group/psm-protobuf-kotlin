@@ -94,7 +94,6 @@ public object TmHzPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.TmHzPoint.copy(block: openfmb.commonmodule.TmHzPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TmHzPoint =
   openfmb.commonmodule.TmHzPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

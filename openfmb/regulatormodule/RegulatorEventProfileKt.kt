@@ -141,7 +141,6 @@ public object RegulatorEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorEventProfile.copy(block: openfmb.regulatormodule.RegulatorEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEventProfile =
   openfmb.regulatormodule.RegulatorEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

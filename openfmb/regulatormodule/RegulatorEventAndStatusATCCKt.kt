@@ -723,7 +723,6 @@ public object RegulatorEventAndStatusATCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorEventAndStatusATCC.copy(block: openfmb.regulatormodule.RegulatorEventAndStatusATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEventAndStatusATCC =
   openfmb.regulatormodule.RegulatorEventAndStatusATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

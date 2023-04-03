@@ -69,7 +69,6 @@ public object ReadingMessageInfoKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ReadingMessageInfo.copy(block: openfmb.commonmodule.ReadingMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMessageInfo =
   openfmb.commonmodule.ReadingMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

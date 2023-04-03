@@ -141,7 +141,6 @@ public object ActivePowerKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ActivePower.copy(block: openfmb.commonmodule.ActivePowerKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ActivePower =
   openfmb.commonmodule.ActivePowerKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

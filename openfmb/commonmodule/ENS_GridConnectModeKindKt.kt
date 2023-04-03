@@ -90,7 +90,6 @@ public object ENS_GridConnectModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENS_GridConnectModeKind.copy(block: openfmb.commonmodule.ENS_GridConnectModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_GridConnectModeKind =
   openfmb.commonmodule.ENS_GridConnectModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

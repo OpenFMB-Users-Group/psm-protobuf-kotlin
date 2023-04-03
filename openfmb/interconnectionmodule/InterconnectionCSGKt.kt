@@ -133,7 +133,6 @@ public object InterconnectionCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.interconnectionmodule.InterconnectionCSG.copy(block: openfmb.interconnectionmodule.InterconnectionCSGKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionCSG =
   openfmb.interconnectionmodule.InterconnectionCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -141,7 +141,6 @@ public object GenerationCapabilityOverrideProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationCapabilityOverrideProfile.copy(block: openfmb.generationmodule.GenerationCapabilityOverrideProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationCapabilityOverrideProfile =
   openfmb.generationmodule.GenerationCapabilityOverrideProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

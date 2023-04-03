@@ -177,7 +177,6 @@ public object SolarReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarReading.copy(block: openfmb.solarmodule.SolarReadingKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarReading =
   openfmb.solarmodule.SolarReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

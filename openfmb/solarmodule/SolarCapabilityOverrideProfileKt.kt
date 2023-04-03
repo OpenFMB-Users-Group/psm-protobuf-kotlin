@@ -141,7 +141,6 @@ public object SolarCapabilityOverrideProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarCapabilityOverrideProfile.copy(block: openfmb.solarmodule.SolarCapabilityOverrideProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapabilityOverrideProfile =
   openfmb.solarmodule.SolarCapabilityOverrideProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

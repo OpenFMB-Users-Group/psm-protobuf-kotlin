@@ -122,7 +122,6 @@ public object TimestampKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Timestamp.copy(block: openfmb.commonmodule.TimestampKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Timestamp =
   openfmb.commonmodule.TimestampKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

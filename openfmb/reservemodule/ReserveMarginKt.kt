@@ -213,7 +213,6 @@ public object ReserveMarginKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reservemodule.ReserveMargin.copy(block: openfmb.reservemodule.ReserveMarginKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveMargin =
   openfmb.reservemodule.ReserveMarginKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

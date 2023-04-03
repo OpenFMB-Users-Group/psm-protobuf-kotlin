@@ -53,7 +53,6 @@ public object Optional_SourceKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_SourceKind.copy(block: openfmb.commonmodule.Optional_SourceKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_SourceKind =
   openfmb.commonmodule.Optional_SourceKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

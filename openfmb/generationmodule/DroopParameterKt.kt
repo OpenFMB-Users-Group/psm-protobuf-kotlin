@@ -105,7 +105,6 @@ public object DroopParameterKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.DroopParameter.copy(block: openfmb.generationmodule.DroopParameterKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.DroopParameter =
   openfmb.generationmodule.DroopParameterKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

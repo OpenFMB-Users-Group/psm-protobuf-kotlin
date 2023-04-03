@@ -58,7 +58,6 @@ public object ControlAPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlAPC.copy(block: openfmb.commonmodule.ControlAPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlAPC =
   openfmb.commonmodule.ControlAPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

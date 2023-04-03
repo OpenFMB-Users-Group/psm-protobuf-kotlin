@@ -69,7 +69,6 @@ public object ProtectedSwitchKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.ProtectedSwitch.copy(block: openfmb.switchmodule.ProtectedSwitchKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.ProtectedSwitch =
   openfmb.switchmodule.ProtectedSwitchKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

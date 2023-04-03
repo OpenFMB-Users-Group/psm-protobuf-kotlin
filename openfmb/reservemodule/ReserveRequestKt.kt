@@ -130,7 +130,6 @@ public object ReserveRequestKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reservemodule.ReserveRequest.copy(block: openfmb.reservemodule.ReserveRequestKt.Dsl.() -> kotlin.Unit): openfmb.reservemodule.ReserveRequest =
   openfmb.reservemodule.ReserveRequestKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

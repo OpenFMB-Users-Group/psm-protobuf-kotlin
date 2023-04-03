@@ -69,7 +69,6 @@ public object ESSKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ESS.copy(block: openfmb.commonmodule.ESSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ESS =
   openfmb.commonmodule.ESSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -69,7 +69,6 @@ public object SolarCapabilityRatingsKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarCapabilityRatings.copy(block: openfmb.solarmodule.SolarCapabilityRatingsKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCapabilityRatings =
   openfmb.solarmodule.SolarCapabilityRatingsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

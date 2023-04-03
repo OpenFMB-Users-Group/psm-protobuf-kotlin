@@ -83,7 +83,6 @@ public object HzWPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.HzWPoint.copy(block: openfmb.commonmodule.HzWPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.HzWPoint =
   openfmb.commonmodule.HzWPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

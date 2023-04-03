@@ -69,7 +69,6 @@ public object LoadEventZGLDKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadEventZGLD.copy(block: openfmb.loadmodule.LoadEventZGLDKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEventZGLD =
   openfmb.loadmodule.LoadEventZGLDKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -94,7 +94,6 @@ public object VarSPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.VarSPC.copy(block: openfmb.commonmodule.VarSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VarSPC =
   openfmb.commonmodule.VarSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

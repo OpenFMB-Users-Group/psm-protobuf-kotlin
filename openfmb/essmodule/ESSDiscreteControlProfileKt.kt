@@ -142,7 +142,6 @@ public object ESSDiscreteControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSDiscreteControlProfile.copy(block: openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSDiscreteControlProfile =
   openfmb.essmodule.ESSDiscreteControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

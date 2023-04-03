@@ -65,7 +65,6 @@ public object ENG_PFSignKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENG_PFSignKind.copy(block: openfmb.commonmodule.ENG_PFSignKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENG_PFSignKind =
   openfmb.commonmodule.ENG_PFSignKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

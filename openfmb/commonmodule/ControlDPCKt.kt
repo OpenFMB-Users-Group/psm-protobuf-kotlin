@@ -63,7 +63,6 @@ public object ControlDPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlDPC.copy(block: openfmb.commonmodule.ControlDPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlDPC =
   openfmb.commonmodule.ControlDPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -69,7 +69,6 @@ public object GenerationControlScheduleFSCHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationControlScheduleFSCH.copy(block: openfmb.generationmodule.GenerationControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControlScheduleFSCH =
   openfmb.generationmodule.GenerationControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -213,7 +213,6 @@ public object ESSCapabilityConfigurationKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSCapabilityConfiguration.copy(block: openfmb.essmodule.ESSCapabilityConfigurationKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityConfiguration =
   openfmb.essmodule.ESSCapabilityConfigurationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

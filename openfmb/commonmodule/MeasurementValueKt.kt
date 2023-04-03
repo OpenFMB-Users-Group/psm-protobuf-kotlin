@@ -71,7 +71,6 @@ public object MeasurementValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.MeasurementValue.copy(block: openfmb.commonmodule.MeasurementValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.MeasurementValue =
   openfmb.commonmodule.MeasurementValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

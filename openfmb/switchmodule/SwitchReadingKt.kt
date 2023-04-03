@@ -213,7 +213,6 @@ public object SwitchReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchReading.copy(block: openfmb.switchmodule.SwitchReadingKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchReading =
   openfmb.switchmodule.SwitchReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -141,7 +141,6 @@ public object IntegerControlGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.IntegerControlGGIO.copy(block: openfmb.resourcemodule.IntegerControlGGIOKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.IntegerControlGGIO =
   openfmb.resourcemodule.IntegerControlGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

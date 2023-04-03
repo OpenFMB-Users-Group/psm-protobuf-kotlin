@@ -114,7 +114,6 @@ public object OperationDFPFKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDFPF.copy(block: openfmb.commonmodule.OperationDFPFKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDFPF =
   openfmb.commonmodule.OperationDFPFKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

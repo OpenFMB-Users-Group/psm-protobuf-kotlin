@@ -133,7 +133,6 @@ public object RegulatorCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorCSG.copy(block: openfmb.regulatormodule.RegulatorCSGKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorCSG =
   openfmb.regulatormodule.RegulatorCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

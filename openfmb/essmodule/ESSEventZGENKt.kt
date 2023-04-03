@@ -69,7 +69,6 @@ public object ESSEventZGENKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSEventZGEN.copy(block: openfmb.essmodule.ESSEventZGENKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSEventZGEN =
   openfmb.essmodule.ESSEventZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

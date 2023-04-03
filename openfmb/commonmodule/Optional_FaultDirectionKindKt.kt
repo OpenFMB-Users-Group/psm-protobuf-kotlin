@@ -53,7 +53,6 @@ public object Optional_FaultDirectionKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_FaultDirectionKind.copy(block: openfmb.commonmodule.Optional_FaultDirectionKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_FaultDirectionKind =
   openfmb.commonmodule.Optional_FaultDirectionKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

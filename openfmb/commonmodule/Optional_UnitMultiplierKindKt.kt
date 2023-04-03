@@ -53,7 +53,6 @@ public object Optional_UnitMultiplierKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_UnitMultiplierKind.copy(block: openfmb.commonmodule.Optional_UnitMultiplierKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_UnitMultiplierKind =
   openfmb.commonmodule.Optional_UnitMultiplierKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

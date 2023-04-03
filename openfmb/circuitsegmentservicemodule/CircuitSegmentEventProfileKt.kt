@@ -141,7 +141,6 @@ public object CircuitSegmentEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfile.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfile =
   openfmb.circuitsegmentservicemodule.CircuitSegmentEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

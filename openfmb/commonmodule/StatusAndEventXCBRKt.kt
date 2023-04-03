@@ -289,7 +289,6 @@ public object StatusAndEventXCBRKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StatusAndEventXCBR.copy(block: openfmb.commonmodule.StatusAndEventXCBRKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusAndEventXCBR =
   openfmb.commonmodule.StatusAndEventXCBRKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

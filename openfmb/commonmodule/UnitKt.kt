@@ -101,7 +101,6 @@ public object UnitKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Unit.copy(block: openfmb.commonmodule.UnitKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Unit =
   openfmb.commonmodule.UnitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

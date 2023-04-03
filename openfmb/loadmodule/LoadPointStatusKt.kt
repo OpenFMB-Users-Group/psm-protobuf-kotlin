@@ -213,7 +213,6 @@ public object LoadPointStatusKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadPointStatus.copy(block: openfmb.loadmodule.LoadPointStatusKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadPointStatus =
   openfmb.loadmodule.LoadPointStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

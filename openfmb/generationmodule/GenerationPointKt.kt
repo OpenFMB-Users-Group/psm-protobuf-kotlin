@@ -864,7 +864,6 @@ public object GenerationPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationPoint.copy(block: openfmb.generationmodule.GenerationPointKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationPoint =
   openfmb.generationmodule.GenerationPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

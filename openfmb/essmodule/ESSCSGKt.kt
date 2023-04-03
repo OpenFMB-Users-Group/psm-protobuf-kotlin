@@ -133,7 +133,6 @@ public object ESSCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSCSG.copy(block: openfmb.essmodule.ESSCSGKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCSG =
   openfmb.essmodule.ESSCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

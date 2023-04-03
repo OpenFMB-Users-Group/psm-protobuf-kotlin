@@ -101,7 +101,6 @@ public object ENG_CircuitSegmentServiceModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind.copy(block: openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKindKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKind =
   openfmb.circuitsegmentservicemodule.ENG_CircuitSegmentServiceModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -177,7 +177,6 @@ public object PhaseINSKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.PhaseINS.copy(block: openfmb.commonmodule.PhaseINSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseINS =
   openfmb.commonmodule.PhaseINSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

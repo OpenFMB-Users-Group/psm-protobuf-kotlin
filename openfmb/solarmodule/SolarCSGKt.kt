@@ -133,7 +133,6 @@ public object SolarCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarCSG.copy(block: openfmb.solarmodule.SolarCSGKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarCSG =
   openfmb.solarmodule.SolarCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

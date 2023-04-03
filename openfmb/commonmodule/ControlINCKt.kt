@@ -58,7 +58,6 @@ public object ControlINCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlINC.copy(block: openfmb.commonmodule.ControlINCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlINC =
   openfmb.commonmodule.ControlINCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

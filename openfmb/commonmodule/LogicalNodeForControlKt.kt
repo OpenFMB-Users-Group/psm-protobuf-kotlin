@@ -69,7 +69,6 @@ public object LogicalNodeForControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.LogicalNodeForControl.copy(block: openfmb.commonmodule.LogicalNodeForControlKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.LogicalNodeForControl =
   openfmb.commonmodule.LogicalNodeForControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

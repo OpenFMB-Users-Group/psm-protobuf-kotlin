@@ -142,7 +142,6 @@ public object ControlFSCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlFSCC.copy(block: openfmb.commonmodule.ControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlFSCC =
   openfmb.commonmodule.ControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

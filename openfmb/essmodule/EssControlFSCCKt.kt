@@ -105,7 +105,6 @@ public object EssControlFSCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.EssControlFSCC.copy(block: openfmb.essmodule.EssControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.EssControlFSCC =
   openfmb.essmodule.EssControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

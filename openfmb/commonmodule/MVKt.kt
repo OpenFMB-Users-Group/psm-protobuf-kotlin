@@ -179,7 +179,6 @@ public object MVKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.MV.copy(block: openfmb.commonmodule.MVKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.MV =
   openfmb.commonmodule.MVKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

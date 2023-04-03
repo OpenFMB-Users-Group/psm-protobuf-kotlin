@@ -105,7 +105,6 @@ public object RegulatorEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorEvent.copy(block: openfmb.regulatormodule.RegulatorEventKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorEvent =
   openfmb.regulatormodule.RegulatorEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

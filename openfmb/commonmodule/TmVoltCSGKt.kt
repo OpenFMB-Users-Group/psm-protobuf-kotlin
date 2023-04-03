@@ -233,7 +233,6 @@ public object TmVoltCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.TmVoltCSG.copy(block: openfmb.commonmodule.TmVoltCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.TmVoltCSG =
   openfmb.commonmodule.TmVoltCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

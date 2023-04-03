@@ -53,7 +53,6 @@ public object Optional_AlrmKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_AlrmKind.copy(block: openfmb.commonmodule.Optional_AlrmKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_AlrmKind =
   openfmb.commonmodule.Optional_AlrmKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -205,7 +205,6 @@ public object RegulatorReadingProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorReadingProfile.copy(block: openfmb.regulatormodule.RegulatorReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorReadingProfile =
   openfmb.regulatormodule.RegulatorReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

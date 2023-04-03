@@ -141,7 +141,6 @@ public object ResourceStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.resourcemodule.ResourceStatusProfile.copy(block: openfmb.resourcemodule.ResourceStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.resourcemodule.ResourceStatusProfile =
   openfmb.resourcemodule.ResourceStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

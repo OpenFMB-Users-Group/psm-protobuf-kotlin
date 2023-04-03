@@ -169,7 +169,6 @@ public object VoltVarCSGKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.VoltVarCSG.copy(block: openfmb.commonmodule.VoltVarCSGKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VoltVarCSG =
   openfmb.commonmodule.VoltVarCSGKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

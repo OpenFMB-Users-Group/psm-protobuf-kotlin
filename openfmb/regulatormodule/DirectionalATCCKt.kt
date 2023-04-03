@@ -252,7 +252,6 @@ public object DirectionalATCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.DirectionalATCC.copy(block: openfmb.regulatormodule.DirectionalATCCKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.DirectionalATCC =
   openfmb.regulatormodule.DirectionalATCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

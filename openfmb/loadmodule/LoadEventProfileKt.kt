@@ -141,7 +141,6 @@ public object LoadEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.loadmodule.LoadEventProfile.copy(block: openfmb.loadmodule.LoadEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.loadmodule.LoadEventProfile =
   openfmb.loadmodule.LoadEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

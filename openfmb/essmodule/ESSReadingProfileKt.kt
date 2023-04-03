@@ -141,7 +141,6 @@ public object ESSReadingProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSReadingProfile.copy(block: openfmb.essmodule.ESSReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSReadingProfile =
   openfmb.essmodule.ESSReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

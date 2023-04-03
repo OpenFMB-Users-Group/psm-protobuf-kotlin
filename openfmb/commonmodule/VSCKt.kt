@@ -58,7 +58,6 @@ public object VSCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.VSC.copy(block: openfmb.commonmodule.VSCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VSC =
   openfmb.commonmodule.VSCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

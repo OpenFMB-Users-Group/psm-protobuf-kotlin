@@ -53,7 +53,6 @@ public object Optional_ScheduleParameterKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_ScheduleParameterKind.copy(block: openfmb.commonmodule.Optional_ScheduleParameterKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_ScheduleParameterKind =
   openfmb.commonmodule.Optional_ScheduleParameterKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

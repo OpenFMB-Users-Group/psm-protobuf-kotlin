@@ -69,7 +69,6 @@ public object StatusMessageInfoKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StatusMessageInfo.copy(block: openfmb.commonmodule.StatusMessageInfoKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusMessageInfo =
   openfmb.commonmodule.StatusMessageInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

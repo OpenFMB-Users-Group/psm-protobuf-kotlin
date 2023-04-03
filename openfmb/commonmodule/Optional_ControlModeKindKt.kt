@@ -53,7 +53,6 @@ public object Optional_ControlModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_ControlModeKind.copy(block: openfmb.commonmodule.Optional_ControlModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_ControlModeKind =
   openfmb.commonmodule.Optional_ControlModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

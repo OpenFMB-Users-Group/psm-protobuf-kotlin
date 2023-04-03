@@ -58,7 +58,6 @@ public object ControlISCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlISC.copy(block: openfmb.commonmodule.ControlISCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlISC =
   openfmb.commonmodule.ControlISCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

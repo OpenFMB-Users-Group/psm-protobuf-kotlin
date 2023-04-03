@@ -69,7 +69,6 @@ public object InterconnectionControlScheduleFSCHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.interconnectionmodule.InterconnectionControlScheduleFSCH.copy(block: openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionControlScheduleFSCH =
   openfmb.interconnectionmodule.InterconnectionControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

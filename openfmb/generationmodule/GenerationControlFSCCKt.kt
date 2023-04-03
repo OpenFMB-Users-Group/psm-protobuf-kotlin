@@ -105,7 +105,6 @@ public object GenerationControlFSCCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationControlFSCC.copy(block: openfmb.generationmodule.GenerationControlFSCCKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControlFSCC =
   openfmb.generationmodule.GenerationControlFSCCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

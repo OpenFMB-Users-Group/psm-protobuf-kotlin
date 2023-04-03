@@ -141,7 +141,6 @@ public object InterconnectionScheduleKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.interconnectionmodule.InterconnectionSchedule.copy(block: openfmb.interconnectionmodule.InterconnectionScheduleKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionSchedule =
   openfmb.interconnectionmodule.InterconnectionScheduleKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

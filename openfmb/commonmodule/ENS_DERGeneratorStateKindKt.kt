@@ -137,7 +137,6 @@ public object ENS_DERGeneratorStateKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENS_DERGeneratorStateKind.copy(block: openfmb.commonmodule.ENS_DERGeneratorStateKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_DERGeneratorStateKind =
   openfmb.commonmodule.ENS_DERGeneratorStateKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

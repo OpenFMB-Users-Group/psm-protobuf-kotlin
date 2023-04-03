@@ -141,7 +141,6 @@ public object BreakerStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.breakermodule.BreakerStatusProfile.copy(block: openfmb.breakermodule.BreakerStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerStatusProfile =
   openfmb.breakermodule.BreakerStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

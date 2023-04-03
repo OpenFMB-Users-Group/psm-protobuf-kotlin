@@ -183,7 +183,6 @@ public object HzWAPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.HzWAPC.copy(block: openfmb.commonmodule.HzWAPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.HzWAPC =
   openfmb.commonmodule.HzWAPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

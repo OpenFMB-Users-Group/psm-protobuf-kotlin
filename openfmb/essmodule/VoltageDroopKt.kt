@@ -105,7 +105,6 @@ public object VoltageDroopKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.VoltageDroop.copy(block: openfmb.essmodule.VoltageDroopKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.VoltageDroop =
   openfmb.essmodule.VoltageDroopKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

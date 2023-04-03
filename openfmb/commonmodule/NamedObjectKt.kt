@@ -107,7 +107,6 @@ public object NamedObjectKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.NamedObject.copy(block: openfmb.commonmodule.NamedObjectKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.NamedObject =
   openfmb.commonmodule.NamedObjectKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -141,7 +141,6 @@ public object AnalogEventAndStatusGGIOKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.AnalogEventAndStatusGGIO.copy(block: openfmb.commonmodule.AnalogEventAndStatusGGIOKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.AnalogEventAndStatusGGIO =
   openfmb.commonmodule.AnalogEventAndStatusGGIOKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

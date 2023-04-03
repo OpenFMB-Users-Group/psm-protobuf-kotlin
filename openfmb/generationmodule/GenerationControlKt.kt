@@ -141,7 +141,6 @@ public object GenerationControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationControl.copy(block: openfmb.generationmodule.GenerationControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationControl =
   openfmb.generationmodule.GenerationControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

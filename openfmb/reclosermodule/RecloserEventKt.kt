@@ -105,7 +105,6 @@ public object RecloserEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reclosermodule.RecloserEvent.copy(block: openfmb.reclosermodule.RecloserEventKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserEvent =
   openfmb.reclosermodule.RecloserEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

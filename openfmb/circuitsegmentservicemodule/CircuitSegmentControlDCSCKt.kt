@@ -142,7 +142,6 @@ public object CircuitSegmentControlDCSCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSC.copy(block: openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCKt.Dsl.() -> kotlin.Unit): openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSC =
   openfmb.circuitsegmentservicemodule.CircuitSegmentControlDCSCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

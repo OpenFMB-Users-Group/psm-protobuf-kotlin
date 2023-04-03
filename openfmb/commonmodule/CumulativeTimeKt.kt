@@ -83,7 +83,6 @@ public object CumulativeTimeKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.CumulativeTime.copy(block: openfmb.commonmodule.CumulativeTimeKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CumulativeTime =
   openfmb.commonmodule.CumulativeTimeKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

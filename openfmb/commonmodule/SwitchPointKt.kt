@@ -105,7 +105,6 @@ public object SwitchPointKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.SwitchPoint.copy(block: openfmb.commonmodule.SwitchPointKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SwitchPoint =
   openfmb.commonmodule.SwitchPointKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

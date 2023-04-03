@@ -105,7 +105,6 @@ public object SwitchStatusKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchStatus.copy(block: openfmb.switchmodule.SwitchStatusKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchStatus =
   openfmb.switchmodule.SwitchStatusKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

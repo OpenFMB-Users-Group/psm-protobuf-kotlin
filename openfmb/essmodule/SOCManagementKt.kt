@@ -225,7 +225,6 @@ public object SOCManagementKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.SOCManagement.copy(block: openfmb.essmodule.SOCManagementKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.SOCManagement =
   openfmb.essmodule.SOCManagementKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

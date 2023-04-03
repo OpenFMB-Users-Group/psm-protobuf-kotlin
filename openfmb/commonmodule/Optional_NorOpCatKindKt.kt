@@ -53,7 +53,6 @@ public object Optional_NorOpCatKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_NorOpCatKind.copy(block: openfmb.commonmodule.Optional_NorOpCatKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_NorOpCatKind =
   openfmb.commonmodule.Optional_NorOpCatKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

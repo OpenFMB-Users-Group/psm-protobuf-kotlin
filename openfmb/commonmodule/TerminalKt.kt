@@ -109,7 +109,6 @@ public object TerminalKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Terminal.copy(block: openfmb.commonmodule.TerminalKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Terminal =
   openfmb.commonmodule.TerminalKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

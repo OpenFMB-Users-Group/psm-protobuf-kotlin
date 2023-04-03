@@ -130,7 +130,6 @@ public object StatusINSKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.StatusINS.copy(block: openfmb.commonmodule.StatusINSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.StatusINS =
   openfmb.commonmodule.StatusINSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

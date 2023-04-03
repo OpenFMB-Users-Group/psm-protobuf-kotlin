@@ -105,7 +105,6 @@ public object BreakerEventKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.breakermodule.BreakerEvent.copy(block: openfmb.breakermodule.BreakerEventKt.Dsl.() -> kotlin.Unit): openfmb.breakermodule.BreakerEvent =
   openfmb.breakermodule.BreakerEventKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

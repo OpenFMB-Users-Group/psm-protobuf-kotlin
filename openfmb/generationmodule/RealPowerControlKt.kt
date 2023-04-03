@@ -177,7 +177,6 @@ public object RealPowerControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.RealPowerControl.copy(block: openfmb.generationmodule.RealPowerControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.RealPowerControl =
   openfmb.generationmodule.RealPowerControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

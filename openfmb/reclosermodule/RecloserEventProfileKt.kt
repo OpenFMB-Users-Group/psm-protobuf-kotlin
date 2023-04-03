@@ -141,7 +141,6 @@ public object RecloserEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reclosermodule.RecloserEventProfile.copy(block: openfmb.reclosermodule.RecloserEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserEventProfile =
   openfmb.reclosermodule.RecloserEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

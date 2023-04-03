@@ -357,7 +357,6 @@ public object FrequencyRegulationKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.FrequencyRegulation.copy(block: openfmb.essmodule.FrequencyRegulationKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.FrequencyRegulation =
   openfmb.essmodule.FrequencyRegulationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

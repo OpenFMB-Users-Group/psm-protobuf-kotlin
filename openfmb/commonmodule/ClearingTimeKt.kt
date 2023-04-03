@@ -83,7 +83,6 @@ public object ClearingTimeKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ClearingTime.copy(block: openfmb.commonmodule.ClearingTimeKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ClearingTime =
   openfmb.commonmodule.ClearingTimeKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

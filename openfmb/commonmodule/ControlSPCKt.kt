@@ -60,7 +60,6 @@ public object ControlSPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlSPC.copy(block: openfmb.commonmodule.ControlSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlSPC =
   openfmb.commonmodule.ControlSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

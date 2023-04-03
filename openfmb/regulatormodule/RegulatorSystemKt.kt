@@ -70,7 +70,6 @@ public object RegulatorSystemKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.regulatormodule.RegulatorSystem.copy(block: openfmb.regulatormodule.RegulatorSystemKt.Dsl.() -> kotlin.Unit): openfmb.regulatormodule.RegulatorSystem =
   openfmb.regulatormodule.RegulatorSystemKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

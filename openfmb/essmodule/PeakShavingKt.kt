@@ -222,7 +222,6 @@ public object PeakShavingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.PeakShaving.copy(block: openfmb.essmodule.PeakShavingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.PeakShaving =
   openfmb.essmodule.PeakShavingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

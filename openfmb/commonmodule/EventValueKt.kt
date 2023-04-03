@@ -105,7 +105,6 @@ public object EventValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.EventValue.copy(block: openfmb.commonmodule.EventValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.EventValue =
   openfmb.commonmodule.EventValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

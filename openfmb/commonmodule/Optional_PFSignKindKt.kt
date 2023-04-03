@@ -53,7 +53,6 @@ public object Optional_PFSignKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_PFSignKind.copy(block: openfmb.commonmodule.Optional_PFSignKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_PFSignKind =
   openfmb.commonmodule.Optional_PFSignKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

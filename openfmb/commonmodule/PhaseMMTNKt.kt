@@ -249,7 +249,6 @@ public object PhaseMMTNKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.PhaseMMTN.copy(block: openfmb.commonmodule.PhaseMMTNKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseMMTN =
   openfmb.commonmodule.PhaseMMTNKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

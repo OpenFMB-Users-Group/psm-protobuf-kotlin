@@ -153,7 +153,6 @@ public object CapacityFirmingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.CapacityFirming.copy(block: openfmb.essmodule.CapacityFirmingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.CapacityFirming =
   openfmb.essmodule.CapacityFirmingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

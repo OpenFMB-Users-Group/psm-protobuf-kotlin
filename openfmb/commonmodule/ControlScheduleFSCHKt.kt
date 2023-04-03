@@ -69,7 +69,6 @@ public object ControlScheduleFSCHKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlScheduleFSCH.copy(block: openfmb.commonmodule.ControlScheduleFSCHKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlScheduleFSCH =
   openfmb.commonmodule.ControlScheduleFSCHKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

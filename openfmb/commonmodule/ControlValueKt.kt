@@ -150,7 +150,6 @@ public object ControlValueKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ControlValue.copy(block: openfmb.commonmodule.ControlValueKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ControlValue =
   openfmb.commonmodule.ControlValueKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

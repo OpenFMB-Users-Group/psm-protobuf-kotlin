@@ -105,7 +105,6 @@ public object ESSCapabilityOverrideKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSCapabilityOverride.copy(block: openfmb.essmodule.ESSCapabilityOverrideKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSCapabilityOverride =
   openfmb.essmodule.ESSCapabilityOverrideKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

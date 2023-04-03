@@ -213,7 +213,6 @@ public object InterconnectionRequestedScheduleProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.interconnectionmodule.InterconnectionRequestedScheduleProfile.copy(block: openfmb.interconnectionmodule.InterconnectionRequestedScheduleProfileKt.Dsl.() -> kotlin.Unit): openfmb.interconnectionmodule.InterconnectionRequestedScheduleProfile =
   openfmb.interconnectionmodule.InterconnectionRequestedScheduleProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -69,7 +69,6 @@ public object ConductingEquipmentTerminalReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ConductingEquipmentTerminalReading.copy(block: openfmb.commonmodule.ConductingEquipmentTerminalReadingKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ConductingEquipmentTerminalReading =
   openfmb.commonmodule.ConductingEquipmentTerminalReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -145,7 +145,6 @@ public object IdentifiedObjectKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.IdentifiedObject.copy(block: openfmb.commonmodule.IdentifiedObjectKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.IdentifiedObject =
   openfmb.commonmodule.IdentifiedObjectKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

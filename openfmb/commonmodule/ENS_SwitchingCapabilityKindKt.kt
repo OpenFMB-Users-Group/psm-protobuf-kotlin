@@ -101,7 +101,6 @@ public object ENS_SwitchingCapabilityKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ENS_SwitchingCapabilityKind.copy(block: openfmb.commonmodule.ENS_SwitchingCapabilityKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ENS_SwitchingCapabilityKind =
   openfmb.commonmodule.ENS_SwitchingCapabilityKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

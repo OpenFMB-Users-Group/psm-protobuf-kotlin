@@ -53,7 +53,6 @@ public object Optional_ReactivePowerControlKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_ReactivePowerControlKind.copy(block: openfmb.commonmodule.Optional_ReactivePowerControlKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_ReactivePowerControlKind =
   openfmb.commonmodule.Optional_ReactivePowerControlKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

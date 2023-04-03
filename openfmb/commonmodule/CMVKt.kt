@@ -150,7 +150,6 @@ public object CMVKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.CMV.copy(block: openfmb.commonmodule.CMVKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CMV =
   openfmb.commonmodule.CMVKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

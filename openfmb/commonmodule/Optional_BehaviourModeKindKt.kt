@@ -53,7 +53,6 @@ public object Optional_BehaviourModeKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_BehaviourModeKind.copy(block: openfmb.commonmodule.Optional_BehaviourModeKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_BehaviourModeKind =
   openfmb.commonmodule.Optional_BehaviourModeKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

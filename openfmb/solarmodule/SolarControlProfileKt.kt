@@ -141,7 +141,6 @@ public object SolarControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarControlProfile.copy(block: openfmb.solarmodule.SolarControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarControlProfile =
   openfmb.solarmodule.SolarControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

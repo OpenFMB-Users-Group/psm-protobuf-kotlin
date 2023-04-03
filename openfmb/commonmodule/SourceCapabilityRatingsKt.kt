@@ -639,7 +639,6 @@ public object SourceCapabilityRatingsKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.SourceCapabilityRatings.copy(block: openfmb.commonmodule.SourceCapabilityRatingsKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SourceCapabilityRatings =
   openfmb.commonmodule.SourceCapabilityRatingsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

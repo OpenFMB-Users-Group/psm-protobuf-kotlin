@@ -130,7 +130,6 @@ public object VSSKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.VSS.copy(block: openfmb.commonmodule.VSSKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.VSS =
   openfmb.commonmodule.VSSKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

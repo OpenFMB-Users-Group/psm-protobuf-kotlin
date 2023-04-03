@@ -105,7 +105,6 @@ public object DateTimeIntervalKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.DateTimeInterval.copy(block: openfmb.commonmodule.DateTimeIntervalKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.DateTimeInterval =
   openfmb.commonmodule.DateTimeIntervalKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

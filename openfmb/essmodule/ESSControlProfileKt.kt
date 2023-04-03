@@ -141,7 +141,6 @@ public object ESSControlProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSControlProfile.copy(block: openfmb.essmodule.ESSControlProfileKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSControlProfile =
   openfmb.essmodule.ESSControlProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

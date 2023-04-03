@@ -501,7 +501,6 @@ public object SourceCapabilityConfigurationKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.SourceCapabilityConfiguration.copy(block: openfmb.commonmodule.SourceCapabilityConfigurationKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.SourceCapabilityConfiguration =
   openfmb.commonmodule.SourceCapabilityConfigurationKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

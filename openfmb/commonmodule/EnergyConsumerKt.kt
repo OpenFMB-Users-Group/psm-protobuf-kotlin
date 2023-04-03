@@ -105,7 +105,6 @@ public object EnergyConsumerKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.EnergyConsumer.copy(block: openfmb.commonmodule.EnergyConsumerKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.EnergyConsumer =
   openfmb.commonmodule.EnergyConsumerKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

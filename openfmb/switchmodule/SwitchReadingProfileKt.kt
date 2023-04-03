@@ -205,7 +205,6 @@ public object SwitchReadingProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.switchmodule.SwitchReadingProfile.copy(block: openfmb.switchmodule.SwitchReadingProfileKt.Dsl.() -> kotlin.Unit): openfmb.switchmodule.SwitchReadingProfile =
   openfmb.switchmodule.SwitchReadingProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -177,7 +177,6 @@ public object PhaseSPCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.PhaseSPC.copy(block: openfmb.commonmodule.PhaseSPCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.PhaseSPC =
   openfmb.commonmodule.PhaseSPCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -53,7 +53,6 @@ public object Optional_DERGeneratorStateKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_DERGeneratorStateKind.copy(block: openfmb.commonmodule.Optional_DERGeneratorStateKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_DERGeneratorStateKind =
   openfmb.commonmodule.Optional_DERGeneratorStateKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

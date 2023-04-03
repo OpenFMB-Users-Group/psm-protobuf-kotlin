@@ -393,7 +393,6 @@ public object GenerationEventAndStatusZGENKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationEventAndStatusZGEN.copy(block: openfmb.generationmodule.GenerationEventAndStatusZGENKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationEventAndStatusZGEN =
   openfmb.generationmodule.GenerationEventAndStatusZGENKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

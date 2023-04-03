@@ -108,7 +108,6 @@ public object GeneratingUnitKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GeneratingUnit.copy(block: openfmb.generationmodule.GeneratingUnitKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GeneratingUnit =
   openfmb.generationmodule.GeneratingUnitKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

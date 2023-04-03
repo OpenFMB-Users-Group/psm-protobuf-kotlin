@@ -141,7 +141,6 @@ public object SolarEventProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.solarmodule.SolarEventProfile.copy(block: openfmb.solarmodule.SolarEventProfileKt.Dsl.() -> kotlin.Unit): openfmb.solarmodule.SolarEventProfile =
   openfmb.solarmodule.SolarEventProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

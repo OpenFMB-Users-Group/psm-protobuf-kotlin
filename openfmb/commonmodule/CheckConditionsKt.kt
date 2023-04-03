@@ -111,7 +111,6 @@ public object CheckConditionsKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.CheckConditions.copy(block: openfmb.commonmodule.CheckConditionsKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.CheckConditions =
   openfmb.commonmodule.CheckConditionsKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

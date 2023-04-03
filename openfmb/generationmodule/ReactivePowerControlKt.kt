@@ -213,7 +213,6 @@ public object ReactivePowerControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.ReactivePowerControl.copy(block: openfmb.generationmodule.ReactivePowerControlKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.ReactivePowerControl =
   openfmb.generationmodule.ReactivePowerControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

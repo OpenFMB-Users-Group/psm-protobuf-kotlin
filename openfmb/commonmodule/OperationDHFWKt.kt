@@ -94,7 +94,6 @@ public object OperationDHFWKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDHFW.copy(block: openfmb.commonmodule.OperationDHFWKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDHFW =
   openfmb.commonmodule.OperationDHFWKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

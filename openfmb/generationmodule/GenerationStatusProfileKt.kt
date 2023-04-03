@@ -141,7 +141,6 @@ public object GenerationStatusProfileKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.generationmodule.GenerationStatusProfile.copy(block: openfmb.generationmodule.GenerationStatusProfileKt.Dsl.() -> kotlin.Unit): openfmb.generationmodule.GenerationStatusProfile =
   openfmb.generationmodule.GenerationStatusProfileKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

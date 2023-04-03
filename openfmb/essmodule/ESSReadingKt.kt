@@ -177,7 +177,6 @@ public object ESSReadingKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.essmodule.ESSReading.copy(block: openfmb.essmodule.ESSReadingKt.Dsl.() -> kotlin.Unit): openfmb.essmodule.ESSReading =
   openfmb.essmodule.ESSReadingKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

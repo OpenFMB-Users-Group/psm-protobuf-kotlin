@@ -53,7 +53,6 @@ public object Optional_UnitSymbolKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_UnitSymbolKind.copy(block: openfmb.commonmodule.Optional_UnitSymbolKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_UnitSymbolKind =
   openfmb.commonmodule.Optional_UnitSymbolKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

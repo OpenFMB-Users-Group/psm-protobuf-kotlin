@@ -453,7 +453,6 @@ public object ReadingMMXUKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.ReadingMMXU.copy(block: openfmb.commonmodule.ReadingMMXUKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.ReadingMMXU =
   openfmb.commonmodule.ReadingMMXUKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

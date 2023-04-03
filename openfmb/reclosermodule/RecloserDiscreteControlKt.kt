@@ -141,7 +141,6 @@ public object RecloserDiscreteControlKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.reclosermodule.RecloserDiscreteControl.copy(block: openfmb.reclosermodule.RecloserDiscreteControlKt.Dsl.() -> kotlin.Unit): openfmb.reclosermodule.RecloserDiscreteControl =
   openfmb.reclosermodule.RecloserDiscreteControlKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

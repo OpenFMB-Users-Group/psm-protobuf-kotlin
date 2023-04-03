@@ -53,7 +53,6 @@ public object Optional_HealthKindKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.Optional_HealthKind.copy(block: openfmb.commonmodule.Optional_HealthKindKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.Optional_HealthKind =
   openfmb.commonmodule.Optional_HealthKindKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

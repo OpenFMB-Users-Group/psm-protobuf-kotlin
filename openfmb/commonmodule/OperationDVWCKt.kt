@@ -94,7 +94,6 @@ public object OperationDVWCKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-@com.google.errorprone.annotations.CheckReturnValue
 public inline fun openfmb.commonmodule.OperationDVWC.copy(block: openfmb.commonmodule.OperationDVWCKt.Dsl.() -> kotlin.Unit): openfmb.commonmodule.OperationDVWC =
   openfmb.commonmodule.OperationDVWCKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
